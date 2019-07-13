@@ -9,14 +9,16 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./common/header"
-import Footer from "./common/footer"
-import "./common/styles/common.scss"
-import "./layout.scss"
+import Header from "../common/header"
+import Footer from "../common/footer"
+import MethodLayoutBanner from "./section-topbanner"
 
-const Layout = ({ children }) => {
+import "../layout.scss"
+import "./method-layout.scss"
+
+const MethodLayout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+    query SingleSiteTitleQuery {
       site {
         siteMetadata {
           title
@@ -28,14 +30,17 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
+      <main className="method-layout">
+        <MethodLayoutBanner pageTitle={pageTitle} />
+        {children}
+      </main>
       <Footer />
     </>
   )
 }
 
-Layout.propTypes = {
+MethodLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default MethodLayout

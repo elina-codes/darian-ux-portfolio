@@ -1,0 +1,57 @@
+---
+path: "/ab-testing"
+title: "A/B Testing"
+---
+
+import { Link } from "gatsby"
+
+import uxMethods from "../data/ux-methods"
+import MethodLayout from "../components/methods/layout-method"
+import MethodSectionWhatIs from "../components/methods/section-whatis"
+import MethodSectionNeeds from "../components/methods/section-needs"
+import MethodSectionNeedsPartial from "../components/methods/section-needs-partials"
+
+import SEO from "../components/seo"
+
+<MethodLayout pageTitle="A/B Testing">
+  <SEO title="A/B Testing" />
+  <MethodSectionWhatIs img={uxMethods.ab_testing} title="What is A/B Testing?">
+    <p>
+      A/B Testing, or Split Testing, is a method of testing one change on a page
+      to see how it performs compared to the original. The idea is that you
+      change only one variable, then show these two versions to two similarly
+      sized audiences and analyze which one performed better over a specific
+      period of time (long enough to make accurate conclusions about your
+      results).
+    </p>
+    <p>
+      Common things to A/B test are the wording of a headline, the color or
+      placement of a button, or an image on the page. It can be even larger,
+      such as adding a tutorial flow to the page. The point is that your test
+      has to be controled and limited to one thing you are measuring so you can
+      compare the metrics against the original version, then keep the changes
+      that have a positive impact. A/B tests are valuable to a business because
+      they're low in cost but can be high in reward.
+    </p>
+  </MethodSectionWhatIs>
+
+<MethodSectionNeeds title="What do you need for A/B Testing?">
+  <MethodSectionNeedsPartial type="time">
+    <ul>
+      <li>Preparation: 1 Day</li>
+      <li>Testing Time: 1-3 Weeks</li>
+      <li>Analysis: 30 minutes</li>
+    </ul>
+  </MethodSectionNeedsPartial>
+  <MethodSectionNeedsPartial type="materials">
+    <ul>
+      <li>Your live site, product, or app</li>
+      <li>
+        Software that facilitates A/B tests and that is compatible with your
+        site (see below for links)
+      </li>
+    </ul>
+  </MethodSectionNeedsPartial>
+</MethodSectionNeeds>
+
+</MethodLayout>

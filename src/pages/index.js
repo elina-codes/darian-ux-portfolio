@@ -1,20 +1,26 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
+import uxMethods from "../data/ux-methods"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import GridLayout from "../components/grid_layout"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <section>
+      <div className="wrapper">
+        <h2 className="section__title">UX Methods</h2>
+        <p className="section__description">
+          Below is a list of several UX methods that UX Designers can use in
+          their strategy. Over the next several months, I am going to be adding
+          more and more. Please send me a message if you have any feedback or
+          wish to see others added sooner.
+        </p>
+        <GridLayout gridItems={uxMethods} />
+      </div>
+    </section>
   </Layout>
 )
 
