@@ -14,7 +14,7 @@ import Footer from "../common/footer"
 import MethodLayoutBanner from "./section-topbanner"
 
 import "../layout.scss"
-import "./method-layout.scss"
+import "./layout-method.scss"
 
 const MethodLayout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`

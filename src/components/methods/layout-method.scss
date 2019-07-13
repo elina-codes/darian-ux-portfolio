@@ -1,0 +1,141 @@
+@import "../common/styles/vars";
+
+.method-layout section {
+  text-align: left;
+
+  .grid {
+    grid-template-areas: "text image";
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 60px;
+    grid-row-gap: 0;
+
+    @media #{$screen-medium} {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media #{$screen-small} {
+      display: block;
+    }
+
+    &.half-half {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    &__title {
+      grid-column: span 2;
+      margin-left: 0;
+    }
+
+    &__item {
+      img {
+        @media #{$screen-small} {
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+
+  &:nth-child(odd):not(.next-steps) {
+    .grid:not(.half-half) {
+      grid-template-areas: "image text";
+
+      @media #{$screen-large-min} {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+  }
+
+  &.method__steps {
+    .wrapper {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    img {
+      margin-bottom: 20px;
+
+      @media #{$screen-medium-min} {
+        max-width: 300px;
+        float: left;
+        margin-right: 30px;
+      }
+    }
+  }
+
+  h1,
+  .h1 {
+    font-size: 140px;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    color: inherit;
+    @media only screen and (max-width: 1800px) {
+      font-size: 76px;
+    }
+    @media only screen and (max-width: 400px) {
+      font-size: 50px;
+    }
+  }
+
+  h2,
+  .h2 {
+    font-size: 36px;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0.6em;
+    color: inherit;
+    @media only screen and (max-width: 1024px) {
+      font-size: 30px;
+    }
+  }
+
+  h3,
+  .h3 {
+    font-size: 28px;
+    font-family: "Teko", sans-serif;
+    margin-bottom: 0.2em;
+  }
+
+  h4,
+  .h4 {
+    font-size: 24px;
+    font-family: "Teko", sans-serif;
+    margin-bottom: 0;
+    line-height: 1.1;
+    color: #9c9c9c;
+    text-transform: uppercase;
+  }
+
+  h6,
+  .h6 {
+    font-size: 64px;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0.8em;
+    color: inherit;
+    line-height: 1;
+    @media only screen and (max-width: 1024px) {
+      font-size: 50px;
+    }
+    @media only screen and (max-width: 400px) {
+      font-size: 36px;
+    }
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &.fullwidth {
+      max-width: none;
+    }
+  }
+
+}
+
+

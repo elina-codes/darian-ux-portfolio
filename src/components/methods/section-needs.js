@@ -10,7 +10,7 @@ import React from "react"
 const MethodSectionNeeds = ({ title, children }) => {
   return (
     <>
-      <section>
+      <section className="method__needs">
         <div className="grid wrapper half-half">
           <h2 className="grid__title">{title}</h2>
           {children}

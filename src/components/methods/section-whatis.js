@@ -7,7 +7,7 @@
 
 import React from "react"
 
-const MethodSectionWhatIs = ({ title, img, children }) => {
+const MethodSectionWhatIs = ({ title, method, children }) => {
   return (
     <>
       <section>
@@ -19,7 +19,7 @@ const MethodSectionWhatIs = ({ title, img, children }) => {
           </div>
           <div className="grid__item grid__image">
             <img
-              src={img.images.main[Object.keys(img.images.main)[0]]}
+              src={method.images.main[Object.keys(method.images.main)[0]]}
               alt="Two similar highligher caps, side by side, positioned in the same way, but one is pink and the other is yellow."
             />
           </div>

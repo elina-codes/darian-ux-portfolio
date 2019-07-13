@@ -39,7 +39,7 @@
     .grid:not(.half-half) {
       grid-template-areas: "image text";
 
-      @media #{$screen-medium-min} {
+      @media #{$screen-large-min} {
         grid-template-columns: 2fr 1fr;
       }
     }
