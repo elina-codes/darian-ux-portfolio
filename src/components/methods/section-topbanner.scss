@@ -1,6 +1,6 @@
 @import "../common/styles/vars";
 
-.single-page__header {
+section.single-page__header {
   background-color: $color-primary;
   background-blend-mode: luminosity;
   background-size: cover;
@@ -18,7 +18,7 @@
     opacity: 0.5;
   }
 
-  &__title {
+  .single-page__header__title {
     line-height: 1;
     margin-bottom: -10px;
     text-align: left;
@@ -26,7 +26,7 @@
     position: relative;
   }
 
-  &__subtitle {
+  .single-page__header__subtitle {
     margin-left: 4px;
     color: white;
     opacity: 0.8;

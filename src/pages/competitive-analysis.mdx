@@ -19,118 +19,119 @@ import SEO from "../components/seo"
 <MethodLayout pageTitle={props.pageContext.frontmatter.title}>
   <SEO title={props.pageContext.frontmatter.title} />
 
-  <MethodSectionWhatIs method={uxMethods.competitive_analysis} title="What is a Competitive Analysis?">
-    <p>
-      A/B Testing, or Split Testing, is a method of testing one change on a page
-      to see how it performs compared to the original. The idea is that you
-      change only one variable, then show these two versions to two similarly
-      sized audiences and analyze which one performed better over a specific
-      period of time (long enough to make accurate conclusions about your
-      results).
-    </p>
-    <p>
-      Common things to A/B test are the wording of a headline, the color or
-      placement of a button, or an image on the page. It can be even larger,
-      such as adding a tutorial flow to the page. The point is that your test
-      has to be controled and limited to one thing you are measuring so you can
-      compare the metrics against the original version, then keep the changes
-      that have a positive impact. A/B tests are valuable to a business because
-      they're low in cost but can be high in reward.
-    </p>
-  </MethodSectionWhatIs>
+<MethodSectionWhatIs
+  method={uxMethods.competitive_analysis}
+  title="What is a Competitive Analysis?"
+>
+  <p>
+    Also known as a Competitor Analysis, the goal of a Competitive Analysis is
+    to formally assess the market and your competition, so you can pull
+    inspiration from what is already working for your competitors, and to avoid
+    repeating what is not working for them.
+  </p>
+  <p>
+    Competitive Analyses typically include comparing the features, navigation,
+    content, visuals, taxonomy, and/or usability of your competitors, and are a
+    great way to see what consumers might expect from your product, and how your
+    product can contribute to the market in a way others have not.
+  </p>
+</MethodSectionWhatIs>
 
-  <MethodSectionNeeds title="What do you need for a Competitive Analysis?">
-    <MethodSectionNeedsPartial type="time">
-      <ul>
-        <li>Preparation: 1 Day</li>
-        <li>Testing Time: 1-3 Weeks</li>
-        <li>Analysis: 30 minutes</li>
-      </ul>
-    </MethodSectionNeedsPartial>
-    <MethodSectionNeedsPartial type="materials">
-      <ul>
-        <li>Your live site, product, or app</li>
-        <li>
-          Software that facilitates A/B tests and that is compatible with your
-          site (see below for links)
-        </li>
-      </ul>
-    </MethodSectionNeedsPartial>
-  </MethodSectionNeeds>
-
-  <MethodSectionSteps method={uxMethods.competitive_analysis} title="How do you run a Competitive Analysis?">
-    <ol>
-      <li>
-        <h3>Step 1: Determine your success metric</h3>
-        This is very important, which is why it is the first step. This requires an understanding, or a baseline, of your current metrics. Look for areas that need improvement and target one
-        of those. This may be time spent on your site, clicks on a button, sales, conversions, e-mail signups, or number of support tickets submitted. Try to keep it simple and only pick one.
-        This may be called your "dependent variable".
-      </li>
-      <li>
-        <h3>Step 2: Determine what needs to be altered and tested</h3>
-        Remember, to truly evaluate how effective a change is, you will want to isolate one variable and measure its performance -- otherwise, you can't be sure which one was responsible for
-        changes in performance. Some common changes may be the wording of a headline or paragraph, button visibility or color, images, adding a tutorial flow, or anything else that you feel
-        has been ambiguous to users. The element you decide to change here is also known as an "independent variable".
-      </li>
-      <li>
-        <h3>Step 3: Formulate a hypothesis</h3>
-        Formulate a hypothesis regarding how to fix your problematic page element. What do you think will happen to the metric you want to affect if you change X to Y? Write that out.
-        <br />
-        <br />
-        Example:
-        <br />
-        We believe that by changing our blue "buy now" button to a bright red, we will increase clicks on it by 15%.
-      </li>
-      <li>
-        <h3>Step 4: Create a "control" and "challenger"</h3>
-        Now you need to make two copies of your site, and apply the change to only one of them. The unaltered version of your site is called the "Control", and the one with the proposed fix
-        from your hypothesis is called the "Challenger".
-      </li>
-      <li>
-        <h3>Step 5: Split your sample groups equally and randomly</h3>
-        Now you will want to split your sample groups equally and randomly to ensure you get the most unbiased and conclusive results. There are many tools out there that will help make this
-        an easy step for you (see below for links).
-      </li>
-      <li>
-        <h3>Step 6: Run the test on both versions</h3>
-        You should run the test for however long you need to in order to reach a statistically significant number of users. Sites with more usage may not need as long than a site with low
-        usage. Some Competitive Analysis tools also allow you to set limits or a percentage on the number of users that will see the altered version of your site. All of this can change the length of
-        time your test may run, but when in doubt, run your test for around 2 weeks. It's important to run the Control and the Challenger at the same time so the results are not skewed by
-        timing or seasonality, for example.
-      </li>
-      <li>
-        <h3>Step 7: Analyze the data and take action</h3>
-        Now that it's over, take a look at the data and compare it to your hypothesis. If there has been a positive change in the data, then keep the Challenger. If not, discard it.
-      </li>
-      <li>
-        <h3>Step 8: Start another A/B Test!</h3>
-        You're a pro now, so kick off another A/B test. Remember, these are easy to run, low risk, and high reward.
-      </li>
-    </ol>
-  </MethodSectionSteps>
-
-  <MethodSectionTips method={uxMethods.competitive_analysis} title="Tips for a great Competitive Analysis">
+<MethodSectionNeeds title="What do you need for a Competitive Analysis?">
+  <MethodSectionNeedsPartial type="time">
     <ul>
-      <li>
-        Make sure you're only running one test at a time on any campaign. If you run more than one, you may not be able to trace which one is affecting the metric you are tracking.
-      </li>
-      <li>
-        Do not stop the test as soon as you see a statistically significant difference between the two pages. Continue the test until its scheduled end. This is especially important if you
-        plan to publish results or your research is funded with grant money.
-      </li>
-      <li>
-        Serve both variations simultaneously in order to account for seasonal variables.
-      </li>
-      <li>
-        Use an Competitive Analysis tool. There are many out there that faciliate small changes on your site, with little-to-no dev work. You might even have some Competitive Analysis functionality on tools you
-        are already using.
-      </li>
-      <li>
-        Serve the original version of the page to Google’s bots to avoid being penalized in search results.
-      </li>
+      <li>Preparation: 30 minutes to create a list of competitors</li>
+      <li>Analysis: Around 20 minutes per competitor on your list</li>
+      <li>Presentation: 1-3 hours</li>
     </ul>
-  </MethodSectionTips>
+  </MethodSectionNeedsPartial>
+  <MethodSectionNeedsPartial type="materials">
+    <p>
+      Exactly what you need (and what you have on hand to use) will vary, but here is a list of the basic requirements:
+    </p>
 
-  <MethodSectionResources method={uxMethods.competitive_analysis}/>
+    <ul>
+      <li>A laptop or mobile device to view your competition</li>
+      <li>Paper, a spreadsheet program, or a text editor for notes</li>
+      <li>Presentation software</li>
+    </ul>
+
+  </MethodSectionNeedsPartial>
+</MethodSectionNeeds>
+
+<MethodSectionSteps
+  method={uxMethods.competitive_analysis}
+  title="How do you run a Competitive Analysis?"
+>
+  <ol>
+    <li>
+      <h3>Step 1: Determine the competitive sites you want to evaluate</h3>
+      You should first always talk with your key stakeholders (like your client or
+      a product manager) and create a list of the competitive sites or apps they
+      think you should evaluate. You should also add to this list by searching for
+      your product’s keywords on multiple search engines and seeing what comes up
+      most often. You can always return to your stakeholder to validate any found
+      competitors if you are uncertain.
+    </li>
+    <li>
+      <h3>Step 2: Create a list of user tasks to complete</h3>
+      Write up a set list of tasks for you to complete with each competitor site
+      or product. These should be tasks you expect your own users to complete regularly.
+    </li>
+    <li>
+      <h3>Step 3: Document your thoughts and findings</h3>
+      Go through each task with each competing product and make note of what works
+      well and what does not. Take note of anything that stands out. You should also
+      take screenshots at every step for your documentation and presentation. Take
+      notes on wait times, difficulties, useful features, and poorly implemented
+      features. Note the terminology used by competitors.
+    </li>
+    <li>
+      <h3>Step 4: Find commonalities</h3>
+      Find commonalities, both good and bad, between your competitors to determine
+      what users will expect from your product.
+    </li>
+    <li>
+      <h3>Step 5: Consider looking at user reviews</h3>
+      If you are not sure if certain commonalities are good or bad, consider finding
+      user reviews for these products to determine which commonalities users are
+      happy with, and which could be improved upon. When designing your product,
+      you should avoid deviating from commonalities that users are accustomed to
+      and are happy with. Unfavorable commonalities, however, present opportunities
+      or easy wins.
+    </li>
+    <li>
+      <h3>Step 6: Prepare a presentation</h3>
+      Prepare a presentation of your analysis so stakeholders and team members can
+      see the issues and opportunities you have uncovered. Include a walkthrough
+      of particularly enlightening tasks, and highlight anything that users found
+      particularly delightful or problematic. Add a summary, with visuals, of all
+      of the things you suggest should be used as inspiration for your product or
+      site.
+    </li>
+    <li>
+      <h3>Step 7: Present your analysis</h3>
+      Schedule a presentation of your findings. A walkthrough of each task should
+      only take a few minutes, but a half-day meeting allows you time to answer questions
+      and discuss your findings in depth.
+    </li>
+  </ol>
+</MethodSectionSteps>
+
+<MethodSectionTips
+  method={uxMethods.competitive_analysis}
+  title="Tips for a great Competitive Analyses"
+>
+  <ul>
+    <li>
+      Working with others? Create a spreadsheet with your competitors as the
+      rows, and your tasks as the columns. This can be duplicated for anyone
+      else, or you can divide it up by competitors and all work on the same
+      spreadsheet.
+    </li>
+  </ul>
+</MethodSectionTips>
+
+<MethodSectionResources method={uxMethods.competitive_analysis} />
 
 </MethodLayout>

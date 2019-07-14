@@ -19,118 +19,166 @@ import SEO from "../components/seo"
 <MethodLayout pageTitle={props.pageContext.frontmatter.title}>
   <SEO title={props.pageContext.frontmatter.title} />
 
-  <MethodSectionWhatIs method={uxMethods.contextual_inquiry} title="What is a Contextual Inquiry?">
-    <p>
-      A/B Testing, or Split Testing, is a method of testing one change on a page
-      to see how it performs compared to the original. The idea is that you
-      change only one variable, then show these two versions to two similarly
-      sized audiences and analyze which one performed better over a specific
-      period of time (long enough to make accurate conclusions about your
-      results).
-    </p>
-    <p>
-      Common things to A/B test are the wording of a headline, the color or
-      placement of a button, or an image on the page. It can be even larger,
-      such as adding a tutorial flow to the page. The point is that your test
-      has to be controled and limited to one thing you are measuring so you can
-      compare the metrics against the original version, then keep the changes
-      that have a positive impact. A/B tests are valuable to a business because
-      they're low in cost but can be high in reward.
-    </p>
-  </MethodSectionWhatIs>
+<MethodSectionWhatIs
+  method={uxMethods.contextual_inquiry}
+  title="What is a Contextual Inquiry?"
+>
+  <p>
+    A Contextual Inquiry is a UX method that, like many others, is growing in
+    definition. A traditional Contextual Inquiry is a mix of a user interview
+    and observation session conducted in the actual environment of the user. As
+    the researcher, you would go to their place of work and observe them as they
+    complete tasks, asking them questions along the way. This allows you to
+    capture more context and insights than those that might be obtained during
+    an interview in an unfamiliar location such as your office, which is why it
+    is called a Contextual Inquiry.
+  </p>
+  <p>
+    The biggest problem with this method is that many companies have users all
+    over the world, and it’s not cost-effective to visit a handful of them in a
+    week when trying to get context into their behaviour while using your
+    product. Because of this, remote Contextual Inquiries are becoming more and
+    more popular, where researchers can screen share with their participants and
+    observe their actions while asking them questions along the way. You can
+    still capture a lot of the context this way, and it’s much more
+    cost-effective.
+  </p>
+</MethodSectionWhatIs>
 
-  <MethodSectionNeeds title="What do you need for a Contextual Inquiry?">
-    <MethodSectionNeedsPartial type="time">
-      <ul>
-        <li>Preparation: 1 Day</li>
-        <li>Testing Time: 1-3 Weeks</li>
-        <li>Analysis: 30 minutes</li>
-      </ul>
-    </MethodSectionNeedsPartial>
-    <MethodSectionNeedsPartial type="materials">
-      <ul>
-        <li>Your live site, product, or app</li>
-        <li>
-          Software that facilitates A/B tests and that is compatible with your
-          site (see below for links)
-        </li>
-      </ul>
-    </MethodSectionNeedsPartial>
-  </MethodSectionNeeds>
-
-  <MethodSectionSteps method={uxMethods.contextual_inquiry} title="How do you run a Contextual Inquiry?">
-    <ol>
-      <li>
-        <h3>Step 1: Determine your success metric</h3>
-        This is very important, which is why it is the first step. This requires an understanding, or a baseline, of your current metrics. Look for areas that need improvement and target one
-        of those. This may be time spent on your site, clicks on a button, sales, conversions, e-mail signups, or number of support tickets submitted. Try to keep it simple and only pick one.
-        This may be called your "dependent variable".
-      </li>
-      <li>
-        <h3>Step 2: Determine what needs to be altered and tested</h3>
-        Remember, to truly evaluate how effective a change is, you will want to isolate one variable and measure its performance -- otherwise, you can't be sure which one was responsible for
-        changes in performance. Some common changes may be the wording of a headline or paragraph, button visibility or color, images, adding a tutorial flow, or anything else that you feel
-        has been ambiguous to users. The element you decide to change here is also known as an "independent variable".
-      </li>
-      <li>
-        <h3>Step 3: Formulate a hypothesis</h3>
-        Formulate a hypothesis regarding how to fix your problematic page element. What do you think will happen to the metric you want to affect if you change X to Y? Write that out.
-        <br />
-        <br />
-        Example:
-        <br />
-        We believe that by changing our blue "buy now" button to a bright red, we will increase clicks on it by 15%.
-      </li>
-      <li>
-        <h3>Step 4: Create a "control" and "challenger"</h3>
-        Now you need to make two copies of your site, and apply the change to only one of them. The unaltered version of your site is called the "Control", and the one with the proposed fix
-        from your hypothesis is called the "Challenger".
-      </li>
-      <li>
-        <h3>Step 5: Split your sample groups equally and randomly</h3>
-        Now you will want to split your sample groups equally and randomly to ensure you get the most unbiased and conclusive results. There are many tools out there that will help make this
-        an easy step for you (see below for links).
-      </li>
-      <li>
-        <h3>Step 6: Run the test on both versions</h3>
-        You should run the test for however long you need to in order to reach a statistically significant number of users. Sites with more usage may not need as long than a site with low
-        usage. Some Contextual Inquiry tools also allow you to set limits or a percentage on the number of users that will see the altered version of your site. All of this can change the length of
-        time your test may run, but when in doubt, run your test for around 2 weeks. It's important to run the Control and the Challenger at the same time so the results are not skewed by
-        timing or seasonality, for example.
-      </li>
-      <li>
-        <h3>Step 7: Analyze the data and take action</h3>
-        Now that it's over, take a look at the data and compare it to your hypothesis. If there has been a positive change in the data, then keep the Challenger. If not, discard it.
-      </li>
-      <li>
-        <h3>Step 8: Start another A/B Test!</h3>
-        You're a pro now, so kick off another A/B test. Remember, these are easy to run, low risk, and high reward.
-      </li>
-    </ol>
-  </MethodSectionSteps>
-
-  <MethodSectionTips method={uxMethods.contextual_inquiry} title="Tips for a great Contextual Inquiry">
+<MethodSectionNeeds title="What do you need for a Contextual Inquiry?">
+  <MethodSectionNeedsPartial type="time">
     <ul>
+      <li>Time per Session: ~30 Minutes to 2 Hours</li>
       <li>
-        Make sure you're only running one test at a time on any campaign. If you run more than one, you may not be able to trace which one is affecting the metric you are tracking.
+        Number of Sessions: ~5 to start. You may need more until you start
+        seeing solid patterns in your observations.
       </li>
+      <li>Time for Analysis: ~2-4 hours per Session</li>
+    </ul>
+  </MethodSectionNeedsPartial>
+  <MethodSectionNeedsPartial type="materials">
+    <ul>
+      <li>A set list of tasks or questions</li>
+      <li>Something to record notes</li>
+      <li>Audio recorder</li>
+      <li>Screen recording software (if remote)</li>
       <li>
-        Do not stop the test as soon as you see a statistically significant difference between the two pages. Continue the test until its scheduled end. This is especially important if you
-        plan to publish results or your research is funded with grant money.
-      </li>
-      <li>
-        Serve both variations simultaneously in order to account for seasonal variables.
-      </li>
-      <li>
-        Use an Contextual Inquiry tool. There are many out there that faciliate small changes on your site, with little-to-no dev work. You might even have some Contextual Inquiry functionality on tools you
-        are already using.
-      </li>
-      <li>
-        Serve the original version of the page to Google’s bots to avoid being penalized in search results.
+        Anything to help record the participant or environment is great to have
       </li>
     </ul>
-  </MethodSectionTips>
+  </MethodSectionNeedsPartial>
+</MethodSectionNeeds>
 
-  <MethodSectionResources method={uxMethods.contextual_inquiry}/>
+<MethodSectionSteps
+  method={uxMethods.contextual_inquiry}
+  title="How do you run a Contextual Inquiry?"
+>
+  <ol>
+    <li>
+      <h3>Step 1: Determine who you want feedback from</h3>
+      Your target participants may change depending on your business goals. For example,
+      if your goal is to increase monetization from users within their first 30 days,
+      you would probably want to target new users that signed up less than 30 days
+      ago.
+    </li>
+    <li>
+      <h3>Step 2: Determine what you want feedback about</h3>
+      Are you looking for feedback on your entire product? Or maybe just the checkout
+      flow? It’s good to have a list of predefined tasks and questions ready so you
+      can ask them to complete some specific ones if they don’t touch on certain
+      areas you wanted to get some feedback on. You should ask the same questions
+      of everyone you are working with. If you don’t prepare questions ahead of time,
+      the questions you ask will be ad hoc, and you won’t ask everyone the same questions,
+      which will make it harder to analyze and compare. This doesn’t mean you won’t
+      ask additional questions, it just means that you will ask the same core questions.
+    </li>
+    <li>
+      <h3>
+        Step 3: Have the participant go through typical tasks and constantly ask
+        “why”
+      </h3>
+      In general, you will want to watch them go through their daily workflow and
+      think out loud as they do. Have them explain or teach you the reasons for their
+      decisions and processes.
+      <br />
+      <br />
+      Watch what products they start with, ask them why they use those. Take
+      note when they start using your product and ask them why they started
+      using it then. Once they are done with your product and move to another,
+      ask them why they changed products.
+      <br />
+      <br />
+      It’s important to observe and note what they are doing, but it’s more important
+      to understand why they are doing it, as you will be able to pull more meaningful
+      insights from that. Keep encouraging them to think out loud so you don’t have
+      to constantly ask them questions.
+    </li>
+    <li>
+      <h3>Step 4: Take notes on pain points or gaps</h3>
+      Take note of any point in their flow where they seem to struggle or are confused.
+      Maybe they are spending a lot of time working on one step. Maybe they accidentally
+      navigated to the wrong part of your product. Maybe they exported data from
+      your product and spent an hour manipulating it in excel. These pain points
+      and gaps are usually easy to spot and can turn into easy wins for your team.
+    </li>
+    <li>
+      <h3>Step 5: Summarize your findings from the session</h3>
+      Once complete, summarize the session and share it with your team and stakeholders.
+    </li>
+    <li>
+      <h3>Step 6: Compare your findings from other sessions</h3>
+      This is the longest part of the analysis. After you have completed more than
+      one, you can then compare the findings across different participants. Highlight
+      the common findings or the insights that you feel need to stand out, then summarize
+      it all in one final report for your team.
+      <br />
+      <br />
+      Affinity Diagrams are a great way to cross reference findings from a round
+      of contextual inquiries, but you may need something more scalable and
+      permanent if you plan on cross referencing findings from multiple research
+      projects over long periods of time. I personally like AirTable for my
+      research findings repository.
+    </li>
+  </ol>
+</MethodSectionSteps>
+
+<MethodSectionTips
+  method={uxMethods.contextual_inquiry}
+  title="Tips for a great Contextual Inquiries"
+>
+  <ul>
+    <li>
+      At the start of the session, run them through a formal script that
+      explains to them why you’re there, what is expected of them, what they
+      should expect of you, and to ask for permission to begin recording.
+    </li>
+    <li>
+      If you’re allowed to record the session, for in person inquiries, use
+      audio and video recording and try to capture what they do on their screen,
+      as well as their reactions. If it’s a remote inquiry, make sure to have
+      them share their screen with you and record it.
+    </li>
+    <li>
+      If you cannot get permission to record an inquiry, bring a second
+      interviewer to help with note-taking.
+    </li>
+    <li>
+      Schedule sessions for relevant times of day. For example, if your app will
+      help people find food trucks, schedule your sessions for around lunch or
+      dinner time.
+    </li>
+    <li>
+      Spend a lot of time on your tasks and questions list. Refine it, check it
+      with others, and really make sure that the questions you ask line up with
+      the goals of the research.
+    </li>
+    <li>
+      If your team has remote workers, Miro is a great collaboration program for
+      Affinity Diagrams, and several other methods.
+    </li>
+  </ul>
+</MethodSectionTips>
+
+<MethodSectionResources method={uxMethods.contextual_inquiry} />
 
 </MethodLayout>

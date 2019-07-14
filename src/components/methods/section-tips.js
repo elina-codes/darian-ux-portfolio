@@ -10,7 +10,7 @@ const MethodSectionTips = ({ title, method, children }) => {
             {children}
           </div>
           <div className="grid__item work__text">
-            <img src={method.images.tips[Object.keys(method.images.tips)[0]]} alt="Two handheld gaming devices, side by side, positioned in the same way, but one is pink and the other is black." />
+            <img src={method.images.tips.src} alt={method.images.tips.alt}/>
           </div>
         </div>
       </section>

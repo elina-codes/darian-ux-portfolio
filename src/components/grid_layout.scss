@@ -12,10 +12,10 @@
 
   // grid layout for work and ux-methods
   &.image__grid {
-    @media #{$screen-medium} {
+    @media #{$screen-md} {
       grid-template-columns: 1fr 1fr;
     }
-    @media #{$screen-small} {
+    @media #{$screen-sm} {
       grid-template-columns: 1fr;
       grid-gap: 20px;
     }

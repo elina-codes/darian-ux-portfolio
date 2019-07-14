@@ -18,9 +18,13 @@ const MethodSectionResources = ({ method }) => {
               {method.resources.map((resource, index) => (
                 <li key={index}>
                   {resource.title ? `${resource.source}: ` : ""}
-                  <a href={resource.url} target="blank" rel="noopener noreferrer">
+                  <a
+                    href={resource.url}
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
                     {resource.title ? resource.title : `${resource.source}: `}
-                  </a>
+                  </a>{" "}
                   {resource.notes ? resource.notes : ""}
                 </li>
               ))}

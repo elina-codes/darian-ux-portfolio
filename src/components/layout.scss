@@ -28,7 +28,12 @@ section {
     padding: 40px 5%;
   }
 
-  @media #{$screen-extra-small} {
+  @media #{$screen-xs} {
     padding: 60px 5%;
   }
+}
+
+.wrapper--narrow {
+  max-width: $content-width;
+  margin: 0 auto;
 }

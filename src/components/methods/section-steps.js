@@ -4,9 +4,9 @@ const MethodSectionSteps = ({ title, method, children }) => {
   return (
     <>
       <section className="method__steps">
-        <div className="wrapper">
+        <div className="wrapper wrapper--narrow">
           <h2>{title}</h2>
-          <img src={method.images.steps[Object.keys(method.images.steps)[0]]} alt="Writing down notes in between two laptops displaying two different screens." />
+          <img src={method.images.steps.src} alt={method.images.steps.alt} />
           {children}
         </div>
       </section>

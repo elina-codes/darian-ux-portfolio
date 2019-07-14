@@ -8,9 +8,7 @@ const GridLayout = ({ gridItems }) => (
     {Object.keys(gridItems).map(key => (
       <GridItem
         itemTitle={gridItems[key].title}
-        itemImage={
-          gridItems[key].images.main[Object.keys(gridItems[key].images.main)[0]]
-        }
+        itemImage={gridItems[key].images.main.src}
         itemLink={gridItems[key].url}
         key={key}
       />

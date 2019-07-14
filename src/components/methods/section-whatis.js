@@ -10,18 +10,15 @@ import React from "react"
 const MethodSectionWhatIs = ({ title, method, children }) => {
   return (
     <>
-      <section>
-        <div className="grid wrapper">
+      <section className="method__whatis">
+        <div className="grid wrapper half-half">
           <div className="grid__item work__text">
             <h2>{title}</h2>
 
             {children}
           </div>
           <div className="grid__item grid__image">
-            <img
-              src={method.images.main[Object.keys(method.images.main)[0]]}
-              alt="Two similar highligher caps, side by side, positioned in the same way, but one is pink and the other is yellow."
-            />
+            <img src={method.images.main.src} alt={method.images.main.alt} />
           </div>
         </div>
       </section>

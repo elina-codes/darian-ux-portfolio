@@ -16,7 +16,7 @@ const MethodLayout = ({ pageTitle }) => {
       <section
         className="single-page__header"
         style={{
-          backgroundImage: { bannerBg },
+          backgroundImage: `url(${bannerBg})`,
         }}
       >
         <div className="wrapper wrapper--short">
