@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <section>
       <div className="wrapper">
-        <h2 className="section__title">UX Methods</h2>
+        <h1 className="section__title">UX It All</h1>
         <p className="section__description">
           Below is a list of several UX methods that UX Designers can use in
           their strategy. Over the next several months, I am going to be adding

@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Teko:300,400,500");
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Teko:300,400,500|Patua+One&display=swap");
 @import "vars";
 
 * {
@@ -23,13 +23,9 @@ body {
 h1,
 .h1 {
   font-size: $font-size-huge;
-  font-family: $font-family-headings;
+  font-weight: bold;
   text-transform: uppercase;
   color: inherit;
-
-  @media #{$screen-lg} {
-    font-size: $font-size-huge - 64px;
-  }
 
   @media #{$screen-xs} {
     font-size: 50px;
@@ -37,17 +33,11 @@ h1,
 }
 h2,
 .h2 {
-  font-size: $font-size-xxl;
-  font-family: $font-family-headings;
-  text-transform: uppercase;
+  font-size: $font-size-xl;
   font-weight: 500;
   margin-bottom: 0.8em;
   color: inherit;
   line-height: 1;
-
-  @media #{$screen-md} {
-    font-size: $font-size-xl;
-  }
 
   @media #{$screen-xs} {
     font-size: $font-size-lg;
@@ -55,21 +45,22 @@ h2,
 }
 h3,
 .h3 {
-  font-size: $font-size-lg;
-  font-family: $font-family-headings;
-  text-transform: uppercase;
+  font-size: $font-size-sm;
   font-weight: 400;
   margin-bottom: 0.6em;
-  color: inherit;
+  color: $color-grey-dark;
 
-  @media #{$screen-md} {
-    font-size: $font-size-lg - 6px;
+  @media #{$screen-md-min} {
+    font-size: $font-size-md;
+  }
+
+  @media #{$screen-lg-min} {
+    font-size: $font-size-lg;
   }
 }
 h4,
 .h4 {
   font-size: $font-size-md;
-  font-family: $font-family-headings;
   margin-bottom: 0;
   line-height: 1.1;
   color: $color-grey;
@@ -78,7 +69,6 @@ h4,
 h5,
 .h5 {
   font-size: $font-size-md + 4px;
-  font-family: $font-family-headings;
   text-transform: uppercase;
 }
 h6,
@@ -89,8 +79,8 @@ h6,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
+  font-family: $font-family-headings;
   max-width: $content-width;
   margin-left: auto;
   margin-right: auto;

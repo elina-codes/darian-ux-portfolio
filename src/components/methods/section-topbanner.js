@@ -21,7 +21,6 @@ const MethodLayout = ({ pageTitle }) => {
       >
         <div className="wrapper wrapper--short">
           <h1 className="single-page__header__title">{pageTitle}</h1>
-          <span className="h4 single-page__header__subtitle">UX methods</span>
         </div>
       </section>
     </>
