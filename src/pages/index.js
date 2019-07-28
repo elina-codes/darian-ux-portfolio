@@ -11,14 +11,7 @@ const IndexPage = () => (
     <SEO title="UX Methods" />
     <section>
       <div className="wrapper">
-        <h1 className="section__title">Portfolio</h1>
-        <p className="section__description">
-          Below is a list of several UX methods that UX Designers can use in
-          their strategy. Over the next several months, I am going to be adding
-          more and more. Please send me a message if you have any feedback or
-          wish to see others added sooner.
-        </p>
-        <GridLayout gridItems={uxMethods} />
+        <h1 className="section__title">Coming soon!</h1>
       </div>
     </section>
   </Layout>
