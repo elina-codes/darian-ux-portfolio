@@ -1,3 +1,4 @@
+// Main images (main section)
 import ab_testing_main from "../images/methods/ab_testing-main.jpg"
 import competitive_analysis_main from "../images/methods/competitive_analysis-main.jpg"
 import contextual_inquiry_main from "../images/methods/contextual_inquiry-main.jpg"
@@ -5,6 +6,7 @@ import paper_prototype_main from "../images/methods/paper_prototype-main.jpg"
 import ux_strategy_main from "../images/methods/ux_strategy-main.jpg"
 import wireframes_main from "../images/methods/wireframes-main.jpg"
 
+// Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
 import competitive_analysis_steps from "../images/methods/competitive_analysis-second.jpg"
 import contextual_inquiry_steps from "../images/methods/contextual_inquiry-second.jpg"
@@ -12,6 +14,7 @@ import paper_prototype_steps from "../images/methods/paper_prototype-second.jpg"
 import ux_strategy_steps from "../images/methods/ux_strategy-second.jpg"
 import wireframes_steps from "../images/methods/wireframes-second.jpg"
 
+// Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
 import competitive_analysis_tips from "../images/methods/competitive_analysis-third.jpg"
 import contextual_inquiry_tips from "../images/methods/contextual_inquiry-third.jpg"
@@ -19,6 +22,43 @@ import paper_prototype_tips from "../images/methods/paper_prototype-third.jpg"
 import ux_strategy_tips from "../images/methods/ux_strategy-third.jpg"
 import wireframes_tips from "../images/methods/wireframes-third.jpg"
 
+/*
+ex:
+  ux_method_name: {
+    title: "Title of method",
+    url: "/url-for-page",
+    images: {
+      main: {
+        src: variable_name_for_image_declared_above,
+        alt: "Alt text to appear with image"
+      },
+      steps: {
+        src: variable_name_for_image_declared_above,
+        alt: "Alt text to appear with image"
+      },
+      tips: {
+        src: variable_name_for_image_declared_above,
+        alt: "Alt text to appear with image"
+      }
+    },
+    resources: [
+      {
+        source: "Name of the resource (REQUIRED)",
+        url: "https://self.explanatory.com (REQUIRED)"",
+        title: "Title to be linkified",
+        notes: "(extra notes to follow the link)",
+      },
+      {
+        source: "Name of the resource (REQUIRED)",
+        url: "https://self.explanatory.com (REQUIRED)"",
+        title: "Title to be linkified",
+        notes: "(extra notes to follow the link)",
+      }
+    ]
+  }
+
+
+*/
 const uxMethods = {
   ab_testing: {
     title: "A/B Testing",
