@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="UX Methods" />
     <section>
-      <div className="wrapper">
+      <div className="wrapper coming-soon">
         <h1 className="section__title">Coming soon!</h1>
       </div>
     </section>
