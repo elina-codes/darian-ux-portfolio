@@ -35,7 +35,7 @@
     }
   }
 
-  &:nth-child(odd):not(.next-steps) {
+  &:nth-child(odd):not(.next-steps):not(.single-page__header) {
     .grid:not(.half-half) {
       grid-template-areas: "image text";
 
