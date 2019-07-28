@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Darian Grant | UX It All`,
+    description: `UX Designer and Strategist in Vancouver, BC specializing in product strategy, user research, data driven design decisions, and increasing company UX maturity.`,
   },
   plugins: [
     `gatsby-plugin-sass`,

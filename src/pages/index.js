@@ -8,7 +8,7 @@ import GridLayout from "../components/grid_layout"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="UX Methods" />
     <section>
       <div className="wrapper">
         <h1 className="section__title">UX It All</h1>
