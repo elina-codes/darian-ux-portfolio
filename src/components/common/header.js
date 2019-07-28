@@ -7,10 +7,10 @@ import "./header.scss"
 const Header = ({ siteTitle }) => (
   <header>
     <nav id="js--mobile-nav">
-      <Link to="/" className="active">
+      <Link to="https://uxitall.com">
         <span>UX Methods</span>
       </Link>
-      <a href="https://portfolio.uxitall.com">
+      <a href="/" className="active">
         <span>Portfolio</span>
       </a>
       <a href="#contact">

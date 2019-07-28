@@ -10,21 +10,17 @@ import React from "react"
 import "./section-topbanner.scss"
 import bannerBg from "../../images/darian_bg.jpg"
 
-const MethodLayout = ({ pageTitle }) => {
+const WorkBanner = ({ projectTitle, projectType }) => {
   return (
-    <>
-      <section
-        className="single-page__header"
-        style={{
-          backgroundImage: `url(${bannerBg})`,
-        }}
-      >
-        <div className="wrapper wrapper--short">
-          <h1 className="single-page__header__title">{pageTitle}</h1>
-        </div>
-      </section>
-    </>
+    <section className="work__header" style={{
+        backgroundImage: `url(${bannerBg})`,
+      }}>
+      <div className="wrapper wrapper--short">
+        <h1 className="work__header__title">{projectTitle}</h1>
+        <span className="h4 work__header__subtitle">{projectType}</span>
+      </div>
+    </section>
   )
 }
 
-export default MethodLayout
+export default WorkBanner
