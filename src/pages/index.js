@@ -10,6 +10,8 @@ import adaptTheProcess from "../images/work/svg/adapt-the-process.svg"
 import setGoals from "../images/work/svg/set-goals.svg"
 import uxItAll from "../images/work/svg/ux-it-all.svg"
 
+import "../components/portfolio/page-portfolio.scss"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="UX Methods" />

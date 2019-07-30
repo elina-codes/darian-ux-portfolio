@@ -13,9 +13,13 @@ const GridItem = ({ itemTitle, itemImage, itemLink, itemCategories }) => (
     ></div>
     <div className="image__grid__item__details">
       <h3>{itemTitle}</h3>
-      <ul>
-        <p>{itemCategories ? itemCategories.map((item, i) => item + (itemCategories.length === i + 1 ? '' : ' | ')) : '' }</p>
-      </ul>
+      <p>
+        {itemCategories
+          ? itemCategories.map(
+              (item, i) => item + (itemCategories.length === i + 1 ? "" : " | ")
+            )
+          : ""}
+      </p>
     </div>
   </Link>
 )
