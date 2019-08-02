@@ -30,9 +30,9 @@ const IndexPage = () => (
             <img src={setGoals} alt="" className="what-i-do__img" />
             <h3>Set Goals</h3>
             <p>
-              I work with you to define and solidify your business goals so
-              everyone understands why we’re doing what we’re doing, and the
-              overall direction of the company and project.
+              I work with you to define and solidify your goals so everyone
+              understands why we’re doing what we’re doing, and the overall
+              direction of the company and project.
             </p>
           </div>
           <div className="grid__item">
