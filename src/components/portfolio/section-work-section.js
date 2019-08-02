@@ -12,8 +12,8 @@ const WorkSection = ({ title, subtitle, image, alt, children }) => {
     <section>
       <div className="grid wrapper">
         <div className="grid__item work__text">
-          <h4>{subtitle}</h4>
-          <h3>{title}</h3>
+          <h4 className="work__subtitle">{subtitle}</h4>
+          <h3 className="work__title">{title}</h3>
           {children}
         </div>
         <div className="grid__item grid__image">

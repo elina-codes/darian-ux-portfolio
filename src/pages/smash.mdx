@@ -1,0 +1,69 @@
+---
+path: "/smash"
+title: "S.M.A.S.H. Monsters"
+---
+
+import { Link } from "gatsby"
+
+import projects from "../data/projects"
+import WorkLayout from "../components/portfolio/layout-work"
+import WorkSection from "../components/portfolio/section-work-section"
+import NextSteps from "../components/portfolio/section-next-steps"
+
+import SEO from "../components/seo"
+
+export const project = projects.smash_monsters
+
+<WorkLayout
+  project={project}
+  projectTitle={props.pageContext.frontmatter.title}
+  projectType="A Thinking Ape"
+>
+<SEO title={props.pageContext.frontmatter.title} />
+<WorkSection title="Overview" image="/images/smash-01.jpg" alt="The splash page for S.M.A.S.H, which tells the player to create epic monsters and destroy rival cities">
+  <p>
+    No longer on the app store, this was an iOS game that I worked on at <a href="http://athinkingape.com/" target="blank">A Thinking Ape</a>. The goal of the game was to conquer rival S.M.A.S.H agents with your monster army while defending your city from their futile attacks.
+  </p>
+  <h3>My role</h3>
+  <p>
+    As I was currently managing two other products at the time,<strong> I mainly served as a UX Consultant to the lead designer.</strong>
+  </p>
+</WorkSection>
+
+<WorkSection
+  title="Usability Tests"
+  image="/images/otherly-02.jpg"
+  alt="A screenshot of the original platform"
+>
+  <p>
+    To assist the lead designer, <strong>I planned, conducted and reported on formal usability tests</strong>, then offered suggestions on how to fix the main issues.
+  </p>
+
+  <p>
+    <strong>
+      Here you can see some examples of the first Usability Tests I ran on S.M.A.S.H.
+    </strong>
+  </p>
+
+  <p>
+    I encourage my team to watch these, as I like to do a formal debrief with them after where they get to highlight the top issues they
+    found, then we brainstorm solutions right there.
+  </p>
+
+  <p>
+    If there is not enough consistent feedback, and we cannot run more tests, then I report my observations on each screen to allow the team
+    to decide on what is important.
+  </p>
+
+  <p>
+    <strong>Here you can find two of the Usability Test Reports for S.M.A.S.H.</strong> <a href="/files/smash-usability-test-01.pdf" target="blank">This first report</a> is from the videos above, and <a href="/files/smash-usability-test-02.pdf" target="blank">this second report</a> is after several months of iterations.
+  </p>
+</WorkSection>
+
+<NextSteps title="Outcome">
+  <p>
+    Though I didn't have my eye on the metrics, my personal win was that <strong>I showed several people the benefits of early testing for products with a lot of unknowns</strong>. This is proven by the fact that they had me do more testing for them several months later.
+  </p>
+</NextSteps>
+
+</WorkLayout>

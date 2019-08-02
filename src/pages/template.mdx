@@ -8,49 +8,48 @@ import { Link } from "gatsby"
 import projects from "../data/projects"
 import WorkLayout from "../components/portfolio/layout-work"
 import WorkSection from "../components/portfolio/section-work-section"
-import NextSteps from "../components/portfolio/section-next-steps"
 
 import SEO from "../components/seo"
 
-export const project = projects.otherly
+export const currentProject = projects.otherly
 
 <WorkLayout
-  project={project}
+  project={currentProject}
   projectTitle={props.pageContext.frontmatter.title}
   projectType="Freelance Project"
 >
-  <SEO title={props.pageContext.frontmatter.title} />
-  <WorkSection title="Overview" img="/images/otherly-01.jpg" alt="The final version of Otherly's mobile app">
-    <p>
-      This was a platform built{" "}
-      <strong>for people to selflessly help each other</strong>. It was
-      designed to make it fun and easy for friends and neighbors to give and
-      get help for anything, anywhere.
-    </p>
-    <h3>The problem</h3>
-    <p>
-      When I came on board, the devs had already built an MVP but were{" "}
-      <strong>
-        not seeing any traction at all. There was no clear vision from the
-        CEO
-      </strong>{" "}
-      , and every dev in the company had an equal say in how the site should
-      be designed and built. This resulted in a Frankenstein&rsquo;s monster
-      of an MVP, with{" "}
-      <strong>
-        no flow, no informational hierarchy or prioritization, and an
-        overwhelming amount of poorly thought-out features
-      </strong>{" "}
-      that meant nothing to their users.
-    </p>
-    <h3>My role</h3>
-    <p>
-      I was hired on as the Lead UX Designer,{" "}
-      <strong>
-        to redo the MVP and to get this product back on track.
-      </strong>
-    </p>
-  </WorkSection>
+<SEO title={props.pageContext.frontmatter.title} />
+<WorkSection title="Overview" img="/images/otherly-01.jpg" alt="The final version of Otherly's mobile app">
+  <p>
+    This was a platform built{" "}
+    <strong>for people to selflessly help each other</strong>. It was
+    designed to make it fun and easy for friends and neighbors to give and
+    get help for anything, anywhere.
+  </p>
+  <h3>The problem</h3>
+  <p>
+    When I came on board, the devs had already built an MVP but were{" "}
+    <strong>
+      not seeing any traction at all. There was no clear vision from the
+      CEO
+    </strong>{" "}
+    , and every dev in the company had an equal say in how the site should
+    be designed and built. This resulted in a Frankenstein&rsquo;s monster
+    of an MVP, with{" "}
+    <strong>
+      no flow, no informational hierarchy or prioritization, and an
+      overwhelming amount of poorly thought-out features
+    </strong>{" "}
+    that meant nothing to their users.
+  </p>
+  <h3>My role</h3>
+  <p>
+    I was hired on as the Lead UX Designer,{" "}
+    <strong>
+      to redo the MVP and to get this product back on track.
+    </strong>
+  </p>
+</WorkSection>
 
 <WorkSection
   title="Original designs"
@@ -272,13 +271,22 @@ export const project = projects.otherly
   </p>
 </WorkSection>
 
-<NextSteps>
-  If I ever worked on this project again, my next steps would be to{" "}
-  <strong>review the mockups</strong> with the ID, then constantly work{" "}
-  <strong>reiterate them</strong> so the functionality and architecture remains
-  intact. <strong>Usability Tests on a new prototype</strong> with these mockups
-  would be conducted and, once satisfied with the feedback, the devs would then
-  start building it while we worked on finalising the Web App.
-</NextSteps>
-
+  <section class="next-steps">
+    <div class="grid wrapper">
+      <div class="grid__item work__text">
+        <h2>Next Steps</h2>
+      </div>
+      <div class="grid__item grid__image">
+        <p>
+          If I ever worked on this project again, my next steps would be to{" "}
+          <strong>review the mockups</strong> with the ID, then constantly work{" "}
+          <strong>reiterate them</strong> so the functionality and architecture
+          remains intact. <strong>Usability Tests on a new prototype</strong>{" "}
+          with these mockups would be conducted and, once satisfied with the
+          feedback, the devs would then start building it while we worked on
+          finalising the Web App.
+        </p>
+      </div>
+    </div>
+  </section>
 </WorkLayout>

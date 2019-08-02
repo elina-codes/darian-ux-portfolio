@@ -12,11 +12,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "../common/header"
 import Footer from "../common/footer"
 import WorkBanner from "./section-topbanner"
+import WorkMoreProjects from "./section-more-projects"
 
 import "../layout.scss"
 import "./layout-work.scss"
 
-const WorkLayout = ({ projectTitle, projectType, children }) => {
+const WorkLayout = ({ projectTitle, projectType, project, children }) => {
   const data = useStaticQuery(graphql`
     query ProjectTitleQuery {
       site {
@@ -33,6 +34,7 @@ const WorkLayout = ({ projectTitle, projectType, children }) => {
       <main className="work-layout">
         <WorkBanner projectTitle={projectTitle} projectType={projectType} />
         {children}
+        <WorkMoreProjects project={project} />
       </main>
       <Footer />
     </>
