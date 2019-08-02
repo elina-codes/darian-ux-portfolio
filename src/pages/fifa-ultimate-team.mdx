@@ -20,10 +20,12 @@ export const project = projects.fifa_ultimate_team
   projectType="Electronic Arts"
 >
 <SEO title={props.pageContext.frontmatter.title} />
-<WorkSection title="Overview" subtitle="FIFA Ultimate 11" image="/images/fifa-ultimate-team-11-02.jpg" alt="A screenshot from the first launch of the FIFA Ultimate Team 11 web app">
+<WorkSection title="Overview" subtitle="FIFA Ultimate 11" 
+  image={require("../images/work/fifa-ultimate-team-11-02.jpg")}
+  alt="A screenshot from the first launch of the FIFA Ultimate Team 11 web app">
 
   <p>
-    This is <strong>the first FIFA Ultimate Team DLC package that I worked on at <a href="https://www.ea.com/en-ca" target="blank">Electronic Arts Canada</a> as a UX and Game Designer</strong>, though the game was originally launched in 2009.
+    This is <strong>the first FIFA Ultimate Team DLC package that I worked on at <a href="https://www.ea.com/en-ca" target="_blank" rel="noreferrer noopener">Electronic Arts Canada</a> as a UX and Game Designer</strong>, though the game was originally launched in 2009.
   </p>
   <p>
     As the game mode was picking up a lot of good momentum, <strong>my main task was to design the supporting Web App for the game</strong>, as well as some minor in-game features like the leaderboards system.
@@ -34,7 +36,10 @@ export const project = projects.fifa_ultimate_team
 <WorkSection
   title="The Web App"
   subtitle="FIFA Ultimate Team 11"
-  image="/images/fifa-ultimate-team-11-03.jpg" alt="A wireframe of the New Items screen from the FIFA Ultimate Team 11 web app"
+  image={require("../images/work/fifa-ultimate-team-11-03.jpg")}
+  alt="A wireframe of the New Items screen from the FIFA Ultimate Team 11 web app"
+  image2={require("../images/work/fifa-ultimate-team-11-04.jpg")}
+  alt2="The final mockup of the Trade screen from the FIFA Ultimate Team 11 web app"
 >
   <p>
     By FIFA Ultimate Team 11, it was in its third year of production, but this was the first
@@ -51,7 +56,8 @@ export const project = projects.fifa_ultimate_team
 <WorkSection
   title="Leaderboards"
   subtitle="FIFA Ultimate Team 11"
-  image="/images/fifa-ultimate-team-11-05.jpg" alt="The final mockup of the FIFA Ultimate Team 11 leaderboards screen"
+  image={require("../images/work/fifa-ultimate-team-11-05.jpg")}
+  alt="The final mockup of the FIFA Ultimate Team 11 leaderboards screen"
 >
   <p>
     On the console side, the leaderboards were a pretty simple task and a good introduction to the world of FIFA Ultimate Team. <strong>I created the functionality, flow and wireframes for the screens, then worked with an UI Designer to produce the final mockups.</strong>
@@ -70,9 +76,11 @@ export const project = projects.fifa_ultimate_team
 </p>
 </NextSteps> 
 
-<WorkSection title="Overview" subtitle="FIFA Ultimate 12" image="/images/fifa-ultimate-team-12-02.jpg" alt="The final version of the New Items screen for FIFA Ultimate Team 12">
+<WorkSection title="Overview" subtitle="FIFA Ultimate 12" 
+  image={require("../images/work/fifa-ultimate-team-12-02.jpg")}
+  alt="The final version of the New Items screen for FIFA Ultimate Team 12">
   <p>
-    This is the second FIFA Ultimate Team DLC package that I worked on at <a href="https://www.ea.com/en-ca" target="blank">Electronic Arts Canada</a> as a UX and Game Designer.
+    This is the second FIFA Ultimate Team DLC package that I worked on at <a href="https://www.ea.com/en-ca" target="_blank" rel="noreferrer noopener">Electronic Arts Canada</a> as a UX and Game Designer.
   </p>
   <p>
     <strong>This year, my jobs were to redesign the New Items flow to be more intuitive, increase fun and engagement wherever possible, and incorporate best UX practices on all new designs.</strong>
@@ -82,7 +90,8 @@ export const project = projects.fifa_ultimate_team
 
 <WorkSection
   title="Prototyping and Testing" subtitle="FIFA Ultimate 12"
-  image="/images/fifa-ultimate-team-12-03.jpg" alt="The first version of the paper prototype for the New Items flow in FIFA Ultimate Team 12"
+  image={require("../images/work/fifa-ultimate-team-12-03.jpg")}
+  alt="The first version of the paper prototype for the New Items flow in FIFA Ultimate Team 12"
 >
 <p>
   From the user information gathered from the marketing and data teams, <strong>I came up with an initial design for the New Items flow. I then gathered feedback from our usability tests</strong> with the wireframes, then worked with the Interface Designers to create proper mockups.
@@ -97,7 +106,8 @@ export const project = projects.fifa_ultimate_team
 
 <WorkSection
   title="Final Version" subtitle="FIFA Ultimate 12"
-  image="/images/fifa-ultimate-team-12-02.jpg" alt="The final version of the New Items screen for FIFA Ultimate Team 12"
+  image={require("../images/work/fifa-ultimate-team-12-02.jpg")}
+  alt="The final version of the New Items screen for FIFA Ultimate Team 12"
 >
 <p>
   <strong>Here you can see the mockup of the final version of the New Items flow after several reiterations based off of feedback from our tests.</strong> I've also uploaded a video that a fan made, showing you all of the interactions and full experience of the New Items flow, to give you an idea of the depth of this design.
@@ -114,10 +124,11 @@ export const project = projects.fifa_ultimate_team
 
 <WorkSection
   title="Overview" subtitle="FIFA Ultimate 13"
-  image="/images/fifa-ultimate-team-13-02.jpg" alt="The opening screen in FIFA Ultimate Team 13 where you get to choose a captain of your team"
+  image={require("../images/work/fifa-ultimate-team-13-02.jpg")}
+  alt="The opening screen in FIFA Ultimate Team 13 where you get to choose a captain of your team"
 >
 <p>
-  This is the third FIFA Ultimate Team DLC package that I worked on at <a href="https://www.ea.com/en-ca" target="blank">Electronic Arts Canada</a> as a UX and Game Designer.
+  This is the third FIFA Ultimate Team DLC package that I worked on at <a href="https://www.ea.com/en-ca" target="_blank" rel="noreferrer noopener">Electronic Arts Canada</a> as a UX and Game Designer.
 </p>
 <p>
   <strong>
@@ -131,7 +142,8 @@ export const project = projects.fifa_ultimate_team
 
 <WorkSection
   title="Lots of prototyping!" subtitle="FIFA Ultimate 13"
-  image="/images/fifa-ultimate-team-13-02.jpg" alt="The opening screen in FIFA Ultimate Team 13 where you get to choose a captain of your team"
+  image={require("../images/work/fifa-ultimate-team-13-02.jpg")}
+  alt="The opening screen in FIFA Ultimate Team 13 where you get to choose a captain of your team"
 >
 <p>
   Since the game had solid mechanics and was generating good revenue, we had to tackle the
@@ -146,13 +158,16 @@ export const project = projects.fifa_ultimate_team
   <strong>
       Here you can watch a fan made video of their first introduction to FIFA Ultimate Team,
       using the onboarding flow I designed.
-  </strong> You can also view the <a href="/images/fifa-ultimate-team-13-03.jpg" target="blank"> master image of all of the screens used for the first prototype here</a>.
+  </strong> You can also view the <a href={require("../images/work/fifa-ultimate-team-13-03.jpg")} target="_blank" rel="noreferrer noopener"> master image of all of the screens used for the first prototype here</a>.
 </p>
 </WorkSection>
 
 <WorkSection
   title="Smaller Tasks" subtitle="FIFA Ultimate 13"
-  image="/images/fifa-ultimate-team-13-04.jpg" alt="A wireframe from the Team of the Week Challenge feature"
+  image={require("../images/work/fifa-ultimate-team-13-04.jpg")}
+  alt="A wireframe from the Team of the Week Challenge feature"
+  image2={require("../images/work/fifa-ultimate-team-13-05.jpg")}
+  alt2="The final mockup from the Team of the Week Challenge feature"
 >
 <p>
   The introduction flow was the majority of my time, but <strong>I still worked on several other screens in the game to improve their functionality.
@@ -161,7 +176,7 @@ export const project = projects.fifa_ultimate_team
 </p>
 
 <p>
-  <strong>Here you can see one of my original wireframes and the final mockup for the Team of the Week Challenge.</strong> You can also see <a href="/images/fifa-ultimate-team-13-06.jpg" target="blank">another wireframe and final mockup here.</a>
+  <strong>Here you can see one of my original wireframes and the final mockup for the Team of the Week Challenge.</strong> You can also see <a href={require("../images/work/fifa-ultimate-team-13-06.jpg")} target="_blank" rel="noreferrer noopener">another wireframe and final mockup here.</a>
 </p>
 </WorkSection>
 

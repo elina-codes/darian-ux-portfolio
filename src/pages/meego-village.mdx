@@ -9,7 +9,6 @@ import projects from "../data/projects"
 import WorkLayout from "../components/portfolio/layout-work"
 import WorkSection from "../components/portfolio/section-work-section"
 import NextSteps from "../components/portfolio/section-next-steps"
-
 import SEO from "../components/seo"
 
 export const project = projects.meego_village
@@ -20,9 +19,11 @@ export const project = projects.meego_village
   projectType="A Thinking Ape"
 >
 <SEO title={props.pageContext.frontmatter.title} />
-<WorkSection title="Overview" img="/images/meego-village-02.jpg" alt="The main village, maxed out at the highest level in Meego Village.">
+<WorkSection title="Overview" 
+  image={require("../images/work/meego-village-02.jpg")}
+  alt="The main village, maxed out at the highest level in Meego Village.">
   <p>
-    Made by <a href="http://athinkingape.com/" target="blank">A Thinking Ape</a>, Meego Village was a builder game where you had to raise Meegos to <strong>build the biggest village possible.</strong>
+    Made by <a href="http://athinkingape.com/" target="_blank" rel="noreferrer noopener">A Thinking Ape</a>, Meego Village was a builder game where you had to raise Meegos to <strong>build the biggest village possible.</strong>
   </p>
 
   <h3>My role</h3>
@@ -34,7 +35,8 @@ export const project = projects.meego_village
 <WorkSection
   title="Problem"
   subtitle="Big New Feature"
-  image="/images/meego-village-03.jpg" alt="A wireframe from the Stone Cutting feature inside the big Quest Portals update for Meego Village."
+  image={require("../images/work/meego-village-03.jpg")}
+  alt="A wireframe from the Stone Cutting feature inside the big Quest Portals update for Meego Village."
 >
   <p>
     <strong>For new experimental and big features like this one</strong>, Quest Portals, they can get very intricate and interface-heavy, and <strong>we weren't sure how our target audience would respond to them.</strong>
@@ -52,7 +54,7 @@ export const project = projects.meego_village
   </p>
 
   <p>
-    <strong>Here you can see the images I used in a paper prototype</strong> for the Stone Cutting feature alone, which was just one part to the bigger feature. <a href="/images/meego-village-04.jpg" target="blank">Click here to view the full image.</a>
+    <strong>Here you can see the images I used in a paper prototype</strong> for the Stone Cutting feature alone, which was just one part to the bigger feature. <a href={require("../images/work/meego-village-04.jpg")} target="_blank" rel="noreferrer noopener">Click here to view the full image.</a>
   </p>
 
   <h3>Result</h3>
@@ -63,7 +65,10 @@ export const project = projects.meego_village
 
 <WorkSection
   title="More Design"
-  image="/images/meego-village-05.jpg" alt="A wireframe for the Gifting feature in Meego Village."
+  image={require("../images/work/meego-village-05.jpg")}
+  alt="A wireframe for the Gifting feature in Meego Village."
+  image2={require("../images/work/meego-village-06.jpg")}
+  alt2="The final mockup for the Gifting feature in Meego Village."
 >
   <p>
     For other features that were not as in-depth, like Gifting, I would run quicker prototypes with wireframes and mockups, as I still found
@@ -79,7 +84,11 @@ export const project = projects.meego_village
   </p>
 </WorkSection>
 
-<WorkSection title="Promotions" image="/images/meego-village-07.jpg" alt="An image of the Christmas load menu for Meego Village.">
+<WorkSection title="Promotions" 
+  image={require("../images/work/meego-village-07.jpg")}
+  alt="An image of the Christmas load menu for Meego Village."
+  image2={require("../images/work/meego-village-08.jpg")}
+  alt2="An image of the special promotion offered to new users so they can skip right to Level 5 in Meego Village.">
   <p>
     When I first took over as Product Lead, it was essential for me to create events that coincided with the user's journey, real world
     events, and holidays.

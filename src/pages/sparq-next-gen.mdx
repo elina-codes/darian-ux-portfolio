@@ -20,10 +20,12 @@ export const project = projects.sparq_next_gen
   projectType="Vision Critical"
 >
 <SEO title={props.pageContext.frontmatter.title} />
-<WorkSection title="Overview" img="/images/sparq-next-gen-01.jpg" alt="Images of Sparq Next Gen displayed on mobile, tablet, and desktop.">
+<WorkSection title="Overview" 
+  image={require("../images/work/sparq-next-gen-01.jpg")}
+  alt="Images of Sparq Next Gen displayed on mobile, tablet, and desktop.">
   <p>
     You're about to dive into my experience at
-    <a href="http://www.visioncritical.com/" target="blank">Vision Critical</a>
+    <a href="http://www.visioncritical.com/" target="_blank" rel="noreferrer noopener">Vision Critical</a>
     , where
     <strong>
         my main task was to work with a UX and Design team of 7 to completely redesign their
@@ -35,11 +37,11 @@ export const project = projects.sparq_next_gen
 <WorkSection
   title="Vision Critical"
   subtitle="About the company"
-  image="/images/otherly-02.jpg"
+  image={require("../images/work/otherly-02.jpg")}
   alt="A screenshot of the original platform"
 >
   <p>
-    <a href="http://www.visioncritical.com/" target="blank">
+    <a href="http://www.visioncritical.com/" target="_blank" rel="noreferrer noopener">
       Vision Critical
     </a>
     empowers the world’s largest brands to collect real, honest, customer feedback
@@ -55,7 +57,7 @@ export const project = projects.sparq_next_gen
     Or if you're into reading, you can
     <a
       href="https://www.visioncritical.com/customer-intelligence-platform-features/"
-      target="blank"
+      target="_blank" rel="noreferrer noopener"
     >
       check out an overview of their latest product, Sparq Next Gen, here.
     </a>
@@ -65,7 +67,7 @@ export const project = projects.sparq_next_gen
 
 <WorkSection
   title="Their Old Product"
-  image="/images/sparq-next-gen-02.jpg"
+  image={require("../images/work/sparq-next-gen-02.jpg")}
   alt="Old, outdated screenshots of Sparq, the original software built by Vision Critical"
 >
   <p>
@@ -84,7 +86,7 @@ export const project = projects.sparq_next_gen
 
 <WorkSection
   title="The Goal"
-  image="/images/sparq-next-gen-03.png"
+  image={require("../images/work/sparq-next-gen-03.png")}
   alt="An image of the old platform compared to the new one"
 >
   <p>
@@ -102,7 +104,7 @@ export const project = projects.sparq_next_gen
 <WorkSection
   title="How we worked"
   subtitle="Sparq Next Gen"
-  image="/images/sparq-next-gen-04.jpg"
+  image={require("../images/work/sparq-next-gen-04.jpg")}
   alt="I couldn't find a good photo to represent this message, so here's a photo of my me and my team having some drinks."
 >
   <p>
@@ -130,8 +132,10 @@ export const project = projects.sparq_next_gen
 <WorkSection
   title="The Condition Builder"
   subtitle="Example 1"
-  image="/images/otherly-05.jpg"
-  alt="A comparative analysis of the products our target audience use"
+  image={require("../images/work/sparq-next-gen-05.jpg")}
+  alt="The older version of the Condition Builder from Sparq"
+  image2={require("../images/work/sparq-next-gen-06.jpg")}
+  alt2="The new, redesigned Condition Builder in Sparq Next Gen"
 >
   <p>
     Essentially a complex filtering feature,
@@ -166,13 +170,13 @@ export const project = projects.sparq_next_gen
     condition builder
   </strong>
   , as well as an
-  <a href="https://invis.io/WV63QOVM2" target="blank">
+  <a href="https://invis.io/WV63QOVM2" target="_blank" rel="noreferrer noopener">
     inVision Prototype
   </a>
   for some of the functionality and the
   <a
     href="https://docs.google.com/document/d/1WAYWZpTzK2LQaV4pV_UQGA5kDxvlqq7jMmEPTKN1HyY/edit?usp=sharing"
-    target="blank"
+    target="_blank" rel="noreferrer noopener"
   >
     design document
   </a>
@@ -184,8 +188,10 @@ export const project = projects.sparq_next_gen
 <WorkSection
   title="Profile Variables"
   subtitle="Example 2"
-  image="/images/otherly-06.jpg"
-  alt="A closeup of the wireframes for the mobile app"
+  image={require("../images/work/sparq-next-gen-07.jpg")}
+  alt="A screenshot of the first redesign of the Profile Variables feature"
+  image2={require("../images/work/sparq-next-gen-08.jpg")}
+  alt2="The new, redesigned Profile Variables feature that allowed for advanced functionality"
 >
 <p>
   Anytime someone responds to a personal question in a survey sent out by Sparq Next Gen, each
@@ -220,13 +226,13 @@ export const project = projects.sparq_next_gen
     Here you can see the early stages of the Profile Variables feature
   </strong>
   , as well as the
-  <a href="https://invis.io/V25ZZQY7B" target="blank">
+  <a href="https://invis.io/V25ZZQY7B" target="_blank" rel="noreferrer noopener">
     inVision Prototype
   </a>
   and the
   <a
     href="https://docs.google.com/document/d/1GrEJBw1o2syjunyHndF7zWQvzi9527yLOe5zbWyUNKQ/edit?usp=sharing"
-    target="blank"
+    target="_blank" rel="noreferrer noopener"
   >
     design document.
   </a>
@@ -237,8 +243,10 @@ export const project = projects.sparq_next_gen
 <WorkSection
   title="The Main Dashboard"
   subtitle="Example 3"
-  image="/images/sparq-next-gen-09.jpg"
+  image={require("../images/work/sparq-next-gen-09.jpg")}
   alt="The first version of the dashboard that was launched right before I joined the company"
+  image2={require("../images/work/sparq-next-gen-10.jpg")}
+  alt2="The final tweaks to the dashboard"
 >
 <p>
   On top of those larger tasks, I was also working on dozens of smaller ones. Resources were
@@ -264,13 +272,13 @@ export const project = projects.sparq_next_gen
   . That screenshot was from everything above the fold on a 13" macbook.
   <strong>Next you can see the proposed updated version.</strong>
   You can also see the
-  <a href="/images/sparq-next-gen-99.jpg" target="blank">
+  <a href={require("../images/work/sparq-next-gen-99.jpg")} target="_blank" rel="noreferrer noopener">
     proposal for each release here
   </a>
   , and you can see the accompanying
   <a
     href="https://docs.google.com/document/d/1DWQ0-PDKNtIj81p59brabztY3XwB5I4-bc3JaoWFnos/edit?usp=sharing"
-    target="blank"
+    target="_blank" rel="noreferrer noopener"
   >
     design documentation here.
   </a>
@@ -281,7 +289,7 @@ export const project = projects.sparq_next_gen
 <WorkSection
   title="Close Date Scheduler"
   subtitle="Example 4"
-  image="/images/sparq-next-gen-11.jpg"
+  image={require("../images/work/sparq-next-gen-11.jpg")}
   alt="A screenshot from the Close Date update"
 >
 <p>
@@ -302,7 +310,7 @@ export const project = projects.sparq_next_gen
 <p>
   <strong>
     I ran the
-    <a href="https://invis.io/K861KLFC6" target="blank">
+    <a href="https://invis.io/K861KLFC6" target="_blank" rel="noreferrer noopener">
       inVision prototype
     </a>
     by some users, and presented the feedback to the stakeholders. It was then
@@ -311,7 +319,7 @@ export const project = projects.sparq_next_gen
   for production and I wrote up the
   <a
     href="https://docs.google.com/document/d/1OU2zLEWUw4nAx3vsHJ_lX16xiptT2Z3lKn2o79DpaU0/edit?usp=sharing"
-    target="blank"
+    target="_blank" rel="noreferrer noopener"
   >
     design documentation
   </a>

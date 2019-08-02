@@ -20,7 +20,9 @@ export const project = projects.otherly
   projectType="Freelance Project"
 >
   <SEO title={props.pageContext.frontmatter.title} />
-  <WorkSection title="Overview" img="/images/otherly-01.jpg" alt="The final version of Otherly's mobile app">
+  <WorkSection title="Overview" 
+    image={require("../images/work/otherly-01.jpg")}
+    alt="The final version of Otherly's mobile app">
     <p>
       This was a platform built{" "}
       <strong>for people to selflessly help each other</strong>. It was
@@ -54,7 +56,7 @@ export const project = projects.otherly
 
 <WorkSection
   title="Original designs"
-  image="/images/otherly-02.jpg"
+  image={require("../images/work/otherly-02.jpg")}
   alt="A screenshot of the original platform"
 >
   <p>
@@ -85,7 +87,7 @@ export const project = projects.otherly
 <WorkSection
   title="Defining business goals"
   subtitle="Wrangling the CEO and team together"
-  image="/images/otherly-03.jpg"
+  image={require("../images/work/otherly-03.jpg")}
   alt="The team at Otherly planning our MVP and roadmap"
 >
   <p>
@@ -104,7 +106,7 @@ export const project = projects.otherly
   <p>We were really starting to feel like a team here.</p>
 </WorkSection>
 
-<WorkSection title="Research on Altruism" image="" alt="">
+<WorkSection title="Research on Altruism">
   <p>
     Since the goal of this project was to make it easier for people to
     selflessly help each other, I took a step back from the designs and{" "}
@@ -124,7 +126,7 @@ export const project = projects.otherly
 
 <WorkSection
   title="User research interviews"
-  image="/images/otherly-04.jpg"
+  image={require("../images/work/otherly-04.jpg")}
   alt="An image of the survey used to help define our target audience"
 >
   <p>
@@ -150,7 +152,7 @@ export const project = projects.otherly
 
 <WorkSection
   title="Product research"
-  image="/images/otherly-05.jpg"
+  image={require("../images/work/otherly-05.jpg")}
   alt="A comparative analysis of the products our target audience use"
 >
   <p>
@@ -172,7 +174,7 @@ export const project = projects.otherly
   </p>
   <p>
     You can also{" "}
-    <a href="/images/otherly-05-large.jpg" target="blank">
+    <a href={require("../images/work/otherly-05-large.jpg")} target="_blank" rel="noreferrer noopener">
       click here
     </a>{" "}
     if you want to see the full image.
@@ -182,7 +184,7 @@ export const project = projects.otherly
 <WorkSection
   title="Wireframing the apps"
   subtitle="First mobile, then web"
-  image="/images/otherly-06.jpg"
+  image={require("../images/work/otherly-06.jpg")}
   alt="A closeup of the wireframes for the mobile app"
 >
   <p>
@@ -201,10 +203,10 @@ export const project = projects.otherly
   </p>
   <p>
     You can also view the{" "}
-    <a href="/images/otherly-06-large-01.jpg">
+    <a href={require("../images/work/otherly-06-large-01.jpg")}>
       full image of the mobile wireframes here
     </a>
-    , or the <a href="/images/otherly-06-large-02.jpg">
+    , or the <a href={require("../images/work/otherly-06-large-02.jpg")}>
       full image of the web app wireframes here
     </a>.
   </p>
@@ -212,7 +214,7 @@ export const project = projects.otherly
 
 <WorkSection
   title="Prototypes, tests, and iterations"
-  image="/images/otherly-07.jpg"
+  image={require("../images/work/otherly-07.jpg")}
   alt="A screenshot from the inVision prototype for the Otherly webapp"
 >
   <p>
@@ -235,7 +237,7 @@ export const project = projects.otherly
   </p>
   <p>
     {" "}
-    <a href="https://invis.io/MAOKIYGE5JV" target="blank">
+    <a href="https://invis.io/MAOKIYGE5JV" target="_blank" rel="noreferrer noopener">
       You can view the full InVision prototype here
     </a>.
   </p>
@@ -243,7 +245,7 @@ export const project = projects.otherly
 
 <WorkSection
   title="First draft of mockups"
-  image="/images/otherly-01.jpg"
+  image={require("../images/work/otherly-01.jpg")}
   alt="The final version of Otherly's mobile app"
 >
   <p>
@@ -263,10 +265,10 @@ export const project = projects.otherly
   </p>
   <p>
     You can view{" "}
-    <a href="/images/otherly-11.jpg" target="blank">
+    <a href={require("../images/work/otherly-11.jpg")} target="_blank" rel="noreferrer noopener">
       a more detailed image of the final designs here
     </a>
-    , or you can see <a href="/images/otherly-12.jpg" target="blank">
+    , or you can see <a href={require("../images/work/otherly-12.jpg")} target="_blank" rel="noreferrer noopener">
       a comparison between the wireframes and final designs here
     </a>.
   </p>

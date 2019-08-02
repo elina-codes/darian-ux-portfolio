@@ -7,7 +7,7 @@
 
 import React from "react"
 
-const WorkSection = ({ title, subtitle, image, alt, children }) => {
+const WorkSection = ({ title, subtitle, image, alt, image2 = null, alt2 = null, image3 = null, alt3 = null, children }) => {
   return (
     <section>
       <div className="grid wrapper">
@@ -18,6 +18,8 @@ const WorkSection = ({ title, subtitle, image, alt, children }) => {
         </div>
         <div className="grid__item grid__image">
           <img src={image} alt={alt} />
+          <img src={image2} alt={alt2} />
+          <img src={image3} alt={alt3} />
         </div>
       </div>
     </section>

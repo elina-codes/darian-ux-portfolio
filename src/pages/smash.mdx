@@ -20,9 +20,11 @@ export const project = projects.smash_monsters
   projectType="A Thinking Ape"
 >
 <SEO title={props.pageContext.frontmatter.title} />
-<WorkSection title="Overview" image="/images/smash-01.jpg" alt="The splash page for S.M.A.S.H, which tells the player to create epic monsters and destroy rival cities">
+<WorkSection title="Overview" 
+  image={require("../images/work/smash-01.jpg")}
+  alt="The splash page for S.M.A.S.H, which tells the player to create epic monsters and destroy rival cities">
   <p>
-    No longer on the app store, this was an iOS game that I worked on at <a href="http://athinkingape.com/" target="blank">A Thinking Ape</a>. The goal of the game was to conquer rival S.M.A.S.H agents with your monster army while defending your city from their futile attacks.
+    No longer on the app store, this was an iOS game that I worked on at <a href="http://athinkingape.com/" target="_blank" rel="noreferrer noopener">A Thinking Ape</a>. The goal of the game was to conquer rival S.M.A.S.H agents with your monster army while defending your city from their futile attacks.
   </p>
   <h3>My role</h3>
   <p>
@@ -32,7 +34,7 @@ export const project = projects.smash_monsters
 
 <WorkSection
   title="Usability Tests"
-  image="/images/otherly-02.jpg"
+  image={require("../images/work/otherly-02.jpg")}
   alt="A screenshot of the original platform"
 >
   <p>
@@ -56,7 +58,7 @@ export const project = projects.smash_monsters
   </p>
 
   <p>
-    <strong>Here you can find two of the Usability Test Reports for S.M.A.S.H.</strong> <a href="/files/smash-usability-test-01.pdf" target="blank">This first report</a> is from the videos above, and <a href="/files/smash-usability-test-02.pdf" target="blank">this second report</a> is after several months of iterations.
+    <strong>Here you can find two of the Usability Test Reports for S.M.A.S.H.</strong> <a href="/files/smash-usability-test-01.pdf" target="_blank" rel="noreferrer noopener">This first report</a> is from the videos above, and <a href="/files/smash-usability-test-02.pdf" target="_blank" rel="noreferrer noopener">this second report</a> is after several months of iterations.
   </p>
 </WorkSection>
 

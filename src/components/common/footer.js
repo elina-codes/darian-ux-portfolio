@@ -1,8 +1,8 @@
 import React from "react"
 
 import "./footer.scss"
-import linkedIn from "../../images/svg/contact-linkedin.svg"
-import email from "../../images/svg/contact-email.svg"
+import linkedIn from "../../images/work/svg/contact-linkedin.svg"
+import email from "../../images/work/svg/contact-email.svg"
 
 const Footer = () => (
   <footer id="contact">

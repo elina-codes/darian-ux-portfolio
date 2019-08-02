@@ -20,9 +20,11 @@ export const project = projects.fifa
   projectType="Electronic Arts"
 >
 <SEO title={props.pageContext.frontmatter.title} />
-<WorkSection title="Overview" subtitle="FIFA 10 - Wii" image="/images/fifa-10-wii-01.jpg" alt="An image of the main menu for FIFA 10 for the Wii">
+<WorkSection title="Overview" subtitle="FIFA 10 - Wii" 
+  image={require("../images/work/fifa-10-wii-01.jpg")}
+  alt="An image of the main menu for FIFA 10 for the Wii">
   <p>
-    This was my first professional job in the industry. I was hired on by <a href="https://www.ea.com/en-ca" target="blank">Electronic Arts</a> as a co-op student on the design team and was kept on after I finished University.
+    This was my first professional job in the industry. I was hired on by <a href="https://www.ea.com/en-ca" target="_blank" rel="noreferrer noopener">Electronic Arts</a> as a co-op student on the design team and was kept on after I finished University.
   </p>
   <p>
     <strong>The main skills I learned</strong> on this project were how to <strong>rapidly iterate on wireframes</strong>, and how to properly <strong>communicate my designs.</strong>
@@ -32,7 +34,10 @@ export const project = projects.fifa
 <WorkSection
   title="Designs and Documentation"
   subtitle="FIFA 10 - Wii"
-  image="/images/fifa-10-wii-03.jpg" alt="An image of one of the menu screens for FIFA 10 for the Wii"
+  image={require("../images/work/fifa-10-wii-03.jpg")}
+  alt="One of the menu screens for FIFA 10 for the Wii"
+  image2={require("../images/work/fifa-10-wii-02.jpg")}
+  alt2="A wireframe of the Team Central main menu in FIFA 10 for the Wii"
 >
   <p>
     <strong>
@@ -41,7 +46,7 @@ export const project = projects.fifa
   </p>
   <p>
     <strong>
-      And in <a href="/files/fifa-10-wii-team-central-functionality-document.pdf" target="blank">
+      And in <a href="/files/fifa-10-wii-team-central-functionality-document.pdf" target="_blank" rel="noreferrer noopener">
         this design document
       </a>
     </strong>, you can see the final mockup for the Team Central feature, as well as <strong>the level of detail I went into in order to communicate those designs</strong> to the rest of the team. The original document was 16 pages long but this should give you a good idea.
@@ -57,7 +62,8 @@ export const project = projects.fifa
 <WorkSection
   title="Overview"
   subtitle="FIFA 11"
-  image="/images/fifa-11-02.jpg" alt="A screenshot of Career Mode in FIFA 11 in the German language."
+  image={require("../images/work/fifa-11-02.jpg")}
+  alt="A screenshot of Career Mode in FIFA 11 in the German language."
 >
   <p>
     Joining near the end of production, and right before release, my tasks were repetitive but, coming from the Wii, a great intro into next gen development.
@@ -72,7 +78,8 @@ export const project = projects.fifa
 <WorkSection 
   title="Career Mode and Tournaments"
   subtitle="FIFA 11"
-  image="/images/fifa-11-03.jpg" alt="A screenshot of Career Mode in FIFA 11. You can just see the news story I wrote for it in there way at the bottom. Yes!"
+  image={require("../images/work/fifa-11-03.jpg")}
+  alt="A screenshot of Career Mode in FIFA 11. You can just see the news story I wrote for it in there way at the bottom. Yes!"
   >
   <p>
     <strong>One of my tasks was to write news stories for Career Mode</strong>, which were then translated into 16 different languages <strong>and made me the liaison with the Localization department in Spain.</strong>

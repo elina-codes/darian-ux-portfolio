@@ -57,6 +57,10 @@
     }
     .grid__image {
       grid-area: image;
+
+      img + img {
+        margin-top: 30px;
+      }
     }
   }
 

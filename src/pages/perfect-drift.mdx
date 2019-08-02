@@ -1,0 +1,119 @@
+---
+path: "/perfect-drift"
+title: "Perfect Drift"
+---
+
+import { Link } from "gatsby"
+
+import projects from "../data/projects"
+import WorkLayout from "../components/portfolio/layout-work"
+import WorkSection from "../components/portfolio/section-work-section"
+import NextSteps from "../components/portfolio/section-next-steps"
+
+import SEO from "../components/seo"
+
+export const currentProject = projects.perfect_drift
+
+<WorkLayout
+  project={currentProject}
+  projectTitle={props.pageContext.frontmatter.title}
+  projectType="A Thinking Ape"
+>
+  <SEO title={props.pageContext.frontmatter.title} />
+
+<WorkSection
+  title="Overview"
+  image={require("../images/work/perfect-drift-01.jpg")}
+  alt="The splash image for the iOS game, Perfect Drift"
+>
+  <p>
+    Developed at <a href="http://athinkingape.com/" target="blanl">A Thinking Ape</a>, Perfect Drift was an Android game where you had to <strong>win street races to gain and maintain turf dominance.</strong>
+  </p>
+
+  <h3>The problem</h3>
+  <p>
+    <strong>This game was extremely far behind schedule</strong> as it had switched Lead Designers twice before. A lot of money was being sunk into this, and designs kept getting reworked, with no end
+    in sight.
+  </p>
+
+  <h3>My role</h3>
+  <p>
+    Assisting the founders, who were now the Lead Designers, <strong>I helped get their project back on track.</strong> I helped them prototype new mechanics, communicated their designs to the team, and made sure everyone had what they needed to continue their tasks.
+  </p>
+</WorkSection>
+
+<WorkSection
+  title="Paper Prototyping"
+  image={require("../images/work/perfect-drift-03.jpg")}
+  alt="A photo of the paper prototype for the game mechanics for Perfect Drift"
+>
+  <p>
+    When I joined this project, the game was well into production, however the Lead Designer wanted to redesign the core mechanics (again).
+    Since I have a lot of experience with prototyping, <strong>we locked ourselves in a room for a week and, under my lead, prototyped some games on paper</strong>.
+  </p>
+  <p>
+    <strong>
+      Here you can see a few images of some of the paper prototypes for the boost mechanic, as well as a video of us trying it out.
+    </strong>
+  </p>
+</WorkSection>
+
+<WorkSection
+  title="Hi-Fi Prototypes"
+>
+  <p>
+    After ironing out the details on the mechanics, <strong>we created a high-fidelity prototype and went through several iterations of the mechanics</strong> and prototyping phases until we got consistent, positive feedback.
+  </p>
+
+  <p>
+    <strong>
+      Here you can see a few videos of the different iterations of our core mechanics.
+    </strong>
+  </p>
+</WorkSection>
+
+<WorkSection
+  title="Stat Balancing"
+  image={require("../images/work/perfect-drift-04.jpg")}
+  alt="A screenshot of a spreadsheet containing a bunch of meticulously calculated numbers"
+>
+  <p>
+    Once the core mechanics were finally done and back on track, <strong>I also helped out by balancing some sections in the game</strong>.
+  </p>
+
+  <p>
+    <strong>Here you can view a few example spreadsheets</strong>. <a href="https://docs.google.com/spreadsheets/d/1Xtm86kl4V6EijdbjOwm6kRaNwjTR00zzqN8BhJs1c_0/edit?usp=sharing" target="_blank" rel="noreferrer noopener">This first one</a> contains the list of prices for all of the parts that the player can buy or get in game, <a href="https://docs.google.com/spreadsheets/d/1IRjatbo9LR_mlZyGWCRSONWXNEm_bnogCyVXhIzwhI0/edit?usp=sharing" target="_blank" rel="noreferrer noopener">this other one</a> is a snippet from our drops/loot system, which sets the chances that the player can get a specific type of crate as a reward.
+  </p>
+</WorkSection>
+
+<WorkSection
+  title="Reiterative Design"
+  image={require("../images/work/perfect-drift-05.jpg")}
+  alt="This is the master image that shows off every single screen in the game"
+  image2={require("../images/work/perfect-drift-06.jpg")}
+  alt2="And this is every single iteration of one screen; the Driver Profile screen"
+>
+  <p>
+    Throughout the entire production cycle of Perfect Drift, the vision changed so frequently that there was a lot of reiteration for all of the screens, and <strong>I was constantly in charge of communicating the changes to the UI Designers</strong>.
+  </p>
+
+  <p>
+    To show you the amount of work we all did due to the constant iterations, <strong>here you can see an image that shows you every single screen in the game <a href={require("../images/work/perfect-drift-07.jpg")} target="_blank" rel="noreferrer noopener">(full image here)</a>, and I have added a second image which shows every single version of only one of those screens that we went through <a href={require("../images/work/perfect-drift-08.jpg")} target="_blank" rel="noreferrer noopener">(full image here)</a></strong>.
+  </p>
+</WorkSection>
+
+<NextSteps title="Outcome">
+  <p>
+    In terms of this game hitting its targets for the company, <strong>this game was the most epic of fails. Really. But I learned a lot about what not to do with a product</strong>.
+  </p>
+  <p>
+    The main thing was that you can't spend all of your time constantly reiterating designs based on opinion for a full year until it's
+    ready to go live. You need constant testing, every step of the way with your target audience. Not only could that have saved this game
+    from being a disaster, but it could have kept the team morale up, as they would be getting feedback on their hard work much earlier on.
+  </p>
+  <p>
+    There were so many other lessons too, but you probalby don't want to spend an hour reading about them now.
+  </p>
+</NextSteps>
+
+</WorkLayout>
