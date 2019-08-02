@@ -70,7 +70,7 @@ const IndexPage = () => (
           <ExperienceItem
             date="June 2017 - Present"
             company="Moz / STAT Search Analytics"
-            position="UX Strategist"
+            position="Principal UX Designer & Strategist"
           >
             Acquired by Moz in October 2018, I’m currently helping the company
             build their UX culture and processes, while also supporting the
