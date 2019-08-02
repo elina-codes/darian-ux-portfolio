@@ -70,9 +70,7 @@
   position: relative;
   display: inline-block;
   text-transform: none;
-  font-family: $font-family-main;
   letter-spacing: normal;
-  font-size: $font-size-md;
   margin-bottom: 0.5em;
 
   @media #{$screen-sm} {
