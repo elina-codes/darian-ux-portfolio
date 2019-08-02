@@ -14,17 +14,14 @@ import MethodSectionSteps from "../components/methods/section-steps"
 import MethodSectionTips from "../components/methods/section-tips"
 import MethodSectionResources from "../components/methods/section-resources"
 
-export const currentMethod = uxMethods.ux_strategy;
+export const currentMethod = uxMethods.ux_strategy
 
 import SEO from "../components/seo"
 
-<MethodLayout pageTitle={props.pageContext.frontmatter.title}>
+<MethodLayout pageTitle={props.pageContext.frontmatter.title} method={currentMethod}>
   <SEO title={props.pageContext.frontmatter.title} />
 
-<MethodSectionWhatIs
-  method={currentMethod}
-  title="What is a UX Strategy?"
->
+<MethodSectionWhatIs method={currentMethod} title="What is a UX Strategy?">
   <p>
     A UX Strategy is the tailored plan and approach for a site or product. This
     tailored plan consists of a carefully chosen collection of UX methods, put
@@ -226,10 +223,7 @@ import SEO from "../components/seo"
   </ol>
 </MethodSectionSteps>
 
-<MethodSectionTips
-  method={currentMethod}
-  title="Tips for a great UX Strategy"
->
+<MethodSectionTips method={currentMethod} title="Tips for a great UX Strategy">
   <ul>
     <li>
       In order to select the best UX methods for the right circumstances, you

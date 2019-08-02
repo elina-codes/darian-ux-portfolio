@@ -14,11 +14,11 @@ import MethodSectionSteps from "../components/methods/section-steps"
 import MethodSectionTips from "../components/methods/section-tips"
 import MethodSectionResources from "../components/methods/section-resources"
 
-export const currentMethod = uxMethods.wireframes;
+export const currentMethod = uxMethods.wireframes
 
 import SEO from "../components/seo"
 
-<MethodLayout pageTitle={props.pageContext.frontmatter.title}>
+<MethodLayout pageTitle={props.pageContext.frontmatter.title} method={currentMethod}>
   <SEO title={props.pageContext.frontmatter.title} />
 
 <MethodSectionWhatIs method={currentMethod} title="What are wireframes?">
@@ -120,10 +120,7 @@ import SEO from "../components/seo"
   </ol>
 </MethodSectionSteps>
 
-<MethodSectionTips
-  method={currentMethod}
-  title="Tips for great wireframes"
->
+<MethodSectionTips method={currentMethod} title="Tips for great wireframes">
   <ul>
     <li>
       Get others involved at the wireframing level. Conduct a design session

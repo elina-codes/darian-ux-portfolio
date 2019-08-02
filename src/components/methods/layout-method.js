@@ -12,11 +12,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "../common/header"
 import Footer from "../common/footer"
 import MethodLayoutBanner from "./section-topbanner"
+import MoreProjects from "./section-more-methods"
 
 import "../layout.scss"
 import "./layout-method.scss"
 
-const MethodLayout = ({ pageTitle, children }) => {
+const MethodLayout = ({ pageTitle, method, children }) => {
   const data = useStaticQuery(graphql`
     query SingleSiteTitleQuery {
       site {
@@ -33,6 +34,7 @@ const MethodLayout = ({ pageTitle, children }) => {
       <main className="method-layout">
         <MethodLayoutBanner pageTitle={pageTitle} />
         {children}
+        <MoreProjects project={method} />
       </main>
       <Footer />
     </>

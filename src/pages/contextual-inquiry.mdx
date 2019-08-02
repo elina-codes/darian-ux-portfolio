@@ -14,11 +14,11 @@ import MethodSectionSteps from "../components/methods/section-steps"
 import MethodSectionTips from "../components/methods/section-tips"
 import MethodSectionResources from "../components/methods/section-resources"
 
-export const currentMethod = uxMethods.contextual_inquiry;
+export const currentMethod = uxMethods.contextual_inquiry
 
 import SEO from "../components/seo"
 
-<MethodLayout pageTitle={props.pageContext.frontmatter.title}>
+<MethodLayout pageTitle={props.pageContext.frontmatter.title} method={currentMethod}>
   <SEO title={props.pageContext.frontmatter.title} />
 
 <MethodSectionWhatIs
