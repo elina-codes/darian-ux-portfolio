@@ -16,9 +16,9 @@ import MethodSectionResources from "../components/methods/section-resources"
 
 import SEO from "../components/seo"
 
-export const currentMethod = uxMethods.competitive_analysis;
+export const currentMethod = uxMethods.competitive_analysis
 
-<MethodLayout pageTitle={props.pageContext.frontmatter.title}>
+<MethodLayout pageTitle={props.pageContext.frontmatter.title} method={currentMethod}>
   <SEO title={props.pageContext.frontmatter.title} />
 
 <MethodSectionWhatIs
