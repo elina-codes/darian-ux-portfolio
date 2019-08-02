@@ -14,13 +14,15 @@ import MethodSectionSteps from "../components/methods/section-steps"
 import MethodSectionTips from "../components/methods/section-tips"
 import MethodSectionResources from "../components/methods/section-resources"
 
+export const currentMethod = uxMethods.ux_strategy;
+
 import SEO from "../components/seo"
 
 <MethodLayout pageTitle={props.pageContext.frontmatter.title}>
   <SEO title={props.pageContext.frontmatter.title} />
 
 <MethodSectionWhatIs
-  method={uxMethods.ux_strategy}
+  method={currentMethod}
   title="What is a UX Strategy?"
 >
   <p>
@@ -65,7 +67,7 @@ import SEO from "../components/seo"
 </MethodSectionNeeds>
 
 <MethodSectionSteps
-  method={uxMethods.ux_strategy}
+  method={currentMethod}
   title="How do you create a UX Strategy?"
 >
   <ol>
@@ -225,7 +227,7 @@ import SEO from "../components/seo"
 </MethodSectionSteps>
 
 <MethodSectionTips
-  method={uxMethods.ux_strategy}
+  method={currentMethod}
   title="Tips for a great UX Strategy"
 >
   <ul>
@@ -244,6 +246,6 @@ import SEO from "../components/seo"
   </ul>
 </MethodSectionTips>
 
-<MethodSectionResources method={uxMethods.ux_strategy} />
+<MethodSectionResources method={currentMethod} />
 
 </MethodLayout>

@@ -14,13 +14,15 @@ import MethodSectionSteps from "../components/methods/section-steps"
 import MethodSectionTips from "../components/methods/section-tips"
 import MethodSectionResources from "../components/methods/section-resources"
 
+export const currentMethod = uxMethods.paper_prototype;
+
 import SEO from "../components/seo"
 
 <MethodLayout pageTitle={props.pageContext.frontmatter.title}>
   <SEO title={props.pageContext.frontmatter.title} />
 
 <MethodSectionWhatIs
-  method={uxMethods.paper_prototype}
+  method={currentMethod}
   title="What is a Paper Prototype?"
 >
   <p>
@@ -69,7 +71,7 @@ import SEO from "../components/seo"
 </MethodSectionNeeds>
 
 <MethodSectionSteps
-  method={uxMethods.paper_prototype}
+  method={currentMethod}
   title="How do you run a Paper Prototype?"
 >
   <ol>
@@ -110,7 +112,7 @@ import SEO from "../components/seo"
 </MethodSectionSteps>
 
 <MethodSectionTips
-  method={uxMethods.paper_prototype}
+  method={currentMethod}
   title="Tips for a great Paper Prototyping"
 >
   <ul>
@@ -134,6 +136,6 @@ import SEO from "../components/seo"
   </ul>
 </MethodSectionTips>
 
-<MethodSectionResources method={uxMethods.paper_prototype} />
+<MethodSectionResources method={currentMethod} />
 
 </MethodLayout>

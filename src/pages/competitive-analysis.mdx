@@ -16,11 +16,13 @@ import MethodSectionResources from "../components/methods/section-resources"
 
 import SEO from "../components/seo"
 
+export const currentMethod = uxMethods.competitive_analysis;
+
 <MethodLayout pageTitle={props.pageContext.frontmatter.title}>
   <SEO title={props.pageContext.frontmatter.title} />
 
 <MethodSectionWhatIs
-  method={uxMethods.competitive_analysis}
+  method={currentMethod}
   title="What is a Competitive Analysis?"
 >
   <p>
@@ -59,7 +61,7 @@ import SEO from "../components/seo"
 </MethodSectionNeeds>
 
 <MethodSectionSteps
-  method={uxMethods.competitive_analysis}
+  method={currentMethod}
   title="How do you run a Competitive Analysis?"
 >
   <ol>
@@ -118,7 +120,7 @@ import SEO from "../components/seo"
 </MethodSectionSteps>
 
 <MethodSectionTips
-  method={uxMethods.competitive_analysis}
+  method={currentMethod}
   title="Tips for a great Competitive Analyses"
 >
   <ul>
@@ -131,6 +133,6 @@ import SEO from "../components/seo"
   </ul>
 </MethodSectionTips>
 
-<MethodSectionResources method={uxMethods.competitive_analysis} />
+<MethodSectionResources method={currentMethod} />
 
 </MethodLayout>

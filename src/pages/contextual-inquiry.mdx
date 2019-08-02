@@ -14,13 +14,15 @@ import MethodSectionSteps from "../components/methods/section-steps"
 import MethodSectionTips from "../components/methods/section-tips"
 import MethodSectionResources from "../components/methods/section-resources"
 
+export const currentMethod = uxMethods.contextual_inquiry;
+
 import SEO from "../components/seo"
 
 <MethodLayout pageTitle={props.pageContext.frontmatter.title}>
   <SEO title={props.pageContext.frontmatter.title} />
 
 <MethodSectionWhatIs
-  method={uxMethods.contextual_inquiry}
+  method={currentMethod}
   title="What is a Contextual Inquiry?"
 >
   <p>
@@ -70,7 +72,7 @@ import SEO from "../components/seo"
 </MethodSectionNeeds>
 
 <MethodSectionSteps
-  method={uxMethods.contextual_inquiry}
+  method={currentMethod}
   title="How do you run a Contextual Inquiry?"
 >
   <ol>
@@ -143,7 +145,7 @@ import SEO from "../components/seo"
 </MethodSectionSteps>
 
 <MethodSectionTips
-  method={uxMethods.contextual_inquiry}
+  method={currentMethod}
   title="Tips for a great Contextual Inquiries"
 >
   <ul>
@@ -179,6 +181,6 @@ import SEO from "../components/seo"
   </ul>
 </MethodSectionTips>
 
-<MethodSectionResources method={uxMethods.contextual_inquiry} />
+<MethodSectionResources method={currentMethod} />
 
 </MethodLayout>

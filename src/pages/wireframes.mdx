@@ -14,12 +14,14 @@ import MethodSectionSteps from "../components/methods/section-steps"
 import MethodSectionTips from "../components/methods/section-tips"
 import MethodSectionResources from "../components/methods/section-resources"
 
+export const currentMethod = uxMethods.wireframes;
+
 import SEO from "../components/seo"
 
 <MethodLayout pageTitle={props.pageContext.frontmatter.title}>
   <SEO title={props.pageContext.frontmatter.title} />
 
-<MethodSectionWhatIs method={uxMethods.wireframes} title="What are wireframes?">
+<MethodSectionWhatIs method={currentMethod} title="What are wireframes?">
   <p>
     Wireframes are rough sketches of an interface that are often used in
     discussions with stakeholders to communicate functionality and to rapidly
@@ -53,7 +55,7 @@ import SEO from "../components/seo"
 </MethodSectionNeeds>
 
 <MethodSectionSteps
-  method={uxMethods.wireframes}
+  method={currentMethod}
   title="How do you create wireframes?"
 >
   <ol>
@@ -119,7 +121,7 @@ import SEO from "../components/seo"
 </MethodSectionSteps>
 
 <MethodSectionTips
-  method={uxMethods.wireframes}
+  method={currentMethod}
   title="Tips for great wireframes"
 >
   <ul>
@@ -137,6 +139,6 @@ import SEO from "../components/seo"
   </ul>
 </MethodSectionTips>
 
-<MethodSectionResources method={uxMethods.wireframes} />
+<MethodSectionResources method={currentMethod} />
 
 </MethodLayout>

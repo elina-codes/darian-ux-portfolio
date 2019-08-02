@@ -14,12 +14,14 @@ import MethodSectionSteps from "../components/methods/section-steps"
 import MethodSectionTips from "../components/methods/section-tips"
 import MethodSectionResources from "../components/methods/section-resources"
 
+export const currentMethod = uxMethods.ab_testing;
+
 import SEO from "../components/seo"
 
 <MethodLayout pageTitle={props.pageContext.frontmatter.title}>
   <SEO title={props.pageContext.frontmatter.title} />
 
-  <MethodSectionWhatIs method={uxMethods.ab_testing} title="What is A/B Testing?">
+  <MethodSectionWhatIs method={currentMethod} title="What is A/B Testing?">
     <p>
       A/B Testing, or Split Testing, is a method of testing one change on a page
       to see how it performs compared to the original. The idea is that you
@@ -58,7 +60,7 @@ import SEO from "../components/seo"
     </MethodSectionNeedsPartial>
   </MethodSectionNeeds>
 
-  <MethodSectionSteps method={uxMethods.ab_testing} title="How do you run an A/B Test?">
+  <MethodSectionSteps method={currentMethod} title="How do you run an A/B Test?">
     <ol>
       <li>
         <h3>Step 1: Determine your success metric</h3>
@@ -109,7 +111,7 @@ import SEO from "../components/seo"
     </ol>
   </MethodSectionSteps>
 
-  <MethodSectionTips method={uxMethods.ab_testing} title="Tips for great A/B Testing">
+  <MethodSectionTips method={currentMethod} title="Tips for great A/B Testing">
     <ul>
       <li>
         Make sure you're only running one test at a time on any campaign. If you run more than one, you may not be able to trace which one is affecting the metric you are tracking.
@@ -131,6 +133,6 @@ import SEO from "../components/seo"
     </ul>
   </MethodSectionTips>
 
-  <MethodSectionResources method={uxMethods.ab_testing}/>
+  <MethodSectionResources method={currentMethod}/>
 
 </MethodLayout>
