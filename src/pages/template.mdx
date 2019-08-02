@@ -1,0 +1,82 @@
+---
+path: "/otherly"
+title: "Otherly"
+---
+
+import { Link } from "gatsby"
+
+import projects from "../data/projects"
+import WorkLayout from "../components/portfolio/layout-work"
+import WorkSection from "../components/portfolio/section-work-section"
+import NextSteps from "../components/portfolio/section-next-steps"
+
+import SEO from "../components/seo"
+
+export const currentProject = projects.otherly
+
+<WorkLayout
+  project={currentProject}
+  projectTitle={props.pageContext.frontmatter.title}
+  projectType="Freelance Project"
+>
+  <SEO title={props.pageContext.frontmatter.title} />
+
+  <WorkSection
+    title=""
+    subtitle=""
+    image=""
+    alt=""
+  >
+
+  </WorkSection>
+
+  <WorkSection
+    title=""
+    subtitle=""
+    image=""
+    alt=""
+  >
+
+  </WorkSection>
+
+  <WorkSection
+    title=""
+    subtitle=""
+    image=""
+    alt=""
+  >
+
+  </WorkSection>
+
+  <WorkSection
+    title=""
+    subtitle=""
+    image=""
+    alt=""
+  >
+
+  </WorkSection>
+
+  <WorkSection
+    title=""
+    subtitle=""
+    image=""
+    alt=""
+  >
+
+  </WorkSection>
+
+  <WorkSection
+    title=""
+    subtitle=""
+    image=""
+    alt=""
+  >
+
+  </WorkSection>
+
+  <NextSteps title="Outcome" subtitle="">
+
+  </NextSteps>
+
+</WorkLayout>

@@ -8,6 +8,7 @@
 body {
   padding-top: 60px;
   transition: all 0.4s ease;
+  line-height: 1.5;
 
   @media #{$screen-sm} {
     padding-top: 45px;
@@ -37,7 +38,6 @@ h2,
   font-weight: 500;
   margin-bottom: 0.8em;
   color: inherit;
-  line-height: 1;
 
   @media #{$screen-xs} {
     font-size: $font-size-lg;
@@ -49,7 +49,6 @@ h3,
   font-weight: 400;
   margin-bottom: 0.6em;
   color: $color-grey-dark;
-  line-height: 1.2;
 
   @media #{$screen-md-min} {
     font-size: $font-size-md;
@@ -61,9 +60,8 @@ h3,
 }
 h4,
 .h4 {
-  font-size: $font-size-md;
+  font-size: $font-size-xs;
   margin-bottom: 0;
-  line-height: 1.1;
   color: $color-grey;
   text-transform: uppercase;
 }
