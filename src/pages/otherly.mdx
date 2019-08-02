@@ -3,8 +3,6 @@ path: "/otherly"
 title: "Otherly"
 ---
 
-import { Link } from "gatsby"
-
 import projects from "../data/projects"
 import WorkLayout from "../components/portfolio/layout-work"
 import WorkSection from "../components/portfolio/section-work-section"
@@ -106,7 +104,9 @@ export const project = projects.otherly
   <p>We were really starting to feel like a team here.</p>
 </WorkSection>
 
-<WorkSection title="Research on Altruism">
+<WorkSection title="Research on Altruism"
+    image={require("../images/work/altruism.jpg")}
+    alt="Altruism: the belief in or practice of disinterested and selfless concern for the well-being of others.">
   <p>
     Since the goal of this project was to make it easier for people to
     selflessly help each other, I took a step back from the designs and{" "}

@@ -14,7 +14,7 @@ import fifa_ultimate_team_main from "../images/work/fifa-ultimate-mock.jpg"
 ex:
   ux_method_name: {
     title: "Title of method",
-    url: "/url-for-page",
+    url: "//url-for-page",
     images: {
       main: {
         src: variable_name_for_image_declared_above,
@@ -32,13 +32,13 @@ ex:
     resources: [
       {
         source: "Name of the resource (REQUIRED)",
-        url: "https://self.explanatory.com (REQUIRED)"",
+        url: "/https://self.explanatory.com (REQUIRED)"",
         title: "Title to be linkified",
         notes: "(extra notes to follow the link)",
       },
       {
         source: "Name of the resource (REQUIRED)",
-        url: "https://self.explanatory.com (REQUIRED)"",
+        url: "/https://self.explanatory.com (REQUIRED)"",
         title: "Title to be linkified",
         notes: "(extra notes to follow the link)",
       }
@@ -50,7 +50,7 @@ ex:
 const projects = {
   sparq_next_gen: {
     title: "Sparq Next Gen",
-    url: "sparq-next-gen",
+    url: "/sparq-next-gen",
     images: {
       main: {
         src: sparq_next_gen_main,
@@ -61,7 +61,7 @@ const projects = {
   },
   otherly: {
     title: "Otherly",
-    url: "otherly",
+    url: "/otherly",
     images: {
       main: {
         src: otherly_main,
@@ -72,7 +72,7 @@ const projects = {
   },
   party_in_my_dorm: {
     title: "Party in my Dorm",
-    url: "party-in-my-dorm",
+    url: "/party-in-my-dorm",
     images: {
       main: {
         src: party_in_my_dorm_main,
@@ -83,7 +83,7 @@ const projects = {
   },
   meego_village: {
     title: "Meego Village",
-    url: "meego-village",
+    url: "/meego-village",
     images: {
       main: {
         src: meego_village_main,
@@ -94,7 +94,7 @@ const projects = {
   },
   smash_monsters: {
     title: "S.M.A.S.H Monsters",
-    url: "smash",
+    url: "/smash",
     images: {
       main: {
         src: smash_monsters_main,
@@ -105,7 +105,7 @@ const projects = {
   },
   fifa: {
     title: "FIFA",
-    url: "fifa",
+    url: "/fifa",
     images: {
       main: {
         src: fifa_main,
@@ -116,7 +116,7 @@ const projects = {
   },
   perfect_drift: {
     title: "Perfect Drift",
-    url: "perfect-drift",
+    url: "/perfect-drift",
     images: {
       main: {
         src: perfect_drift_main,
@@ -127,7 +127,7 @@ const projects = {
   },
   whats_your_thing: {
     title: "whatsyourthing",
-    url: "whats-your-thing",
+    url: "/whats-your-thing",
     images: {
       main: {
         src: whats_your_thing_main,
@@ -138,7 +138,7 @@ const projects = {
   },
   the_1_percent: {
     title: "The 1%",
-    url: "the-1-percent",
+    url: "/the-1-percent",
     images: {
       main: {
         src: the_1_percent_main,
@@ -149,7 +149,7 @@ const projects = {
   },
   fifa_ultimate_team: {
     title: "FIFA Ultimate Team",
-    url: "fifa-ultimate-team",
+    url: "/fifa-ultimate-team",
     images: {
       main: {
         src: fifa_ultimate_team_main,

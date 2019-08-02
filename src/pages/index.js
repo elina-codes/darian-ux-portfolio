@@ -1,5 +1,4 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import projects from "../data/projects"
 import Layout from "../components/layout"
@@ -14,7 +13,7 @@ import "../components/portfolio/page-portfolio.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="UX Methods" />
+    <SEO title="Portfolio" />
     <section id="home">
       <div className="wrapper">
         <h1 className="home__title">Darian Grant</h1>
