@@ -7,6 +7,16 @@ footer {
   img {
     max-width: 100px;
   }
+
+  .section__title {
+    color: $color-white;
+    font-size: $font-size-xl;
+    text-transform: uppercase;
+
+    @media #{$screen-sm} {
+      font-size: $font-size-lg;
+    }
+  }
 }
 
 .footer {
