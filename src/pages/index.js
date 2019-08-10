@@ -18,7 +18,7 @@ const IndexPage = () => (
     <section id="home">
       <div className="wrapper">
         <h1 className="home__title">Darian Grant</h1>
-        <h2 className="home__subtitle">UX Strategist</h2>
+        <h2 className="home__subtitle">UX Designer in Vancouver, Canada</h2>
       </div>
     </section>
 
