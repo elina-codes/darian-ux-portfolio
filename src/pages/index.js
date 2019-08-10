@@ -69,7 +69,7 @@ const IndexPage = () => (
         <div className="experience-container">
           <ExperienceItem
             date="June 2017 - Present"
-            company="Moz / STAT Search Analytics"
+            company="Moz | STAT Search Analytics"
             position="Principal UX Designer & Strategist"
           >
             Acquired by Moz in October 2018, I’m currently helping the company

@@ -42,6 +42,7 @@
   line-height: 1;
   position: relative;
   display: inline-block;
+  margin-bottom: 0.1em;
 
   @media #{$screen-sm} {
     display: inline-block;
