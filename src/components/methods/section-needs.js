@@ -12,7 +12,7 @@ const MethodSectionNeeds = ({ title, children }) => {
     <>
       <section className="method__needs">
         <div className="grid wrapper half-half">
-          <h2 className="grid__title">{title}</h2>
+          <h2 className="method__title grid__title">{title}</h2>
           {children}
         </div>
       </section>

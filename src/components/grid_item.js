@@ -12,7 +12,7 @@ const GridItem = ({ itemTitle, itemImage, itemLink }) => (
       className="grid__image"
     ></div>
     <div className="image__grid__item__details">
-      <h3>{itemTitle}</h3>
+      <h3 className="h2">{itemTitle}</h3>
     </div>
   </Link>
 )

@@ -13,7 +13,9 @@ const MethodSectionResources = ({ method }) => {
       <section>
         <div className="wrapper">
           <div className="grid__item work__text">
-            <h2 className="fullwidth">More resources for {method.title}</h2>
+            <h2 className="method__title fullwidth">
+              More resources for {method.title}
+            </h2>
             <ul className="fullwidth">
               {method.resources.map((resource, index) => (
                 <li key={index}>

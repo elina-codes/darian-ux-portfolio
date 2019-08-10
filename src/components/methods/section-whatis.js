@@ -13,7 +13,7 @@ const MethodSectionWhatIs = ({ title, method, children }) => {
       <section className="method__whatis">
         <div className="grid wrapper half-half">
           <div className="grid__item work__text">
-            <h2>{title}</h2>
+            <h2 className="method__title">{title}</h2>
 
             {children}
           </div>

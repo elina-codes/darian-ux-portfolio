@@ -6,11 +6,11 @@ const MethodSectionTips = ({ title, method, children }) => {
       <section className="method__tips">
         <div className="grid wrapper">
           <div className="grid__item grid__image">
-            <h2>{title}</h2>
+            <h2 className="method__title">{title}</h2>
             {children}
           </div>
           <div className="grid__item work__text">
-            <img src={method.images.tips.src} alt={method.images.tips.alt}/>
+            <img src={method.images.tips.src} alt={method.images.tips.alt} />
           </div>
         </div>
       </section>

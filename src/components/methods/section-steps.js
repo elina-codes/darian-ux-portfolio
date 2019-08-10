@@ -5,7 +5,7 @@ const MethodSectionSteps = ({ title, method, children }) => {
     <>
       <section className="method__steps">
         <div className="wrapper wrapper--narrow">
-          <h2>{title}</h2>
+          <h2 className="method__title">{title}</h2>
           <img src={method.images.steps.src} alt={method.images.steps.alt} />
           {children}
         </div>
