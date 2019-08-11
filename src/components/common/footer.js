@@ -18,6 +18,14 @@ const Footer = () => (
           <img src={linkedIn} alt="" className="footer__icon" />
         </a>
 
+        <a className="footer__link easter-trigger hide">
+          <img
+            src={require("../../images/darian-face.jpg")}
+            className="footer__icon"
+          />
+          <span>Thanks for checking out my portfolio!</span>
+        </a>
+
         <a href="mailto:darian@uxitall.com" className="footer__link">
           <img src={email} alt="" className="footer__icon" />
         </a>
