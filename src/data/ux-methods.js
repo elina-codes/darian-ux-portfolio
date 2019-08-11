@@ -5,6 +5,7 @@ import contextual_inquiry_main from "../images/methods/contextual_inquiry-main.j
 import paper_prototype_main from "../images/methods/paper_prototype-main.jpg"
 import ux_strategy_main from "../images/methods/ux_strategy-main.jpg"
 import wireframes_main from "../images/methods/wireframes-main.jpg"
+import discovery_meeting_main from "../images/methods/discovery_meeting-main.jpg"
 
 // Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
@@ -13,6 +14,7 @@ import contextual_inquiry_steps from "../images/methods/contextual_inquiry-secon
 import paper_prototype_steps from "../images/methods/paper_prototype-second.jpg"
 import ux_strategy_steps from "../images/methods/ux_strategy-second.jpg"
 import wireframes_steps from "../images/methods/wireframes-second.jpg"
+import discovery_meeting_steps from "../images/methods/discovery_meeting-second.jpg"
 
 // Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
@@ -21,6 +23,7 @@ import contextual_inquiry_tips from "../images/methods/contextual_inquiry-third.
 import paper_prototype_tips from "../images/methods/paper_prototype-third.jpg"
 import ux_strategy_tips from "../images/methods/ux_strategy-third.jpg"
 import wireframes_tips from "../images/methods/wireframes-third.jpg"
+import discovery_meeting_tips from "../images/methods/discovery_meeting-third.jpg"
 
 /*
 ex:
@@ -170,6 +173,38 @@ const uxMethods = {
         title: "Go beyond user interviews with contextual inquiry",
       },
     ],
+  },
+  discovery_meeting: {
+    title: "Discovery Meeting",
+    url: "/discovery-meeting/",
+    images: {
+      main: {
+        src: discovery_meeting_main,
+        alt: "Alt text to appear with image"
+      },
+      steps: {
+        src: discovery_meeting_steps,
+        alt: "Alt text to appear with image"
+      },
+      tips: {
+        src: discovery_meeting_tips,
+        alt: "Alt text to appear with image"
+      }
+    },
+    resources: [
+      {
+        source: "Name of the resource (REQUIRED)",
+        url: "https://self.explanatory.com (REQUIRED)",
+        title: "Title to be linkified",
+        notes: "(extra notes to follow the link)",
+      },
+      {
+        source: "Name of the resource (REQUIRED)",
+        url: "https://self.explanatory.com (REQUIRED)",
+        title: "Title to be linkified",
+        notes: "(extra notes to follow the link)",
+      }
+    ]
   },
   paper_prototype: {
     title: "Paper Prototype",
