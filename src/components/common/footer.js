@@ -18,12 +18,15 @@ const Footer = () => (
           <img src={linkedIn} alt="" className="footer__icon" />
         </a>
 
-        <a className="footer__link easter-trigger hide">
+        <a className="footer__link easter-trigger">
           <img
-            src={require("../../images/darian-face.jpg")}
-            className="footer__icon"
+            src={require("../../images/darian-smiling.jpg")}
+            className="darian-before"
           />
-          <span>Thanks for checking out my portfolio!</span>
+          <img
+            src={require("../../images/darian-proud.jpg")}
+            className="darian-after"
+          />
         </a>
 
         <a href="mailto:darian@uxitall.com" className="footer__link">
