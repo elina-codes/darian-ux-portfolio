@@ -26,6 +26,14 @@
       text-align: left;
       color: white;
       position: relative;
+
+      @media #{$screen-sm} {
+        font-size: $font-size-xl;
+      }
+
+      @media #{$screen-xs} {
+        font-size: $font-size-lg;
+      }
     }
 
     .single-page__header__subtitle {

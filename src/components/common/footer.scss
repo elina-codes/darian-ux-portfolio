@@ -20,6 +20,10 @@ footer {
     display: block;
     margin: 10px 20px;
 
+    @media #{$screen-xs} {
+      margin: 0;
+    }
+
     &:hover {
       .footer__icon {
         transform: scale(1.1, 1.1);

@@ -6,14 +6,23 @@
   background-blend-mode: luminosity;
   filter: FlipH;
   color: $color-white;
-  text-align: right;
+  text-align: center;
   text-shadow: 1px 1px 12px rgba(black, 0.2);
   position: relative;
+
+  @media #{$screen-lg-min} {
+    text-align: right;
+  }
 
   .wrapper {
     padding: 10vw 10%;
     position: relative;
     z-index: 1;
+
+    @media #{$screen-xs} {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
   }
 
   &:before {
@@ -28,12 +37,20 @@
   }
 }
 
-.home __title {
+.home__title {
   text-align: inherit;
   margin-bottom: 0;
   line-height: 1;
   font-weight: 500;
   color: inherit;
+
+  @media #{$screen-md} {
+    font-size: 5vw;
+  }
+
+  @media #{$screen-sm} {
+    font-size: $font-size-xl;
+  }
 }
 
 .home__subtitle {
@@ -43,4 +60,17 @@
   color: inherit;
   margin-bottom: 0;
   max-width: none;
+  margin-top: 0.5em;
+
+  @media #{$screen-md} {
+    font-size: $font-size-lg;
+  }
+
+  @media #{$screen-sm} {
+    font-size: $font-size-md;
+  }
+
+  @media #{$screen-xs} {
+    font-size: $font-size-sm;
+  }
 }
