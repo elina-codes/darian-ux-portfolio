@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/template/`],
+        exclude: [`*/template/`],
       },
     },
     `gatsby-plugin-sass`,
