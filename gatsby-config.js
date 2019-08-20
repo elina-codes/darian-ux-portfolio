@@ -5,7 +5,19 @@ module.exports = {
     author: `Elina Goldin`,
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      query: `
+        {
+          site {
+            siteMetadata {
+              title
+              description
+              author
+            }
+          }
+      }`,
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
