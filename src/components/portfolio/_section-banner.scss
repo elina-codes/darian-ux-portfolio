@@ -1,6 +1,6 @@
 @import "../common/styles/vars";
 
-#home {
+section.banner {
   background-image: url("../../images/work/darian_bg.jpg");
   background-color: $color-primary;
   background-blend-mode: luminosity;
@@ -35,9 +35,26 @@
     background: black;
     opacity: 0.5;
   }
+
+  &.not-found {
+    background-image: url("../../images/darian-sad.jpg");
+    min-height: calc(100vh - 308px);
+
+    @media #{$screen-lg-min} {
+      text-align: center;
+    }
+
+    @media #{$screen-xs} {
+      min-height: calc(100vh - 280px);
+    }
+
+    .wrapper {
+      padding: 30px 10%;
+    }
+  }
 }
 
-.home__title {
+.banner__title {
   text-align: inherit;
   margin-bottom: 0;
   line-height: 1;
@@ -53,7 +70,7 @@
   }
 }
 
-.home__subtitle {
+.banner__subtitle {
   text-align: inherit;
   line-height: 1;
   font-weight: 100;

@@ -15,10 +15,10 @@ import "../components/portfolio/page-portfolio.scss"
 const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
-    <section id="home">
+    <section id="home" className="banner">
       <div className="wrapper">
-        <h1 className="home__title">Darian Grant</h1>
-        <h2 className="home__subtitle">UX Designer in Vancouver, Canada</h2>
+        <h1 className="banner__title">Darian Grant</h1>
+        <h2 className="banner__subtitle">UX Designer in Vancouver, Canada</h2>
       </div>
     </section>
 
