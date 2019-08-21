@@ -6,12 +6,7 @@ module.exports = {
     siteUrl: `https://portfolio.uxitall.com`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: ["/template/"],
-      },
-    },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
