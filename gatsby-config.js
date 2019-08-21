@@ -3,8 +3,10 @@ module.exports = {
     title: `Darian Grant | UX It All`,
     description: `UX Designer and Strategist in Vancouver, BC specializing in product strategy, user research, data driven design decisions, and increasing company UX maturity.`,
     author: `Elina Goldin`,
+    siteUrl: `https://uxitall.com`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
