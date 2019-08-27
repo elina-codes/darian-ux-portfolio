@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/" className="active">
         <span>UX Methods</span>
       </Link>
-      <a href="https://portfolio.uxitall.com">
+      <a href="https://portfolio.ux-everything.com">
         <span>Portfolio</span>
       </a>
       <a href="#contact">
