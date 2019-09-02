@@ -7,7 +7,6 @@ import projects from "../data/projects"
 import WorkLayout from "../components/portfolio/layout-work"
 import WorkSection from "../components/portfolio/section-work-section"
 import NextSteps from "../components/portfolio/section-next-steps"
-
 import SEO from "../components/seo"
 
 export const project = projects.smash_monsters
@@ -59,7 +58,7 @@ export const project = projects.smash_monsters
 </p>
 
   <p>
-    <strong>Here you can find two of the Usability Test Reports for S.M.A.S.H.</strong> <a href="/files/smash-usability-test-01.pdf" target="_blank" rel="noreferrer noopener">This first report</a> is from the videos above, and <a href="/files/smash-usability-test-02.pdf" target="_blank" rel="noreferrer noopener">this second report</a> is after several months of iterations.
+    <strong>Here you can find two of the Usability Test Reports for S.M.A.S.H.</strong> <a href={require("../files/smash-usability-test-01.pdf")} target="_blank" rel="noreferrer noopener">This first report</a> is from the videos above, and <a href={require("../files/smash-usability-test-02.pdf")} target="_blank" rel="noreferrer noopener">this second report</a> is after several months of iterations.
   </p>
 </WorkSection>
 
