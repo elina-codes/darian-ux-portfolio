@@ -31,8 +31,13 @@ const WorkLayout = ({ projectTitle, projectType, project, children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
+      <WorkMoreProjects project={project} className="more-projects--top" />
       <main className="work-layout">
-        <WorkBanner projectTitle={projectTitle} projectType={projectType} />
+        <WorkBanner
+          projectTitle={projectTitle}
+          projectType={projectType}
+          projectImage={project.images.main}
+        />
         {children}
         <WorkMoreProjects project={project} />
       </main>

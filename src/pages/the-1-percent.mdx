@@ -6,6 +6,7 @@ title: "The 1%"
 import projects from "../data/projects"
 import WorkLayout from "../components/portfolio/layout-work"
 import WorkSection from "../components/portfolio/section-work-section"
+import WorkIntro from "../components/portfolio/section-work-intro"
 import NextSteps from "../components/portfolio/section-next-steps"
 
 import SEO from "../components/seo"
@@ -19,25 +20,22 @@ export const currentProject = projects.the_1_percent
 >
 <SEO title={props.pageContext.frontmatter.title} />
 
-<WorkSection
-  title="Overview"
-  image={require("../images/work/the-1-percent-01.jpg")}
-  alt="A close up of two mockups from the 1 Percent app."
->
+<WorkIntro>
+<h3>Overview</h3>
   <p>
     This was a chat application that I <strong>designed as an experiment to learn more about spending behaviour</strong> in mobile games.
   </p>
 
-  <h3>Hypothesis</h3>
-  <p>
-    My hypothesis was that <strong>people will spend money to increase their status in games, and will spend a ridiculous amount in order to guard and keep that status.</strong>
-  </p>
+<h3>Hypothesis</h3>
+<p>
+My hypothesis was that <strong>people will spend money to increase their status in games, and will spend a ridiculous amount in order to guard and keep that status.</strong>
+</p>
 
   <p>
     I needed to control the environment as much as possible, so I needed to answer "what is the least amount of 'game' that I can make, that
     encourages people to spend money for their status?".
   </p>
-</WorkSection>
+</WorkIntro>
 
 <WorkSection
   title='The "Game"'
@@ -45,12 +43,7 @@ export const currentProject = projects.the_1_percent
   alt="A few mockups of the major screens in the 1 Percent."
 >
   <p>
-    It's a simple chat application, but
-    <strong>
-      every time you send a message, it displays your name, your location, and your level. If you want to increase your level, you must pay
-      a dollar
-    </strong>
-    .
+    It's a simple chat application, but <strong>every time you send a message, it displays your name, your location, and your level. If you want to increase your level, you must pay a dollar</strong>.
   </p>
 
   <p>

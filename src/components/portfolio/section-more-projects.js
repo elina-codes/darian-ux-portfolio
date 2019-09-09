@@ -40,12 +40,12 @@ const findPrev = (current, obj) => {
   }
 }
 
-const WorkMoreProjects = ({ project }) => {
+const WorkMoreProjects = ({ project, className = null }) => {
   const prev = findPrev(project, projects)
   const next = findNext(project, projects)
 
   return (
-    <section className="more-projects">
+    <section className={`more-projects ${className}`}>
       <Link
         to={next.url}
         className="more-projects__project more-projects__project--previous"

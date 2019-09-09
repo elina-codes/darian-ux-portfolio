@@ -6,6 +6,7 @@ title: "Sparq Next Gen"
 import projects from "../data/projects"
 import WorkLayout from "../components/portfolio/layout-work"
 import WorkSection from "../components/portfolio/section-work-section"
+import WorkIntro from "../components/portfolio/section-work-intro"
 import NextSteps from "../components/portfolio/section-next-steps"
 
 import SEO from "../components/seo"
@@ -18,13 +19,12 @@ export const project = projects.sparq_next_gen
   projectType="Vision Critical"
 >
 <SEO title={props.pageContext.frontmatter.title} />
-<WorkSection title="Overview" 
-  image={require("../images/work/sparq-next-gen-01.jpg")}
-  alt="Images of Sparq Next Gen displayed on mobile, tablet, and desktop.">
+<WorkIntro>
+  <h3>Overview</h3>
   <p>
     You're about to dive into my experience at <a href="http://www.visioncritical.com/" target="_blank" rel="noreferrer noopener">Vision Critical</a>, where <strong>my main task was to work with a UX and Design team of 7 to completely redesign their outdated platform.</strong>
   </p>
-</WorkSection>
+</WorkIntro>
 
 <WorkSection
   title="About the company"

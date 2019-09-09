@@ -12,7 +12,7 @@
 
     .grid {
       grid-template-areas: "text image";
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 2fr 3fr;
       grid-column-gap: 60px;
       grid-row-gap: 0;
 
@@ -47,7 +47,7 @@
         grid-template-areas: "image text";
 
         @media #{$screen-md-min} {
-          grid-template-columns: 2fr 1fr;
+          grid-template-columns: 3fr 2fr;
         }
       }
     }
@@ -66,6 +66,7 @@
           0 15px 40px rgba(166, 173, 201, 0.2);
         position: relative;
         overflow: hidden;
+        padding: 20px;
       }
     }
 
@@ -95,6 +96,12 @@
   text-transform: uppercase;
 }
 
+.work__intro {
+  h3 {
+    text-align: center;
+  }
+}
+
 // more projects
 .more-projects {
   display: flex;
@@ -112,6 +119,10 @@
   position: relative;
   font-size: $font-size-lg;
 
+  .more-projects--top & {
+    padding: 20px 30px;
+  }
+
   @media #{$screen-sm} {
     padding: 50px 5%;
   }
@@ -123,33 +134,42 @@
     opacity: 0.8;
     display: block;
   }
+}
 
-  &--previous {
-    text-align: right;
-    border-right: 1px solid $color-grey-light;
+.more-projects__project--previous {
+  text-align: right;
+  border-right: 1px solid $color-grey-light;
 
-    @media #{$screen-sm} {
-      text-align: left;
-    }
-
-    &:before {
-      content: "Previous project";
-    }
-  }
-  &--next {
+  .more-projects--top & {
     text-align: left;
+  }
 
-    @media #{$screen-sm} {
-      text-align: right;
-    }
+  @media #{$screen-sm} {
+    text-align: left;
+  }
 
-    &:before {
-      content: "Next project";
-    }
+  &:before {
+    content: "Previous project";
   }
 }
 
-.more-projects__title {
+.more-projects__project--next {
+  text-align: left;
+
+  .more-projects--top & {
+    text-align: right;
+  }
+
+  @media #{$screen-sm} {
+    text-align: right;
+  }
+
+  &:before {
+    content: "Next project";
+  }
+}
+
+.more-projects__project__title {
   display: block;
 
   @media #{$screen-sm} {

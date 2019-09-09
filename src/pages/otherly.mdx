@@ -6,6 +6,7 @@ title: "Otherly"
 import projects from "../data/projects"
 import WorkLayout from "../components/portfolio/layout-work"
 import WorkSection from "../components/portfolio/section-work-section"
+import WorkIntro from "../components/portfolio/section-work-intro"
 import NextSteps from "../components/portfolio/section-next-steps"
 
 import SEO from "../components/seo"
@@ -18,9 +19,8 @@ export const project = projects.otherly
   projectType="Freelance Project"
 >
   <SEO title={props.pageContext.frontmatter.title} />
-  <WorkSection title="Overview" 
-    image={require("../images/work/otherly-01.jpg")}
-    alt="The final version of Otherly's mobile app">
+  <WorkIntro>
+    <h3>Overview</h3>
     <p>
       This was a platform built{" "}
       <strong>for people to selflessly help each other</strong>. It was
@@ -50,7 +50,7 @@ export const project = projects.otherly
         to redo the MVP and to get this product back on track.
       </strong>
     </p>
-  </WorkSection>
+  </WorkIntro>
 
 <WorkSection
   title="Original designs"
@@ -104,9 +104,11 @@ export const project = projects.otherly
   <p>We were really starting to feel like a team here.</p>
 </WorkSection>
 
-<WorkSection title="Research on Altruism"
-    image={require("../images/work/altruism.jpg")}
-    alt="Altruism: the belief in or practice of disinterested and selfless concern for the well-being of others.">
+<WorkSection
+  title="Research on Altruism"
+  image={require("../images/work/altruism.jpg")}
+  alt="Altruism: the belief in or practice of disinterested and selfless concern for the well-being of others."
+>
   <p>
     Since the goal of this project was to make it easier for people to
     selflessly help each other, I took a step back from the designs and{" "}
@@ -174,7 +176,11 @@ export const project = projects.otherly
   </p>
   <p>
     You can also{" "}
-    <a href={require("../images/work/otherly-05-large.jpg")} target="_blank" rel="noreferrer noopener">
+    <a
+      href={require("../images/work/otherly-05-large.jpg")}
+      target="_blank"
+      rel="noreferrer noopener"
+    >
       click here
     </a>{" "}
     if you want to see the full image.
@@ -237,7 +243,11 @@ export const project = projects.otherly
   </p>
   <p>
     {" "}
-    <a href="https://invis.io/MAOKIYGE5JV" target="_blank" rel="noreferrer noopener">
+    <a
+      href="https://invis.io/MAOKIYGE5JV"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
       You can view the full InVision prototype here
     </a>.
   </p>
@@ -265,10 +275,18 @@ export const project = projects.otherly
   </p>
   <p>
     You can view{" "}
-    <a href={require("../images/work/otherly-11.jpg")} target="_blank" rel="noreferrer noopener">
+    <a
+      href={require("../images/work/otherly-11.jpg")}
+      target="_blank"
+      rel="noreferrer noopener"
+    >
       a more detailed image of the final designs here
     </a>
-    , or you can see <a href={require("../images/work/otherly-12.jpg")} target="_blank" rel="noreferrer noopener">
+    , or you can see <a
+      href={require("../images/work/otherly-12.jpg")}
+      target="_blank"
+      rel="noreferrer noopener"
+    >
       a comparison between the wireframes and final designs here
     </a>.
   </p>
