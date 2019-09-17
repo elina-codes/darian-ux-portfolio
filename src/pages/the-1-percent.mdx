@@ -16,23 +16,26 @@ export const currentProject = projects.the_1_percent
 <WorkLayout
   project={currentProject}
   projectTitle={props.pageContext.frontmatter.title}
-  projectType="Personal project"
+  projectType="Freelance"
 >
 <SEO title={props.pageContext.frontmatter.title} />
 
 <WorkIntro>
 <h3>Overview</h3>
   <p>
-    This was a chat application that I <strong>designed as an experiment to learn more about spending behaviour</strong> in mobile games.
+    This was a chat application I was commissioned to design as <strong>an experiment to learn more about spending behaviour in mobile games.</strong>
   </p>
+
+<h3>The Problem</h3>
+<p>Many games out there rely on a collection of different mechanics and dynamics in order to hook the player and get them to spend, but there wasn't enough information out there that could tell us what, in its simplest form, is the main reason (or reasons) as to why people will spend a lot of money in mobile games.
+</p>
 
 <h3>Hypothesis</h3>
 <p>
-My hypothesis was that <strong>people will spend money to increase their status in games, and will spend a ridiculous amount in order to guard and keep that status.</strong>
+We believed that <strong>"status" was the main reason for spending</strong>, and that people will spend money to increase their status in games, and will spend a ridiculous amount in order to guard and keep that status.
 </p>
-
   <p>
-    I needed to control the environment as much as possible, so I needed to answer "what is the least amount of 'game' that I can make, that
+  If this was to be a true experiment, we needed to control the environment as much as possible. We needed to answer, "what is the least amount of 'game' that we can make, and that
     encourages people to spend money for their status?".
   </p>
 </WorkIntro>
@@ -40,7 +43,7 @@ My hypothesis was that <strong>people will spend money to increase their status 
 <WorkSection
   title='The "Game"'
   image={require("../images/work/the-1-percent-02.jpg")}
-  alt="A few mockups of the major screens in the 1 Percent."
+  alt="A few close mockups of the major screens in the 1 Percent."
 >
   <p>
     It's a simple chat application, but <strong>every time you send a message, it displays your name, your location, and your level. If you want to increase your level, you must pay a dollar</strong>.
@@ -57,15 +60,25 @@ My hypothesis was that <strong>people will spend money to increase their status 
   alt="Two wireframes of the The 1 Percent app."
 >
   <p>
-    As this was a project I came up with, I knew I would need some help as I'm not great at UI Design, and know nothing about
-    implementation.
+    Since this was a low-risk project, and meant to be a quick experiment, we agreed on a <strong>Lean UX approach</strong>. It did not require a lot of upfront research, but instead, the plan was to <strong>track usage and metrics after release to justify future iterations</strong>.
+    </p>
+  <p>Once the solution was locked down and requirements were agreed upon, the wireframes were done quickly using Balsamiq and reviewed with the stakeholder.
   </p>
 
   <p>
-    <strong>
-      Here you can see some of the wireframes I made and communicated to the UI Designer, who made the final mockups
-    </strong>
-    . It is a small app and there are only about 5 screens and a few edge cases I had to consider.
+    Here you can see some of the wireframes I made.
+  </p>
+</WorkSection>
+
+<WorkSection
+  title="Mockups"
+  image={require("../images/work/the-1-percent-06.jpg")}
+  alt="A few full mockups of the major screens in the 1 Percent."
+>
+  <p>
+  Mockups went back and forth with the stakeholder until we agreed on the layout and styling.
+  </p>
+  <p>There were even a few extra screens that were created to hit the requirements, but in order to stay true to the Lean UX approach, we decided that we should reduce scope and release only what was necessary to prove our hypothesis, and revisit the additional screens if the data collected afterwards suggested we should.
   </p>
 </WorkSection>
 
@@ -75,21 +88,14 @@ My hypothesis was that <strong>people will spend money to increase their status 
   alt="A screenshot of the splash page for the The 1 Percent app."
 >
   <p>
-    I ended up finding someone to build this with me, and <strong>while the backend was being worked on, I busied myself with everything else in the process of releasing it to the world.</strong>
-  </p>
-  <p>
-    I taught myself how to build the front end, I researched the submission process, how microtransactions work, legal stuff, and the
-    website.
-  </p>
-  <p>
-    <a href="/the-1-percent/index" target="_blank" rel="noreferrer noopener">
-      Here is the splash page we were going to use online.
-    </a>
+  <strong>While the backend was being worked on, I took this opportunity to teach myself everything else in the process of releasing and Android app to the world.</strong>, such as researched the submission process, learning how microtransactions work, legalalities, and the
+    website splash page.
   </p>
 </WorkSection>
+
 <NextSteps title="Outcome" subtitle="">
 <p>
-  Though the app itself was never completed, I would love to see it finished one day. The designs are done, so if you would like to see
+ The app itself was never completed, the stakeholder had plans on building it themself, as they are a programmer, but I guess life gets in the way sometimes. I would love to see it finished one day. The designs are done, so if you would like to see
   the rest of them, or want to build this yourself, just ask and I would be happy to share.
 </p>
 </NextSteps>

@@ -79,21 +79,18 @@ const IndexPage = () => (
           </ExperienceItem>
 
           <ExperienceItem
-            date="Aug 2016 - June 2017"
+            date="Aug 2016 - Present"
             company="Freelance"
-            position="UX Consultant"
+            position="UX Strategist & Consultant"
           >
-            Consultant on a new startup as well as several smaller projects. The
-            main project was Otherly, where I analyzed their site metrics,
-            performed usability tests and extensive research interviews, defined
-            the target audience, redesigned the MVP and worked with their UI
-            Designer to define the branding and mockups.
+            Applying the UX process to a wide range of projects, from start-ups to simple site redesigns. 
+            All work I do is justified by data and works towards your overarching goals. I assess, tailor, and execute on all things UX.
           </ExperienceItem>
 
           <ExperienceItem
-            date="Aug 2015 - Aug 2016"
+            date="Apr 2015 - May 2017"
             company="Vision Critical"
-            position="UX Designer"
+            position="Lead UX Designer"
           >
             On a design team of 7, our goal was to redesign their current SaaS
             platform. I conducted user research and analyses to define and solve
@@ -104,7 +101,7 @@ const IndexPage = () => (
           <ExperienceItem
             date="Dec 2012 - Jan 2015"
             company="A Thinking Ape"
-            position="UX Designer | Game Designer"
+            position="Senior UX Designer | Game Designer"
           >
             Worked on multiple mobile apps. Used our metrics tools to gather
             data on our users to justify design decisions for new features and
