@@ -145,7 +145,7 @@ const projects = {
         alt: "",
       },
     },
-    categories: ["Personal Project"],
+    categories: ["UX", "Branding", "Mobile"],
   },
   fifa_ultimate_team: {
     title: "FIFA Ultimate Team",
