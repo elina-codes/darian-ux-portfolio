@@ -28,7 +28,7 @@ const IndexPage = () => (
         <div className="grid">
           <div className="grid__item">
             <img src={setGoals} alt="" className="what-i-do__img" />
-            <h3>Set Goals</h3>
+            <h3>Refine and Set Goals</h3>
             <p>
               I work with you to define and solidify your goals so everyone
               understands why we’re doing what we’re doing, and the overall
@@ -45,7 +45,7 @@ const IndexPage = () => (
           </div>
           <div className="grid__item">
             <img src={uxItAll} alt="" className="what-i-do__img" />
-            <h3>UX it All!</h3>
+            <h3>UX Everything!</h3>
             <p>
               I then work where I'm needed to make sure your project is
               researched, wireframed, prototyped, tested, documented, released,
