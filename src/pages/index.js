@@ -47,7 +47,7 @@ const IndexPage = () => (
             <img src={uxItAll} alt="" className="what-i-do__img" />
             <h3>UX Everything!</h3>
             <p>
-              I then work where I'm needed to make sure your project is
+              I then work where needed to make sure your project is
               researched, wireframed, prototyped, tested, documented, released,
               reiterated, and hitting your KPIs.
             </p>
@@ -70,12 +70,9 @@ const IndexPage = () => (
           <ExperienceItem
             date="June 2017 - Present"
             company="Moz | STAT Search Analytics"
-            position="Principal UX Designer & Strategist"
+            position="UX Manager"
           >
-            Acquired by Moz in October 2018, I’m currently helping the company
-            build their UX culture and processes, while also supporting the
-            product team to make confident decisions that will affect the future
-            of the company.
+            (Acquired by Moz in October 2018) Managing and directing the UX culture and processes, building cross-functional relationships with other departments, educating others on the role of UX Design, mentoring other designers, conducting research, guiding the product team, and empowering confident decisions that will affect the future of the company.
           </ExperienceItem>
 
           <ExperienceItem
