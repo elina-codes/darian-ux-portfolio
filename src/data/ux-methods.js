@@ -6,6 +6,7 @@ import paper_prototype_main from "../images/methods/paper_prototype-main.jpg"
 import ux_strategy_main from "../images/methods/ux_strategy-main.jpg"
 import wireframes_main from "../images/methods/wireframes-main.jpg"
 import discovery_session_main from "../images/methods/discovery_session-main.jpg"
+import affinity_diagram_main from "../images/methods/affinity_diagram-main.jpg"
 
 // Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
@@ -15,6 +16,7 @@ import paper_prototype_steps from "../images/methods/paper_prototype-second.jpg"
 import ux_strategy_steps from "../images/methods/ux_strategy-second.jpg"
 import wireframes_steps from "../images/methods/wireframes-second.jpg"
 import discovery_session_steps from "../images/methods/discovery_session-second.jpg"
+import affinity_diagram_steps from "../images/methods/affinity_diagram-second.jpg"
 
 // Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
@@ -24,6 +26,7 @@ import paper_prototype_tips from "../images/methods/paper_prototype-third.jpg"
 import ux_strategy_tips from "../images/methods/ux_strategy-third.jpg"
 import wireframes_tips from "../images/methods/wireframes-third.jpg"
 import discovery_session_tips from "../images/methods/discovery_session-third.jpg"
+import affinity_diagram_tips from "../images/methods/affinity_diagram-third.jpg"
 
 /*
 ex:
@@ -105,6 +108,46 @@ const uxMethods = {
         source: "Conversion Sciences",
         url: "https://conversionsciences.com/ab-testing-tools/",
         title: "20 Most Recommended A/B Testing Tools",
+      },
+    ],
+  },
+  affinity_diagram: {
+    title: "Affinity Diagram",
+    url: "/affinity-diagram/",
+    images: {
+      main: {
+        src: affinity_diagram_main,
+        alt:
+          "A woman placing a sticky note on a wall of sticky notes in front of a few people.",
+      },
+      steps: {
+        src: affinity_diagram_steps,
+        alt:
+          "Several piles of sticky notes, markers, and tape.",
+      },
+      tips: {
+        src: affinity_diagram_tips,
+        alt:
+          "A woman reading a sticky note that another woman is pointing to.",
+      },
+    },
+    resources: [
+      {
+        source: "nnGroup",
+        url: "https://www.nngroup.com/articles/affinity-diagram/",
+        title: "Affinity Diagramming for Collaboratively Sorting UX Findings and Design Ideas",
+        notes: "(this one is long, but it's very detailed and very good)",
+      },
+      {
+        source: "Interaction Design Foundation",
+        url: "https://www.interaction-design.org/literature/article/affinity-diagrams-learn-how-to-cluster-and-bundle-ideas-and-facts",
+        title: "Affinity Diagrams – Learn How to Cluster and Bundle Ideas and Facts",
+      },
+      {
+        source: "Miro",
+        url: "https://miro.com/",
+        title: "Miro - Team Collaboration Software",
+        notes: "(one of the best tools out there with other great uses too)",
       },
     ],
   },
