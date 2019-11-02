@@ -7,6 +7,7 @@ import ux_strategy_main from "../images/methods/ux_strategy-main.jpg"
 import wireframes_main from "../images/methods/wireframes-main.jpg"
 import discovery_session_main from "../images/methods/discovery_session-main.jpg"
 import affinity_diagram_main from "../images/methods/affinity_diagram-main.jpg"
+import usability_test_main from "../images/methods/usability_test-main.jpg"
 
 // Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
@@ -17,6 +18,7 @@ import ux_strategy_steps from "../images/methods/ux_strategy-second.jpg"
 import wireframes_steps from "../images/methods/wireframes-second.jpg"
 import discovery_session_steps from "../images/methods/discovery_session-second.jpg"
 import affinity_diagram_steps from "../images/methods/affinity_diagram-second.jpg"
+import usability_test_steps from "../images/methods/usability_test-second.jpg"
 
 // Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
@@ -27,6 +29,7 @@ import ux_strategy_tips from "../images/methods/ux_strategy-third.jpg"
 import wireframes_tips from "../images/methods/wireframes-third.jpg"
 import discovery_session_tips from "../images/methods/discovery_session-third.jpg"
 import affinity_diagram_tips from "../images/methods/affinity_diagram-third.jpg"
+import usability_test_tips from "../images/methods/usability_test-third.jpg"
 
 /*
 ex:
@@ -285,6 +288,51 @@ const uxMethods = {
         source: "inVision",
         url: "https://www.invisionapp.com",
         notes: "(a great tool for digital prototyping)",
+      },
+    ],
+  },
+  usability_test: {
+    title: "Usability Test",
+    url: "/usability-test/",
+    images: {
+      main: {
+        src: usability_test_main,
+        alt:
+          "A man working on a computer while one woman is taking notes and another woman is observing.",
+      },
+      steps: {
+        src: usability_test_steps,
+        alt:
+          "A hand holding a pink sticky note that says 'Run a Usability Test' in front of several other blurred out sticky notes on a wall.",
+      },
+      tips: {
+        src: usability_test_tips,
+        alt:
+          "A woman working at her computer while a black kitten is touching her arm.",
+      },
+    },
+    resources: [
+      {
+        source: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Usability_testing",
+        title: "Usability testing",
+      },
+      {
+        source: "Experience UX",
+        url: "https://www.experienceux.co.uk/faqs/what-is-usability-testing/",
+        title: "What is usability testing?",
+      },
+      {
+        source: "usability.gov",
+        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
+        title: "Usability Testing",
+        notes: "(a good, condensed article)",
+      },
+      {
+        source: "User Testing",
+        url: "https://www.usertesting.com/",
+        title: "UserTesting: Create A Better Customer Experience",
+        notes: "(a great tool for quick, unmoderated user testing)",
       },
     ],
   },

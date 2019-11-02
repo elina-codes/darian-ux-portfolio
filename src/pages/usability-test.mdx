@@ -1,0 +1,149 @@
+---
+path: "/usability-test"
+title: "Usability Test"
+---
+
+import { Link } from "gatsby"
+
+import uxMethods from "../data/ux-methods"
+import MethodLayout from "../components/methods/layout-method"
+import MethodSectionWhatIs from "../components/methods/section-whatis"
+import MethodSectionNeeds from "../components/methods/section-needs"
+import MethodSectionNeedsPartial from "../components/methods/section-needs-partials"
+import MethodSectionSteps from "../components/methods/section-steps"
+import MethodSectionTips from "../components/methods/section-tips"
+import MethodSectionResources from "../components/methods/section-resources"
+
+export const currentMethod = uxMethods.usability_test
+
+import SEO from "../components/seo"
+
+<MethodLayout pageTitle={props.pageContext.frontmatter.title} method={currentMethod}>
+  <SEO title={props.pageContext.frontmatter.title} />
+
+<MethodSectionWhatIs method={currentMethod} title="What is a Usability Test?">
+  <p>
+    A Usability Test is a method used to evaluate how usable or intuitive your product is. This is done by observing and analysing representative users as they perform specific tasks in your product. Usability Tests allow you to identify any usability problems, collect qualitative and quantitative data, and determine your users’ satisfaction with your product.
+  </p>
+  <p>
+    Usability Testing is a key part of the design process because it gives you direct feedback on how real users use your product. It can be done on your existing product to give you baseline metrics, which can then be compared to the outcome of any new updates, or even on early prototypes, allowing you plenty of time to make big changes to your designs before any coding takes place.
+  </p>
+  <p>
+    Traditionally, you would observe the user in-person while they perform these tasks so you could better see their reactions and expressions. Nowadays, since screen-sharing and video chatting have become a standard, Remote Usability Testing is becoming more popular, as it makes scheduling much easier (which is often the biggest challenge with this method).
+  </p>
+</MethodSectionWhatIs>
+
+<MethodSectionNeeds title="What do you need for a Usability Test?">
+  <MethodSectionNeedsPartial type="time">
+    <ul>
+      <li>A few days for scheduling participants and setting up the tasks</li>
+      <li>15 minutes to 1 hour to conduct the test</li>
+    </ul>
+  </MethodSectionNeedsPartial>
+  <MethodSectionNeedsPartial type="materials">
+    <ul>
+      <li>A prototype or existing product</li>
+      <li>Recording equipment</li>
+      <li>Something to take notes on</li>
+    </ul>
+  </MethodSectionNeedsPartial>
+</MethodSectionNeeds>
+
+<MethodSectionSteps method={currentMethod} title="How do you conduct a Usability Test?">
+  <ol>
+    <li>
+      <h3>Step 1: Determine what you want to test and why</h3>
+      You should always have a goal for your tests. Do you want feedback on an existing flow to establish a baseline? Or do you want feedback on a new flow so you can make changes before handing it off to the dev team?
+    </li>
+    <li>
+      <h3>Step 2: Schedule and recruit participants</h3>
+      <p>
+      Once you know what you want to test, you will want to find participants. Ideally they are representative of your target audience and have the right amount of experience for the flows you are testing. For example, if you’re testing a new sign-up flow, you may want participants that have never used your product before. If you’re testing an advanced feature, you may need participants with a lot of experience with your product.
+      </p>
+      <p>
+      A good rule of thumb is to conduct your Usability Test on 5 participants. After that, the feedback you get will start to get too repetitive and it won’t be worth the time anymore. You can later reiterate your designs and test them again with 5 more participants.
+      </p>    
+    </li>
+    <li>
+      <h3>Step 3: Create your test plan and tasks</h3>
+      <p>
+        Once your scheduling is underway, you need to create your test script and tasks. Come up with as many tasks that you need feedback on and that will fit within your timeframe. 
+      </p>
+      <p><strong>Some examples of a task can be:</strong></p>
+        <ul>
+          <li>“For this first task, I would like you to sign up for a new account.”</li>
+          <li>“I would like you to pretend that you're buying a new pair of runners. Please find a pair that you like and pay for them using our site.”</li>
+          <li>“Please find your friend, Elina Lastname, and add her to your contacts.”</li>
+        </ul>
+      <p>
+        You need to also make sure that the flow you’re testing will support the entire task and any possible edge cases. For example, if that Sign-Up flow, does your flow support the user if they click on the “forgot password” link?
+      </p>
+    </li>
+    <li>
+      <h3>Step 4: Have them go through the tasks and note their actions</h3>
+      <p>Now is the big moment. Have your participant go through the tasks and observe their behaviour and actions along the way. Take note of the standard metrics, but also anything else that stands out.
+      </p>
+      <p><strong>Some examples of things to make note of can be:</strong></p>
+        <ul>
+            <li>Task completion time</li>
+            <li>Task success</li>
+            <li>Where they pause or struggle</li>
+            <li>Where they express delight</li>
+            <li>When they wanted help</li>
+            <li>What questions they asked you during the test</li>
+            <li>And anything else that seems interesting to you</li>
+            </ul>
+      <p>In between each task, you may want to ask them a few questions to get feedback on that task. 
+        </p>
+    </li>
+    <li>
+      <h3>Step 5: Ask questions at the very end</h3>
+      After all tasks are complete, feel free to ask them some final questions. When analysing any of their answers, it’s important to focus more on their actions in the tasks, rather than what they said in their responses. For example, they may tell you that they found the task easy, but in reality, they may have struggled for a long while at various points in the task. 
+    </li>
+    <li>
+      <h3>Step 6: Analyse and report your findings</h3>
+      <p>
+        Analyse the results and observations from each task. Once you have conducted Usability Tests on all of your participants, you can then cross reference those results from each task with the results of all of the other participants. This will surface any patterns or trends in the feedback and possibly point to deeper insights. It will also allow you to make design proposals based off of hard numbers, instead of just your opinions.
+        </p>
+      <p>
+        Once you have this all in an easy-to-digest report, share your findings with your team and stakeholders. Make sure to include the main insights at the top, alongside any proposals you have on how to improve the designs before your next round of Usability Tests, or before you hand the designs over to the dev team.
+        </p>
+    </li>
+  </ol>
+</MethodSectionSteps>
+
+<MethodSectionTips method={currentMethod} title="Tips for a great Usability Test">
+  <ul>
+    <li>
+      If they ask you questions or for help during the tasks, try to avoid answering them until the end of the test. You can simply say “I’m sorry, but I can’t answer that right now, as I would like to see what you would do if I wasn’t here to help you, but I would be more than happy to answer any questions you have at the end of the test.”
+    </li>
+    <li>
+      Do a rehearsal Usability Test before you do it with an actual user. This will let you test all equipment, and to see how if your script or tasks need adjusting to better fit within your timeframe. For this rehearsal, you can use anyone from your company.
+    </li>
+    <li>
+      Try your best to end on time. Some of these Usability Tests can be quite long, and it may deter participants to sign up again if it goes even longer than what they agreed to.
+    </li>
+    <li>
+      Schedule the test around your participant’s schedule. This should go without saying, but it’s better to inconvenience yourself instead of the participant, because you may want to use them again in the future.
+      </li>
+    <li>
+      Always remember that it’s more important to observe what they do, rather than what they say in response to your questions. Usability tests are about gathering observations over opinions, and what they say may drastically contradict what they actually did in the test.
+      </li>
+    <li>
+      If you don’t have time to design for each possible edge case, you may need a generic “under construction” page to present to the user, and then steer them back on track if they hit that screen.
+      </li>
+    <li>
+      Pressed for time? Nowadays, there are great online tools that facilitate quick usability testing. They range in pricing but they are definitely worth exploring.
+      </li>
+    <li>
+      Record everything! You will probably want to go over the recordings as you compile your final report, and you can also share snippets of the tests with others in the company since everyone loves user feedback!
+      </li>
+    <li>
+      If it can be done discreetly, invite others from your team to observe the session. Different people will get different observations out of the test and may catch things you didn’t.
+      </li>
+  </ul>
+</MethodSectionTips>
+
+<MethodSectionResources method={currentMethod} />
+
+</MethodLayout>
