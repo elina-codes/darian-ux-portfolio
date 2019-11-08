@@ -8,6 +8,10 @@ import wireframes_main from "../images/methods/wireframes-main.jpg"
 import discovery_session_main from "../images/methods/discovery_session-main.jpg"
 import affinity_diagram_main from "../images/methods/affinity_diagram-main.jpg"
 import usability_test_main from "../images/methods/usability_test-main.jpg"
+import usability_test_quantitative_main from "../images/methods/usability_test-main.jpg"
+import usability_test_qualitative_main from "../images/methods/usability_test-main.jpg"
+import surveys_qualitative_main from "../images/methods/surveys_qualitative-main.jpg"
+import surveys_quantitative_main from "../images/methods/surveys_quantitative-main.jpg"
 
 // Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
@@ -19,6 +23,10 @@ import wireframes_steps from "../images/methods/wireframes-second.jpg"
 import discovery_session_steps from "../images/methods/discovery_session-second.jpg"
 import affinity_diagram_steps from "../images/methods/affinity_diagram-second.jpg"
 import usability_test_steps from "../images/methods/usability_test-second.jpg"
+import usability_test_quantitative_steps from "../images/methods/usability_test-second.jpg"
+import usability_test_qualitative_steps from "../images/methods/usability_test-second.jpg"
+import surveys_quantitative_steps from "../images/methods/surveys_quantitative-second.jpg"
+import surveys_qualitative_steps from "../images/methods/surveys_qualitative-second.jpg"
 
 // Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
@@ -30,6 +38,10 @@ import wireframes_tips from "../images/methods/wireframes-third.jpg"
 import discovery_session_tips from "../images/methods/discovery_session-third.jpg"
 import affinity_diagram_tips from "../images/methods/affinity_diagram-third.jpg"
 import usability_test_tips from "../images/methods/usability_test-third.jpg"
+import usability_test_quantitative_tips from "../images/methods/usability_test-third.jpg"
+import usability_test_qualitative_tips from "../images/methods/usability_test-third.jpg"
+import surveys_quantitative_tips from "../images/methods/surveys_quantitative-third.jpg"
+import surveys_qualitative_tips from "../images/methods/surveys_qualitative-third.jpg"
 
 /*
 ex:
@@ -291,8 +303,98 @@ const uxMethods = {
       },
     ],
   },
+  surveys_qualitative: {
+    title: "Surveys (Qualitative)",
+    url: "/surveys-qualitative/",
+    images: {
+      main: {
+        src: surveys_qualitative_main,
+        alt:
+          "A woman talking with a man in front of a computer. The screen reads 'Ask the right questions'.",
+      },
+      steps: {
+        src: surveys_qualitative_steps,
+        alt:
+          "Hands pointing to a tablet device with a pen.",
+      },
+      tips: {
+        src: surveys_qualitative_tips,
+        alt:
+          "A woman interacting with a tablet.",
+      },
+    },
+    resources: [
+      {
+        source: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Usability_testing",
+        title: "Usability testing",
+      },
+      {
+        source: "Experience UX",
+        url: "https://www.experienceux.co.uk/faqs/what-is-usability-testing/",
+        title: "What is usability testing?",
+      },
+      {
+        source: "usability.gov",
+        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
+        title: "Usability Testing",
+        notes: "(a good, condensed article)",
+      },
+      {
+        source: "User Testing",
+        url: "https://www.usertesting.com/",
+        title: "UserTesting: Create A Better Customer Experience",
+        notes: "(a great tool for quick, unmoderated user testing)",
+      },
+    ],
+  },
+  surveys_quantitative: {
+    title: "Surveys (Quantitative)",
+    url: "/surveys-quantitative/",
+    images: {
+      main: {
+        src: surveys_quantitative_main,
+        alt:
+          "A woman working on a computer that is displaying survey results.",
+      },
+      steps: {
+        src: surveys_quantitative_steps,
+        alt:
+          "Numbers on top of colorful backgrounds.",
+      },
+      tips: {
+        src: surveys_quantitative_tips,
+        alt:
+          "A woman answering a survey on a tablet device.",
+      },
+    },
+    resources: [
+      {
+        source: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Usability_testing",
+        title: "Usability testing",
+      },
+      {
+        source: "Experience UX",
+        url: "https://www.experienceux.co.uk/faqs/what-is-usability-testing/",
+        title: "What is usability testing?",
+      },
+      {
+        source: "usability.gov",
+        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
+        title: "Usability Testing",
+        notes: "(a good, condensed article)",
+      },
+      {
+        source: "User Testing",
+        url: "https://www.usertesting.com/",
+        title: "UserTesting: Create A Better Customer Experience",
+        notes: "(a great tool for quick, unmoderated user testing)",
+      },
+    ],
+  },
   usability_test: {
-    title: "Usability Test",
+    title: "Usability Tests (General)",
     url: "/usability-test/",
     images: {
       main: {
@@ -307,6 +409,96 @@ const uxMethods = {
       },
       tips: {
         src: usability_test_tips,
+        alt:
+          "A woman working at her computer while a black kitten is touching her arm.",
+      },
+    },
+    resources: [
+      {
+        source: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Usability_testing",
+        title: "Usability testing",
+      },
+      {
+        source: "Experience UX",
+        url: "https://www.experienceux.co.uk/faqs/what-is-usability-testing/",
+        title: "What is usability testing?",
+      },
+      {
+        source: "usability.gov",
+        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
+        title: "Usability Testing",
+        notes: "(a good, condensed article)",
+      },
+      {
+        source: "User Testing",
+        url: "https://www.usertesting.com/",
+        title: "UserTesting: Create A Better Customer Experience",
+        notes: "(a great tool for quick, unmoderated user testing)",
+      },
+    ],
+  },
+  usability_test_qualitative: {
+    title: "Usability Tests (Qualitative)",
+    url: "/usability-test-qualitative/",
+    images: {
+      main: {
+        src: usability_test_qualitative_main,
+        alt:
+          "A man working on a computer while one woman is taking notes and another woman is observing.",
+      },
+      steps: {
+        src: usability_test_qualitative_steps,
+        alt:
+          "A hand holding a pink sticky note that says 'Run a Usability Test' in front of several other blurred out sticky notes on a wall.",
+      },
+      tips: {
+        src: usability_test_qualitative_tips,
+        alt:
+          "A woman working at her computer while a black kitten is touching her arm.",
+      },
+    },
+    resources: [
+      {
+        source: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Usability_testing",
+        title: "Usability testing",
+      },
+      {
+        source: "Experience UX",
+        url: "https://www.experienceux.co.uk/faqs/what-is-usability-testing/",
+        title: "What is usability testing?",
+      },
+      {
+        source: "usability.gov",
+        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
+        title: "Usability Testing",
+        notes: "(a good, condensed article)",
+      },
+      {
+        source: "User Testing",
+        url: "https://www.usertesting.com/",
+        title: "UserTesting: Create A Better Customer Experience",
+        notes: "(a great tool for quick, unmoderated user testing)",
+      },
+    ],
+  },
+  usability_test_quantitative: {
+    title: "Usability Tests (Quantitative)",
+    url: "/usability-test-quantitative/",
+    images: {
+      main: {
+        src: usability_test_quantitative_main,
+        alt:
+          "A man working on a computer while one woman is taking notes and another woman is observing.",
+      },
+      steps: {
+        src: usability_test_quantitative_steps,
+        alt:
+          "A hand holding a pink sticky note that says 'Run a Usability Test' in front of several other blurred out sticky notes on a wall.",
+      },
+      tips: {
+        src: usability_test_quantitative_tips,
         alt:
           "A woman working at her computer while a black kitten is touching her arm.",
       },
