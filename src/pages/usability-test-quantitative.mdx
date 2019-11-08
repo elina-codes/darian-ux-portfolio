@@ -1,6 +1,6 @@
 ---
 path: "/usability-test-quantitative"
-title: "Usability Test (Quantitative)"
+title: "Quantitative Usability Test"
 ---
 
 import { Link } from "gatsby"
@@ -20,20 +20,25 @@ import SEO from "../components/seo"
 
 <MethodLayout pageTitle={props.pageContext.frontmatter.title} method={currentMethod}>
   <SEO title={props.pageContext.frontmatter.title} />
-
-<MethodSectionWhatIs method={currentMethod} title="What is a Usability Test?">
-  <p>
-    A Usability Test is a method used to evaluate how usable or intuitive your product is. This is done by observing and analysing representative users as they perform specific tasks in your product. Usability Tests allow you to identify any usability problems, collect qualitative and quantitative data, and determine your users’ satisfaction with your product.
+<p>
+    Before we talk about Quantitative Usability Tests, it’s important to understand what a Usability Test is in general. A Usability Test  is a method used to evaluate how usable or intuitive your product is. This is done by observing and analysing representative users as they perform specific tasks in your product. Usability Tests allow you to identify any usability problems, collect qualitative and quantitative data, and determine your users’ satisfaction with your product or proposed designs early on in the design cycle.
   </p>
   <p>
-    Usability Testing is a key part of the design process because it gives you direct feedback on how real users use your product. It can be done on your existing product to give you baseline metrics, which can then be compared to the outcome of any new updates, or even on early prototypes, allowing you plenty of time to make big changes to your designs before any coding takes place.
+    There are two types of Usability Tests; Quantitative Usability Tests and Qualitative Usability Tests. Quantitative Usability Testing is focused on collecting UX metrics (like time on task or task success) through controlled, specific tasks. A Qualitative Usability Test has more open-ended tasks and prioritizes observations, like identifying usability issues or user insights. 
+  </p>
+<MethodSectionWhatIs method={currentMethod} title="What is a Quantitative Usability Test?">
+  <p>
+    A Quantitative Usability Test is a method where participants perform key tasks  in a system while you collect specific metrics that describe the user’s experience and performance in those tasks. This results in clear measurements you can use for reporting or Benchmarking on the performance on your site or product.
   </p>
   <p>
-    Traditionally, you would observe the user in-person while they perform these tasks so you could better see their reactions and expressions. Nowadays, since screen-sharing and video chatting have become a standard, Remote Usability Testing is becoming more popular, as it makes scheduling much easier (which is often the biggest challenge with this method).
+    Quantitative Usability Testing is focused on collecting UX metrics (like time on task or success) through controlled, specific tasks. It is also a Summative Research method, which basically means it is performed at the end of the design cycle to summarize the product’s performance.
+  </p>
+  <p>
+    Some cons of Quantitative Usability Tests are that they can be expensive, time-consuming, and it may require compensating many participants. Remote moderated testing can help make scheduling easier, and there are paid services out there to help with that, however, they can be quite expensive.
   </p>
 </MethodSectionWhatIs>
 
-<MethodSectionNeeds title="What do you need for a Usability Test?">
+<MethodSectionNeeds title="What do you need for a Quantitative Usability Test?">
   <MethodSectionNeedsPartial type="time">
     <ul>
       <li>A few days for scheduling participants and setting up the tasks</li>
@@ -49,70 +54,86 @@ import SEO from "../components/seo"
   </MethodSectionNeedsPartial>
 </MethodSectionNeeds>
 
-<MethodSectionSteps method={currentMethod} title="How do you conduct a Usability Test?">
+<MethodSectionSteps method={currentMethod} title="How do you conduct a Quantitative Usability Test?">
   <ol>
     <li>
-      <h3>Step 1: Determine what you want to test and why</h3>
-      You should always have a goal for your tests. Do you want feedback on an existing flow to establish a baseline? Or do you want feedback on a new flow so you can make changes before handing it off to the dev team?
+      <h3>Step 1: Decide what metrics you want to test</h3>
+      <p>
+        If you have decided that a Quantitative Usability Test is the right method for you, you first need to decide what metrics you want to test.
+        </p>
+      <p><strong>To do this, you may first need to ask a few questions, such as:</strong></p>
+        <ul>
+          <li>What do your stakeholders value?</li>
+          <li>What does your team value?</li>
+          <li>What will be impacted with the next set of changes you make to the product?</li>
+          <li>What can you indirectly or directly connect to revenue or KPIs?</li>
+          <li>Or more...</li>
+        </ul>
+      <p>
+      Answering questions like these should give you a solid list of metrics to start with, but if you need more, I recommend looking at Google’s HEART Framework as well. It contains a lot of great UX metrics that you can use to tailor a Quantitative Usability Test around.
+      </p>
+      <p><strong>Some examples of metrics you can collect are:</strong></p>
+        <ul>
+          <li>Success rate</li>
+          <li>Average time on task (ToT)</li>
+          <li>Task completion rate</li>
+          <li>Time on page</li>
+          <li>Number of errors</li>
+          <li>Learnability</li>
+          <li>And many more...</li>
+        </ul>
     </li>
     <li>
-      <h3>Step 2: Schedule and recruit participants</h3>
+      <h3>Step 2: Decide if you want moderated or unmoderated</h3>
       <p>
-      Once you know what you want to test, you will want to find participants. Ideally they are representative of your target audience and have the right amount of experience for the flows you are testing. For example, if you’re testing a new sign-up flow, you may want participants that have never used your product before. If you’re testing an advanced feature, you may need participants with a lot of experience with your product.
+      Your next decision is to decide whether it will be moderated or unmoderated. A moderated test involves the active participation of a trained facilitator, while an unmoderated test is completed by test participants in their own environment without a facilitator present.
       </p>
       <p>
-      A good rule of thumb is to conduct your Usability Test on 5 participants. After that, the feedback you get will start to get too repetitive and it won’t be worth the time anymore. You can later reiterate your designs and test them again with 5 more participants.
+      Unmoderated tests are faster, and allow for greater sample sizes in a short amount of time, but there are several cons; you can’t ask follow ups, the data has higher variability, and there is a risk of “Cheater” participants (which are participants that are only in it for compensation).
       </p>    
     </li>
     <li>
       <h3>Step 3: Create your test plan and tasks</h3>
       <p>
-        Once your scheduling is underway, you need to create your test script and tasks. Come up with as many tasks that you need feedback on and that will fit within your timeframe. 
+        Next, you need to create your test script and tasks. Come up with as many tasks that you want feedback on and that will fit within your timeframe. Your tasks should be specific and controlled, so you don’t need to worry so much about creating flows for every edge case within a task, unlike in Qualitative Usability Tests.
       </p>
-      <p><strong>Some examples of a task can be:</strong></p>
+      <p><strong>Some examples of quantitative tasks would be:</strong></p>
         <ul>
-          <li>“For this first task, I would like you to sign up for a new account.”</li>
-          <li>“I would like you to pretend that you're buying a new pair of runners. Please find a pair that you like and pay for them using our site.”</li>
-          <li>“Please find your friend, Elina Lastname, and add her to your contacts.”</li>
+          <li>Find the link to the support center</li>
+          <li>Submit a help request from the checkout page</li>
+          <li>Go through the “forgot password” flow</li>
         </ul>
-      <p>
-        You need to also make sure that the flow you’re testing will support the entire task and any possible edge cases. For example, if that Sign-Up flow, does your flow support the user if they click on the “forgot password” link?
-      </p>
     </li>
     <li>
-      <h3>Step 4: Have them go through the tasks and note their actions</h3>
-      <p>Now is the big moment. Have your participant go through the tasks and observe their behaviour and actions along the way. Take note of the standard metrics, but also anything else that stands out.
+      <h3>Step 4: Schedule and recruit participants</h3>
+      <p>Once you know what you want to test, you will want to find participants. Ideally they are representative of your target audience and have the right amount of experience for the flows you are testing. For example, if you’re testing for the average Time on Task on a new sign-up flow, you may want participants that have never used your product before. If you’re testing an advanced feature, you may need participants with a lot of experience with your product.
       </p>
-      <p><strong>Some examples of things to make note of can be:</strong></p>
-        <ul>
-            <li>Task completion time</li>
-            <li>Task success</li>
-            <li>Where they pause or struggle</li>
-            <li>Where they express delight</li>
-            <li>When they wanted help</li>
-            <li>What questions they asked you during the test</li>
-            <li>And anything else that seems interesting to you</li>
-            </ul>
-      <p>In between each task, you may want to ask them a few questions to get feedback on that task. 
+      <p>For Quantitative Usability Tests, in order to make sure you get statistically significant data, you need a sample size of at least 35 to 40 participants, otherwise the data will vary too much and will not be insightful.
         </p>
     </li>
     <li>
-      <h3>Step 5: Ask questions at the very end</h3>
-      After all tasks are complete, feel free to ask them some final questions. When analysing any of their answers, it’s important to focus more on their actions in the tasks, rather than what they said in their responses. For example, they may tell you that they found the task easy, but in reality, they may have struggled for a long while at various points in the task. 
+      <h3>Step 5: Have them go through the tasks and note their performance</h3>
+      Now you can have them go through the tasks while you record and document their performance on each one. 
     </li>
     <li>
-      <h3>Step 6: Analyse and report your findings</h3>
+      <h3>Step 6: Ask questions</h3>
       <p>
-        Analyse the results and observations from each task. Once you have conducted Usability Tests on all of your participants, you can then cross reference those results from each task with the results of all of the other participants. This will surface any patterns or trends in the feedback and possibly point to deeper insights. It will also allow you to make design proposals based off of hard numbers, instead of just your opinions.
+        In between each task, or once all tasks are complete, you can bring in some other research methods, like Quantitative Surveys and Qualitative Surveys, to get some additional feedback on the specific task or overall flow. You can even interview them with another set of questions, however this can only be done in moderated tests.
+        </p>
+    </li>
+    <li>
+      <h3>Step 7: Analyse and report your findings</h3>
+      <p>
+        Analyse the results from each task then cross reference those results with the results from the other participants. This will give you average numbers that you can now use as a Benchmark, and the larger the sample size, the more significant these numbers will be. 
         </p>
       <p>
-        Once you have this all in an easy-to-digest report, share your findings with your team and stakeholders. Make sure to include the main insights at the top, alongside any proposals you have on how to improve the designs before your next round of Usability Tests, or before you hand the designs over to the dev team.
+        Once you have this all in an easy-to-digest report, do a debrief with your team or stakeholders, then start coming up with plans on how to improve those numbers you collected.
         </p>
     </li>
   </ol>
 </MethodSectionSteps>
 
-<MethodSectionTips method={currentMethod} title="Tips for a great Usability Test">
+<MethodSectionTips method={currentMethod} title="Tips for a great Quantitative Usability Test">
   <ul>
     <li>
       If they ask you questions or for help during the tasks, try to avoid answering them until the end of the test. You can simply say “I’m sorry, but I can’t answer that right now, as I would like to see what you would do if I wasn’t here to help you, but I would be more than happy to answer any questions you have at the end of the test.”

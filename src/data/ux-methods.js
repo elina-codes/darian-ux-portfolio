@@ -8,10 +8,10 @@ import wireframes_main from "../images/methods/wireframes-main.jpg"
 import discovery_session_main from "../images/methods/discovery_session-main.jpg"
 import affinity_diagram_main from "../images/methods/affinity_diagram-main.jpg"
 import usability_test_main from "../images/methods/usability_test-main.jpg"
-import usability_test_quantitative_main from "../images/methods/usability_test-main.jpg"
-import usability_test_qualitative_main from "../images/methods/usability_test-main.jpg"
-import surveys_qualitative_main from "../images/methods/surveys_qualitative-main.jpg"
+import usability_test_quantitative_main from "../images/methods/usability_test_quantitative-main.jpg"
+import usability_test_qualitative_main from "../images/methods/usability_test_qualitative-main.jpg"
 import surveys_quantitative_main from "../images/methods/surveys_quantitative-main.jpg"
+import surveys_qualitative_main from "../images/methods/surveys_qualitative-main.jpg"
 
 // Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
@@ -23,8 +23,8 @@ import wireframes_steps from "../images/methods/wireframes-second.jpg"
 import discovery_session_steps from "../images/methods/discovery_session-second.jpg"
 import affinity_diagram_steps from "../images/methods/affinity_diagram-second.jpg"
 import usability_test_steps from "../images/methods/usability_test-second.jpg"
-import usability_test_quantitative_steps from "../images/methods/usability_test-second.jpg"
-import usability_test_qualitative_steps from "../images/methods/usability_test-second.jpg"
+import usability_test_quantitative_steps from "../images/methods/usability_test_quantitative-second.jpg"
+import usability_test_qualitative_steps from "../images/methods/usability_test_qualitative-second.jpg"
 import surveys_quantitative_steps from "../images/methods/surveys_quantitative-second.jpg"
 import surveys_qualitative_steps from "../images/methods/surveys_qualitative-second.jpg"
 
@@ -38,8 +38,8 @@ import wireframes_tips from "../images/methods/wireframes-third.jpg"
 import discovery_session_tips from "../images/methods/discovery_session-third.jpg"
 import affinity_diagram_tips from "../images/methods/affinity_diagram-third.jpg"
 import usability_test_tips from "../images/methods/usability_test-third.jpg"
-import usability_test_quantitative_tips from "../images/methods/usability_test-third.jpg"
-import usability_test_qualitative_tips from "../images/methods/usability_test-third.jpg"
+import usability_test_quantitative_tips from "../images/methods/usability_test_quantitative-third.jpg"
+import usability_test_qualitative_tips from "../images/methods/usability_test_qualitative-third.jpg"
 import surveys_quantitative_tips from "../images/methods/surveys_quantitative-third.jpg"
 import surveys_qualitative_tips from "../images/methods/surveys_qualitative-third.jpg"
 
@@ -360,7 +360,7 @@ const uxMethods = {
       steps: {
         src: surveys_quantitative_steps,
         alt:
-          "Numbers on top of colorful backgrounds.",
+          "A person writing out a checklist on graph paper.",
       },
       tips: {
         src: surveys_quantitative_tips,
@@ -400,12 +400,12 @@ const uxMethods = {
       main: {
         src: usability_test_main,
         alt:
-          "A man working on a computer while one woman is taking notes and another woman is observing.",
+        "A hand holding a pink sticky note that says 'Run a Usability Test' in front of several other blurred out sticky notes on a wall.",
       },
       steps: {
         src: usability_test_steps,
         alt:
-          "A hand holding a pink sticky note that says 'Run a Usability Test' in front of several other blurred out sticky notes on a wall.",
+        "A man working on a computer while one woman is taking notes and another woman is observing.",
       },
       tips: {
         src: usability_test_tips,
@@ -445,20 +445,25 @@ const uxMethods = {
       main: {
         src: usability_test_qualitative_main,
         alt:
-          "A man working on a computer while one woman is taking notes and another woman is observing.",
+          "Two women chatting in front of a computer while one is taking notes.",
       },
       steps: {
         src: usability_test_qualitative_steps,
         alt:
-          "A hand holding a pink sticky note that says 'Run a Usability Test' in front of several other blurred out sticky notes on a wall.",
+          "A person sketching and highlighting plans on project paper.",
       },
       tips: {
         src: usability_test_qualitative_tips,
         alt:
-          "A woman working at her computer while a black kitten is touching her arm.",
+          "Two people chatting with a dog in front of a computer.",
       },
     },
     resources: [
+      {
+        source: "Userfeel",
+        url: "https://www.userfeel.com/blog/is-usability-testing-a-quantitative-or-qualitative-method",
+        title: "Is Usability Testing a Quantitative or Qualitative Method?",
+      },
       {
         source: "Wikipedia",
         url: "https://en.wikipedia.org/wiki/Usability_testing",
@@ -490,17 +495,17 @@ const uxMethods = {
       main: {
         src: usability_test_quantitative_main,
         alt:
-          "A man working on a computer while one woman is taking notes and another woman is observing.",
+          "A hand holding a stopwatch.",
       },
       steps: {
         src: usability_test_quantitative_steps,
         alt:
-          "A hand holding a pink sticky note that says 'Run a Usability Test' in front of several other blurred out sticky notes on a wall.",
+          "A person writing on a few pieces of loose paper.",
       },
       tips: {
         src: usability_test_quantitative_tips,
         alt:
-          "A woman working at her computer while a black kitten is touching her arm.",
+          "Two men talking in front of one computer.",
       },
     },
     resources: [
