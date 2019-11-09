@@ -148,7 +148,7 @@ const uxMethods = {
     },
     resources: [
       {
-        source: "nnGroup",
+        source: "Nielsen Norman Group",
         url: "https://www.nngroup.com/articles/affinity-diagram/",
         title: "Affinity Diagramming for Collaboratively Sorting UX Findings and Design Ideas",
         notes: "(this one is long, but it's very detailed and very good)",
@@ -325,26 +325,14 @@ const uxMethods = {
     },
     resources: [
       {
-        source: "Wikipedia",
-        url: "https://en.wikipedia.org/wiki/Usability_testing",
-        title: "Usability testing",
+        source: "hotjar",
+        url: "https://www.hotjar.com/blog/open-ended-questions/#what-are-open-ended-questions",
+        title: "Open-ended vs. closed-ended questions: how to survey your users",
       },
       {
-        source: "Experience UX",
-        url: "https://www.experienceux.co.uk/faqs/what-is-usability-testing/",
-        title: "What is usability testing?",
-      },
-      {
-        source: "usability.gov",
-        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
-        title: "Usability Testing",
-        notes: "(a good, condensed article)",
-      },
-      {
-        source: "User Testing",
-        url: "https://www.usertesting.com/",
-        title: "UserTesting: Create A Better Customer Experience",
-        notes: "(a great tool for quick, unmoderated user testing)",
+        source: "UX Planet",
+        url: "https://uxplanet.org/this-is-all-you-need-to-know-to-conduct-a-ux-survey-50400af45920",
+        title: "This is all you need to know to conduct a UX Survey",
       },
     ],
   },
@@ -370,26 +358,38 @@ const uxMethods = {
     },
     resources: [
       {
-        source: "Wikipedia",
-        url: "https://en.wikipedia.org/wiki/Usability_testing",
-        title: "Usability testing",
+        source: "MeasuringU",
+        url: "https://measuringu.com/suprq-sus/",
+        title: "Why the SUPR-Q is Better Than the SUS for Websites",
+        notes: "Discusses two standard Quantitative Surveys",
       },
       {
-        source: "Experience UX",
-        url: "https://www.experienceux.co.uk/faqs/what-is-usability-testing/",
-        title: "What is usability testing?",
+        source: "surveygizmo",
+        url: "https://www.surveygizmo.com/resources/blog/quantitative-questions-vs-qualitative-questions-in-surveys/",
+        title: "Quantitative Questions Versus Qualitative Questions in Surveys",
       },
       {
-        source: "usability.gov",
-        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
-        title: "Usability Testing",
-        notes: "(a good, condensed article)",
+        source: "Nielsen Norman Group",
+        url: "https://www.nngroup.com/articles/measuring-perceived-usability/ ",
+        title: "Beyond the NPS: Measuring Perceived Usability",
+        notes: "(great article on quantifying usability)",
       },
       {
-        source: "User Testing",
-        url: "https://www.usertesting.com/",
-        title: "UserTesting: Create A Better Customer Experience",
+        source: "Nielsen Norman Group",
+        url: "https://www.nngroup.com/articles/quantitative-user-research-methods/",
+        title: "Quantitative User-Research Methodologies: An Overview",
+        notes: "(good and condensed, but also has other quantitative research methods to look at)",
+      },
+      {
+        source: "QuestionPro",
+        url: "https://www.questionpro.com/close-ended-questions.html",
+        title: "Close Ended Questions",
         notes: "(a great tool for quick, unmoderated user testing)",
+      },
+      {
+        source: "UX Planet",
+        url: "https://uxplanet.org/this-is-all-you-need-to-know-to-conduct-a-ux-survey-50400af45920",
+        title: "This is all you need to know to conduct a UX Survey",
       },
     ],
   },
@@ -509,6 +509,17 @@ const uxMethods = {
       },
     },
     resources: [
+      {
+        source: "Nielsen Norman Group",
+        url: "https://www.nngroup.com/articles/quantitative-user-research-methods/",
+        title: "Quantitative User-Research Methodologies: An Overview",
+        notes: "(good and condensed, but also has other quantitative research methods to look at)",
+      },
+      {
+        source: "Userfeel",
+        url: "https://www.userfeel.com/blog/is-usability-testing-a-quantitative-or-qualitative-method",
+        title: "Is Usability Testing a Quantitative or Qualitative Method?",
+      },
       {
         source: "Wikipedia",
         url: "https://en.wikipedia.org/wiki/Usability_testing",
