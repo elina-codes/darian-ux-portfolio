@@ -394,7 +394,7 @@ const uxMethods = {
     ],
   },
   usability_test: {
-    title: "Usability Tests (General)",
+    title: "Usability Tests",
     url: "/usability-test/",
     images: {
       main: {
