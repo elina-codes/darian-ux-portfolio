@@ -12,6 +12,7 @@ import usability_test_quantitative_main from "../images/methods/usability_test_q
 import usability_test_qualitative_main from "../images/methods/usability_test_qualitative-main.jpg"
 import surveys_quantitative_main from "../images/methods/surveys_quantitative-main.jpg"
 import surveys_qualitative_main from "../images/methods/surveys_qualitative-main.jpg"
+import benchmarking_main from "../images/methods/benchmarking-main.jpg"
 
 // Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
@@ -27,6 +28,7 @@ import usability_test_quantitative_steps from "../images/methods/usability_test_
 import usability_test_qualitative_steps from "../images/methods/usability_test_qualitative-second.jpg"
 import surveys_quantitative_steps from "../images/methods/surveys_quantitative-second.jpg"
 import surveys_qualitative_steps from "../images/methods/surveys_qualitative-second.jpg"
+import benchmarking_steps from "../images/methods/benchmarking-second.jpg"
 
 // Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
@@ -42,6 +44,7 @@ import usability_test_quantitative_tips from "../images/methods/usability_test_q
 import usability_test_qualitative_tips from "../images/methods/usability_test_qualitative-third.jpg"
 import surveys_quantitative_tips from "../images/methods/surveys_quantitative-third.jpg"
 import surveys_qualitative_tips from "../images/methods/surveys_qualitative-third.jpg"
+import benchmarking_tips from "../images/methods/benchmarking-third.jpg"
 
 /*
 ex:
@@ -163,6 +166,46 @@ const uxMethods = {
         url: "https://miro.com/",
         title: "Miro - Team Collaboration Software",
         notes: "(one of the best tools out there with other great uses too)",
+      },
+    ],
+  },
+  benchmarking: {
+    title: "Benchmarking",
+    url: "/benchmarking/",
+    images: {
+      main: {
+        src: benchmarking_main,
+        alt:
+          "A woman placing a sticky note on a wall of sticky notes in front of a few people.",
+      },
+      steps: {
+        src: benchmarking_steps,
+        alt:
+          "Several piles of sticky notes, markers, and tape.",
+      },
+      tips: {
+        src: benchmarking_tips,
+        alt:
+          "A woman reading a sticky note that another woman is pointing to.",
+      },
+    },
+    resources: [
+      {
+        source: "MeasuringU",
+        url: "https://measuringu.com/?s=benchmarks",
+        title: "10 Benchmarks for User Experience Metrics",
+        notes: "(Several articles on Benchmarking and Industry Benchmarks)",
+      },
+      {
+        source: "MeasuringU",
+        url: "https://measuringu.com/benchmark-intro/",
+        title: "An Introduction to UX Benchmarking",
+      },
+      {
+        source: "Nielsen Norman Group",
+        url: "https://www.nngroup.com/articles/measuring-perceived-usability/ ",
+        title: "Beyond the NPS: Measuring Perceived Usability",
+        notes: "(great article on quantifying usability)",
       },
     ],
   },
