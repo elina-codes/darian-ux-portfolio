@@ -29,7 +29,7 @@ const Footer = () => (
           />
         </a>
 
-        <a href="mailto:darian@uxitall.com" className="footer__link">
+        <a href="mailto:dariangrant@gmail.com" className="footer__link">
           <img src={email} alt="" className="footer__icon" />
         </a>
       </div>
