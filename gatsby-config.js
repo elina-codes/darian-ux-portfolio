@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Darian Grant | UX It All`,
+    title: `UX Everything`,
     description: `UX Designer and Strategist in Vancouver, BC specializing in product strategy, user research, data driven design decisions, and increasing company UX maturity.`,
     author: `Elina Goldin`,
     siteUrl: `https://ux-everything.com`,
