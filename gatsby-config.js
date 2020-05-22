@@ -36,6 +36,7 @@ module.exports = {
         icon: `src/images/pug-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-mdx`,
     {
       resolve: "gatsby-plugin-google-tagmanager",
