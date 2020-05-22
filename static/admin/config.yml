@@ -16,16 +16,11 @@ collections:
     slug: "{{slug}}"
     preview_path: "{{slug}}"
     fields:
-      - { label: "Method Title", name: "method-title", widget: "string" }
-      - { label: "Featured Image", name: "method-thumbnail", widget: "image" }
-      - {
-          label: "Intro",
-          name: "method-intro",
-          widget: "markdown",
-          required: false,
-        }
+      - { label: "Method Title", name: "title", widget: "string" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Intro", name: "intro", widget: "markdown", required: false }
       - label: "Definition"
-        name: "method-definition"
+        name: "definition"
         widget: "object"
         fields:
           - {
@@ -37,7 +32,7 @@ collections:
           - { label: "Text", name: "definition-text", widget: "markdown" }
           - { label: "Image", name: "definition-image", widget: image }
       - label: "Needs"
-        name: "method-needs"
+        name: "needs"
         widget: "object"
         fields:
           - {
@@ -53,7 +48,7 @@ collections:
               widget: "markdown",
             }
       - label: "Steps"
-        name: "method-steps"
+        name: "steps"
         widget: "object"
         fields:
           - {
@@ -79,7 +74,7 @@ collections:
                     }
                   - { label: "Text", name: "step-text", widget: "markdown" }
       - label: "Tips"
-        name: "method-tips"
+        name: "tips"
         widget: "object"
         fields:
           - {
@@ -91,7 +86,7 @@ collections:
           - { label: "Text", name: "tips-text", widget: "markdown" }
           - { label: "Image", name: "tips-image", widget: image }
       - label: "Resources"
-        name: "method-tips"
+        name: "resources"
         widget: "list"
         fields:
           - { label: "Resource", name: "resource", widget: "markdown" }
