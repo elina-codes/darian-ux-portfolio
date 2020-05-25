@@ -58,21 +58,12 @@ collections:
               default: "How do you run a {{title}}?",
             }
           - { label: "Image", name: "steps-image", widget: image }
-          - label: "Steps List"
+          - label: "Steps"
             name: "steps-list"
             widget: "list"
             fields:
-              - label: "Step"
-                name: "steps-item"
-                widget: "object"
-                fields:
-                  - {
-                      label: "Title",
-                      name: "step-title",
-                      widget: "string",
-                      default: "What do you need for a {{title}}?",
-                    }
-                  - { label: "Text", name: "step-text", widget: "markdown" }
+              - { label: "Title", name: "step-title", widget: "string" }
+              - { label: "Text", name: "step-text", widget: "markdown" }
       - label: "Tips"
         name: "tips"
         widget: "object"
@@ -81,12 +72,18 @@ collections:
               label: "Title",
               name: "tips-title",
               widget: "string",
-              default: "Tips for a great {{title}}?",
+              default: "Tips for a great {{title}}",
             }
           - { label: "Text", name: "tips-text", widget: "markdown" }
           - { label: "Image", name: "tips-image", widget: image }
       - label: "Resources"
         name: "resources"
-        widget: "list"
+        widget: "object"
         fields:
-          - { label: "Resource", name: "resource", widget: "markdown" }
+          - {
+              label: "Title",
+              name: "resources-title",
+              widget: "string",
+              default: "More resources for {{title}}",
+            }
+          - { label: "Content", name: "resources-content", widget: "markdown" }
