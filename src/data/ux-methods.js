@@ -10,6 +10,7 @@ import affinity_diagram_main from "../images/methods/affinity_diagram-main.jpg"
 import usability_test_main from "../images/methods/usability_test-main.jpg"
 import usability_test_quantitative_main from "../images/methods/usability_test_quantitative-main.jpg"
 import usability_test_qualitative_main from "../images/methods/usability_test_qualitative-main.jpg"
+import user_research_interviews_main from "../images/methods/user_research_interviews-main.jpg"
 import surveys_quantitative_main from "../images/methods/surveys_quantitative-main.jpg"
 import surveys_qualitative_main from "../images/methods/surveys_qualitative-main.jpg"
 import benchmarking_main from "../images/methods/benchmarking-main.jpg"
@@ -26,6 +27,7 @@ import affinity_diagram_steps from "../images/methods/affinity_diagram-second.jp
 import usability_test_steps from "../images/methods/usability_test-second.jpg"
 import usability_test_quantitative_steps from "../images/methods/usability_test_quantitative-second.jpg"
 import usability_test_qualitative_steps from "../images/methods/usability_test_qualitative-second.jpg"
+import user_research_interviews_steps from "../images/methods/user_research_interviews-second.jpg"
 import surveys_quantitative_steps from "../images/methods/surveys_quantitative-second.jpg"
 import surveys_qualitative_steps from "../images/methods/surveys_qualitative-second.jpg"
 import benchmarking_steps from "../images/methods/benchmarking-second.jpg"
@@ -42,6 +44,7 @@ import affinity_diagram_tips from "../images/methods/affinity_diagram-third.jpg"
 import usability_test_tips from "../images/methods/usability_test-third.jpg"
 import usability_test_quantitative_tips from "../images/methods/usability_test_quantitative-third.jpg"
 import usability_test_qualitative_tips from "../images/methods/usability_test_qualitative-third.jpg"
+import user_research_interviews_tips from "../images/methods/user_research_interviews-third.jpg"
 import surveys_quantitative_tips from "../images/methods/surveys_quantitative-third.jpg"
 import surveys_qualitative_tips from "../images/methods/surveys_qualitative-third.jpg"
 import benchmarking_tips from "../images/methods/benchmarking-third.jpg"
@@ -584,6 +587,44 @@ const uxMethods = {
         url: "https://www.usertesting.com/",
         title: "UserTesting: Create A Better Customer Experience",
         notes: "(a great tool for quick, unmoderated user testing)",
+      },
+    ],
+  },
+  user_research_interviews: {
+    title: "User Research Interviews",
+    url: "/user-research-interviews/",
+    images: {
+      main: {
+        src: user_research_interviews_main,
+        alt:
+          "A professional woman video calling another professional woman.",
+      },
+      steps: {
+        src: user_research_interviews_steps,
+        alt:
+          "A woman interviewing a man.",
+      },
+      tips: {
+        src: user_research_interviews_tips,
+        alt:
+          "A man being interviewed in an autumn forest.",
+      },
+    },
+    resources: [
+      {
+        source: "UX Collective",
+        url: "https://uxdesign.cc/how-to-conduct-user-interviews-fe4b8c34b0b7",
+        title: "How to conduct user interviews",
+      },
+      {
+        source: "Interaction Design Foundation",
+        url: "https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews",
+        title: "How to Conduct User Interviews",
+      },
+      {
+        source: "nnGroup",
+        url: "https://www.nngroup.com/articles/user-interviews/",
+        title: "User Interviews: How, When, and Why to Conduct Them",
       },
     ],
   },
