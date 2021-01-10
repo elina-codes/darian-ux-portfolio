@@ -1,5 +1,6 @@
 // Main images (main section)
 import ab_testing_main from "../images/methods/ab_testing-main.jpg"
+import card_sorting_main from "../images/methods/card_sorting-main.jpg"
 import competitive_analysis_main from "../images/methods/competitive_analysis-main.jpg"
 import contextual_inquiry_main from "../images/methods/contextual_inquiry-main.jpg"
 import paper_prototype_main from "../images/methods/paper_prototype-main.jpg"
@@ -17,6 +18,7 @@ import benchmarking_main from "../images/methods/benchmarking-main.jpg"
 
 // Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
+import card_sorting_steps from "../images/methods/card_sorting-second.jpg"
 import competitive_analysis_steps from "../images/methods/competitive_analysis-second.jpg"
 import contextual_inquiry_steps from "../images/methods/contextual_inquiry-second.jpg"
 import paper_prototype_steps from "../images/methods/paper_prototype-second.jpg"
@@ -34,6 +36,7 @@ import benchmarking_steps from "../images/methods/benchmarking-second.jpg"
 
 // Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
+import card_sorting_tips from "../images/methods/card_sorting-tips.jpg"
 import competitive_analysis_tips from "../images/methods/competitive_analysis-third.jpg"
 import contextual_inquiry_tips from "../images/methods/contextual_inquiry-third.jpg"
 import paper_prototype_tips from "../images/methods/paper_prototype-third.jpg"
@@ -209,6 +212,46 @@ const uxMethods = {
         url: "https://www.nngroup.com/articles/measuring-perceived-usability/ ",
         title: "Beyond the NPS: Measuring Perceived Usability",
         notes: "(great article on quantifying usability)",
+      },
+    ],
+  },
+  card_sorting: {
+    title: "Card Sorting",
+    url: "/card-sorting/",
+    images: {
+      main: {
+        src: card_sorting_main,
+        alt:
+          "A woman placing a sticky note on a wall of sticky notes in front of a few people.",
+      },
+      steps: {
+        src: card_sorting_steps,
+        alt:
+          "Several piles of sticky notes, markers, and tape.",
+      },
+      tips: {
+        src: card_sorting_tips,
+        alt:
+          "A woman reading a sticky note that another woman is pointing to.",
+      },
+    },
+    resources: [
+      {
+        source: "UsabilityTest",
+        url: "https://www.usabilitest.com/card-sorting",
+        title: "Card Sorting online made easy",
+        notes: "(this even has interactive demos of the different types of card sorts)",
+      },
+      {
+        source: "Usability.gov",
+        url: "https://www.usability.gov/how-to-and-tools/methods/card-sorting.html",
+        title: "Card Sorting",
+      },
+      {
+        source: "Miro",
+        url: "https://miro.com/",
+        title: "Miro - Team Collaboration Software",
+        notes: "(great tool for digital or remote card sorting, and much more!)",
       },
     ],
   },
