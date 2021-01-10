@@ -222,17 +222,17 @@ const uxMethods = {
       main: {
         src: card_sorting_main,
         alt:
-          "A woman placing a sticky note on a wall of sticky notes in front of a few people.",
+          "A stack of index cards.",
       },
       steps: {
         src: card_sorting_steps,
         alt:
-          "Several piles of sticky notes, markers, and tape.",
+          "Four index cards.",
       },
       tips: {
         src: card_sorting_tips,
         alt:
-          "A woman reading a sticky note that another woman is pointing to.",
+          "An index card with a heart drawn on it in red crayon.",
       },
     },
     resources: [
