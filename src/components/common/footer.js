@@ -1,8 +1,8 @@
 import React from "react"
 
 import "./footer.scss"
-import linkedIn from "../../images/svg/contact-linkedin.svg"
-import email from "../../images/svg/contact-email.svg"
+import linkedIn from "../../images/work/svg/contact-linkedin.svg"
+import email from "../../images/work/svg/contact-email.svg"
 
 const Footer = () => (
   <footer id="contact">
@@ -18,6 +18,20 @@ const Footer = () => (
           <img src={linkedIn} alt="" className="footer__icon" />
         </a>
 
+<<<<<<< HEAD
+=======
+        <a className="footer__link easter-trigger">
+          <img
+            src={require("../../images/darian-smiling.jpg")}
+            className="darian-before"
+          />
+          <img
+            src={require("../../images/darian-proud.jpg")}
+            className="darian-after"
+          />
+        </a>
+
+>>>>>>> develop-portfolio
         <a href="mailto:dariangrant@gmail.com" className="footer__link">
           <img src={email} alt="" className="footer__icon" />
         </a>
