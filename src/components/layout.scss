@@ -13,7 +13,6 @@ section {
 .section__title {
   letter-spacing: 2px;
   text-align: center;
-  text-transform: uppercase;
 
   + .section__description {
     margin-bottom: 3em;
@@ -41,11 +40,4 @@ section {
 .wrapper--narrow {
   max-width: $content-width;
   margin: 0 auto;
-}
-
-.coming-soon {
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
