@@ -1,10 +1,11 @@
 $color-primary: #2c8ab6;
 $color-primary-light: lighten($color-primary, 45%);
 $color-primary-dark: darken($color-primary, 35%);
-$color-grey: #9c9c9c;
-$color-grey-light: #f2f2f2;
-$color-grey-dark: #333;
-$color-black: #111;
+// $color-black: rgb(21, 28, 37);
+$color-black: $color-primary-dark;
+$color-grey: adjust-color(lighten($color-primary, 20%), $saturation: -35);
+$color-grey-light: adjust-color(lighten($color-primary, 52%), $saturation: -30);
+$color-grey-dark: lighten($color-black, 10%);
 $color-white: white;
 
 $font-family-headings: "Patua One", sans-serif;
@@ -19,7 +20,7 @@ $font-size-sm: 20px;
 $font-size-xs: 18px;
 $font-size-xxs: 16px;
 
-$section-width: 1400px;
+$section-width: 1800px;
 $content-width: 1000px;
 
 // media queries

@@ -10,6 +10,9 @@ const GridLayout = ({ gridItems }) => (
         itemTitle={gridItems[key].title}
         itemImage={gridItems[key].images.main.src}
         itemLink={gridItems[key].url}
+        itemCategories={
+          gridItems[key].categories ? gridItems[key].categories : null
+        }
         key={key}
       />
     ))}
