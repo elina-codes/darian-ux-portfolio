@@ -1,6 +1,37 @@
 @import url("//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Patua+One&display=swap");
 @import "vars";
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,12 +39,16 @@
 body {
   padding-top: 60px;
   transition: all 0.4s ease;
+<<<<<<< HEAD
   font-family: $font-family-main;
   line-height: 1.5;
   font-weight: 300;
   color: $color-black;
   font-size: $font-size-xxs;
   background: $color-white;
+=======
+  line-height: 1.5;
+>>>>>>> develop-portfolio
 
   @media #{$screen-sm} {
     padding-top: 45px;
@@ -56,11 +91,18 @@ h1,
 
 h2,
 .h2 {
+<<<<<<< HEAD
   font-size: $font-size-md;
   font-weight: 400;
   margin-bottom: 0.6em;
   color: $color-grey-dark;
   line-height: 1.2;
+=======
+  font-size: $font-size-xl;
+  font-weight: 500;
+  margin-bottom: 0.8em;
+  color: inherit;
+>>>>>>> develop-portfolio
 
   @media #{$screen-md-min} {
     font-size: $font-size-lg;
@@ -73,7 +115,6 @@ h3,
   font-weight: 400;
   margin-bottom: 0.6em;
   color: $color-grey-dark;
-  line-height: 1.2;
 
   @media #{$screen-md-min} {
     font-size: $font-size-sm;
@@ -82,9 +123,8 @@ h3,
 
 h4,
 .h4 {
-  font-size: $font-size-md;
+  font-size: $font-size-xs;
   margin-bottom: 0;
-  line-height: 1.1;
   color: $color-grey;
   text-transform: uppercase;
 }
@@ -193,6 +233,34 @@ strong {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
+=======
+body {
+  font-family: $font-family-main;
+  line-height: 1.5;
+  font-weight: 300;
+  color: $color-black;
+  font-size: $font-size-md;
+  background: $color-white;
+
+  @media #{$screen-lg} {
+    font-size: $font-size-sm;
+  }
+  @media #{$screen-md} {
+    font-size: $font-size-xs;
+  }
+}
+
+// [data-in-view] {
+//   display: block;
+//   opacity: 0;
+
+//   &.in-view {
+//     animation: fadeInUp 1s ease forwards;
+//   }
+// }
+
+>>>>>>> develop-portfolio
 img {
   display: block;
   max-width: 100%;

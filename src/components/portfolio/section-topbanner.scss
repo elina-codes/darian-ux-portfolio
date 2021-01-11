@@ -1,0 +1,34 @@
+@import "../common/styles/vars";
+
+.work-layout {
+  section.single-page__header {
+    background-color: $color-white;
+    position: relative;
+    text-align: center;
+
+    .single-page__header__title {
+      line-height: 1.2;
+      position: relative;
+
+      @media #{$screen-sm} {
+        font-size: $font-size-xl;
+      }
+
+      @media #{$screen-xs} {
+        font-size: $font-size-lg;
+      }
+    }
+
+    .single-page__header__subtitle {
+      margin-left: 4px;
+      opacity: 0.8;
+      position: relative;
+    }
+
+    img {
+      margin: 0 auto;
+      display: block;
+      max-height: 100vh;
+    }
+  }
+}
