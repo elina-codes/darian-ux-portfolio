@@ -1,9 +1,16 @@
 module.exports = {
   siteMetadata: {
+<<<<<<< HEAD
     title: `UX Everything`,
     description: `UX Designer and Strategist in Vancouver, BC specializing in product strategy, user research, data driven design decisions, and increasing company UX maturity.`,
     author: `Elina Goldin`,
     siteUrl: `https://ux-everything.com`,
+=======
+    title: `Darian Grant`,
+    description: `UX Designer and Strategist in Vancouver, BC specializing in product strategy, user research, data driven design decisions, and increasing company UX maturity.`,
+    author: `Elina Goldin`,
+    siteUrl: `https://portfolio.ux-everything.com`,
+>>>>>>> develop-portfolio
   },
   plugins: [
     `gatsby-plugin-sitemap`,
@@ -19,7 +26,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
+<<<<<<< HEAD
         siteUrl: `https://ux-everything.com`,
+=======
+        siteUrl: `https://portfolio.ux-everything.com`,
+>>>>>>> develop-portfolio
       },
     },
     `gatsby-transformer-sharp`,

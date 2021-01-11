@@ -1,0 +1,255 @@
+---
+path: "/fifa-ultimate-team"
+title: "FIFA Ultimate Team"
+---
+
+import projects from "../data/projects"
+import WorkLayout from "../components/portfolio/layout-work"
+import WorkSection from "../components/portfolio/section-work-section"
+import NextSteps from "../components/portfolio/section-next-steps"
+
+import SEO from "../components/seo"
+
+export const project = projects.fifa_ultimate_team
+
+<WorkLayout
+  project={project}
+  projectTitle={props.pageContext.frontmatter.title}
+  projectType="Electronic Arts"
+>
+<SEO title={props.pageContext.frontmatter.title} />
+<WorkSection title="Overview" subtitle="FIFA Ultimate 11" 
+  image={require("../images/work/fifa-ultimate-team-11-02.jpg")}
+  alt="A screenshot from the first launch of the FIFA Ultimate Team 11 web app">
+
+  <p>
+    This is <strong>the first FIFA Ultimate Team DLC package that I worked on at <a href="https://www.ea.com/en-ca" target="_blank" rel="noreferrer noopener">Electronic Arts Canada</a> as a UX and Game Designer</strong>, though the game was originally launched in 2009.
+  </p>
+  <p>
+    As the game mode was picking up a lot of good momentum, <strong>my main task was to design the supporting Web App for the game</strong>, as well as some minor in-game features like the leaderboards system.
+  </p>
+  <p>Below are my examples from this project.</p>
+</WorkSection>
+
+<WorkSection
+  title="The Web App"
+  subtitle="FIFA Ultimate Team 11"
+  image={require("../images/work/fifa-ultimate-team-11-03.jpg")}
+  alt="A wireframe of the New Items screen from the FIFA Ultimate Team 11 web app"
+  image2={require("../images/work/fifa-ultimate-team-11-04.jpg")}
+  alt2="The final mockup of the Trade screen from the FIFA Ultimate Team 11 web app"
+>
+  <p>
+    By FIFA Ultimate Team 11, it was in its third year of production, but this was the first
+    year it was getting a supporting web app.
+  </p>
+
+<p>
+  <strong>
+    My tasks were to transfer the selected features and functionality from the
+    console version over to the web app
+  </strong>
+  . I would create the functionality with wireframes, then work closely with the
+  IDs to create the mockups.
+</p>
+
+<p><strong>Here you can see a wireframe next to the final outcome.</strong></p>
+
+</WorkSection>
+
+<WorkSection
+  title="Leaderboards"
+  subtitle="FIFA Ultimate Team 11"
+  image={require("../images/work/fifa-ultimate-team-11-05.jpg")}
+  alt="The final mockup of the FIFA Ultimate Team 11 leaderboards screen"
+>
+  <p>
+    On the console side, the leaderboards were a pretty simple task and a good
+    introduction to the world of FIFA Ultimate Team.{" "}
+    <strong>
+      I created the functionality, flow and wireframes for the screens, then
+      worked with an UI Designer to produce the final mockups.
+    </strong>
+  </p>
+  <p>
+    Though I've lost the wireframes,{" "}
+    <strong>
+      here you can see the final mockup of the leaderboards feature.
+    </strong>
+  </p>
+</WorkSection>
+
+<NextSteps title="Outcome" subtitle="FIFA Ultimate Team 11">
+  <p>
+    When we released the web app,{" "}
+    <strong>
+      the amount of trading increased by 8x, almost overnight, and purchases
+      with in-game currency almost went up by a factor of 3
+    </strong>{" "}
+    when measuring web app users vs console-only users.
+  </p>
+  <p>
+    Though I don't quite remember the outcome of the leaderboards,{" "}
+    <strong>
+      it's also interesting to note that the leaderboards are still in FIFA
+      Ultimate Team 17, with nearly identical functionality,
+    </strong>{" "}
+    just styled differently.
+  </p>
+</NextSteps>
+
+<WorkSection
+  title="Overview"
+  subtitle="FIFA Ultimate 12"
+  image={require("../images/work/fifa-ultimate-team-12-02.jpg")}
+  alt="The final version of the New Items screen for FIFA Ultimate Team 12"
+>
+  <p>
+    This is the second FIFA Ultimate Team DLC package that I worked on at{" "}
+    <a
+      href="https://www.ea.com/en-ca"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      Electronic Arts Canada
+    </a>{" "}
+    as a UX and Game Designer.
+  </p>
+  <p>
+    <strong>
+      This year, my jobs were to redesign the New Items flow to be more
+      intuitive, increase fun and engagement wherever possible, and incorporate
+      best UX practices on all new designs.
+    </strong>
+  </p>
+  <p>Below are some examples of my work on this project.</p>
+</WorkSection>
+
+<WorkSection
+  title="Prototyping and Testing" subtitle="FIFA Ultimate 12"
+  image={require("../images/work/fifa-ultimate-team-12-03.jpg")}
+  alt="The first version of the paper prototype for the New Items flow in FIFA Ultimate Team 12"
+  video="https://www.youtube.com/embed/BJdW7ZYPJnI"
+>
+<p>
+  From the user information gathered from the marketing and data teams, <strong>I came up with an initial design for the New Items flow. I then gathered feedback from our usability tests</strong> with the wireframes, then worked with the Interface Designers to create proper mockups.
+</p>
+
+<p>
+  <strong>Here you can see an image of the original paper prototype and a video from one of our final paper prototype sessions.</strong> In this video, you can see how I conduct my sessions; giving them a task scenario, and then
+  unbiasedly prompting them to speak their mind to ensure I get the best and most accurate
+  feedback from them.
+</p>
+</WorkSection>
+
+<WorkSection
+  title="Final Version"
+  subtitle="FIFA Ultimate 12"
+  image={require("../images/work/fifa-ultimate-team-12-02.jpg")}
+  alt="The final version of the New Items screen for FIFA Ultimate Team 12"
+  video="https://www.youtube.com/embed/an2ynrRWyRE"
+>
+  <p>
+    <strong>
+      Here you can see the mockup of the final version of the New Items flow
+      after several reiterations based off of feedback from our tests.
+    </strong>{" "}
+    I've also uploaded a video that a fan made, showing you all of the
+    interactions and full experience of the New Items flow, to give you an idea
+    of the depth of this design.
+  </p>
+</WorkSection>
+
+<NextSteps title="Outcome" subtitle="FIFA Ultimate Team 12">
+  <p>
+    The updated New Items flow resulted in overall{" "}
+    <strong>
+      less time spent on this screen. Though that may sound like a bad thing, it
+      was actually good. It meant our players could manage their new items much
+      faster and get back to playing the game or buying more packs of cards.
+    </strong>{" "}
+    This was also a huge win for prototyping at the company, as it got a lot of
+    attention from upper management and other product managers at the company.
+  </p>
+</NextSteps>
+
+<WorkSection
+  title="Overview"
+  subtitle="FIFA Ultimate 13"
+  image={require("../images/work/fifa-ultimate-team-13-02.jpg")}
+  alt="The opening screen in FIFA Ultimate Team 13 where you get to choose a captain of your team"
+>
+  <p>
+    This is the third FIFA Ultimate Team DLC package that I worked on at{" "}
+    <a
+      href="https://www.ea.com/en-ca"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      Electronic Arts Canada
+    </a>{" "}
+    as a UX and Game Designer.
+  </p>
+  <p>
+    <strong>
+      From last year's game, we noticed that there was a 40% dropoff after the
+      very first screen, so this year, I created an extremely powerful new
+      introduction flow for our users to address that.
+    </strong>
+  </p>
+  <p>Below are some examples of my work on this project.</p>
+</WorkSection>
+
+<WorkSection
+  title="Lots of prototyping!" subtitle="FIFA Ultimate 13"
+  video="https://www.youtube.com/embed/-ewhk9WyaRY"
+>
+<p>
+  Since the game had solid mechanics and was generating good revenue, we had to tackle the
+  issue of this dropoff.
+</p>
+
+<p>
+  <strong>I ran extensive usability tests on this new introduction flow</strong>{" "}
+  throughout the whole pre-production and production phases of this project,
+  which went through several iterations.
+</p>
+
+<p>
+  <strong>
+      Here you can watch a fan made video of their first introduction to FIFA Ultimate Team,
+      using the onboarding flow I designed.
+  </strong> You can also view the <a href={require("../images/work/fifa-ultimate-team-13-03.jpg")} target="_blank" rel="noreferrer noopener"> master image of all of the screens used for the first prototype here</a>.
+</p>
+</WorkSection>
+
+<WorkSection
+  title="Smaller Tasks" subtitle="FIFA Ultimate 13"
+  image={require("../images/work/fifa-ultimate-team-13-04.jpg")}
+  alt="A wireframe from the Team of the Week Challenge feature"
+  image2={require("../images/work/fifa-ultimate-team-13-05.jpg")}
+  alt2="The final mockup from the Team of the Week Challenge feature"
+>
+<p>
+  The introduction flow was the majority of my time, but <strong>I still worked on several other screens in the game to improve their functionality.
+  </strong> This Team of the Week Challenge feature was new to the game this year and required work from
+  the ground up.
+</p>
+
+<p>
+  <strong>Here you can see one of my original wireframes and the final mockup for the Team of the Week Challenge.</strong> You can also see <a href={require("../images/work/fifa-ultimate-team-13-06.jpg")} target="_blank" rel="noreferrer noopener">another wireframe and final mockup here.</a>
+</p>
+</WorkSection>
+
+<NextSteps title="Outcome" subtitle="FIFA Ultimate Team 13">
+  <p>
+    FIFA Ultimate Team 13 was a huge success.{" "}
+    <strong>
+      The new onboarding flow closed the day 1 retention gap by 45%, and the day
+      2 retention gap by 30%.
+    </strong>{" "}
+    This is also the year where we tripled revenue.
+  </p>
+</NextSteps>
+
+</WorkLayout>
