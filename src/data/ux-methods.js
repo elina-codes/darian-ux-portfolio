@@ -36,7 +36,7 @@ import benchmarking_steps from "../images/methods/benchmarking-second.jpg"
 
 // Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
-import card_sorting_tips from "../images/methods/card_sorting-tips.jpg"
+import card_sorting_tips from "../images/methods/card_sorting-third.jpg"
 import competitive_analysis_tips from "../images/methods/competitive_analysis-third.jpg"
 import contextual_inquiry_tips from "../images/methods/contextual_inquiry-third.jpg"
 import paper_prototype_tips from "../images/methods/paper_prototype-third.jpg"
@@ -146,26 +146,27 @@ const uxMethods = {
       },
       steps: {
         src: affinity_diagram_steps,
-        alt:
-          "Several piles of sticky notes, markers, and tape.",
+        alt: "Several piles of sticky notes, markers, and tape.",
       },
       tips: {
         src: affinity_diagram_tips,
-        alt:
-          "A woman reading a sticky note that another woman is pointing to.",
+        alt: "A woman reading a sticky note that another woman is pointing to.",
       },
     },
     resources: [
       {
         source: "Nielsen Norman Group",
         url: "https://www.nngroup.com/articles/affinity-diagram/",
-        title: "Affinity Diagramming for Collaboratively Sorting UX Findings and Design Ideas",
+        title:
+          "Affinity Diagramming for Collaboratively Sorting UX Findings and Design Ideas",
         notes: "(this one is long, but it's very detailed and very good)",
       },
       {
         source: "Interaction Design Foundation",
-        url: "https://www.interaction-design.org/literature/article/affinity-diagrams-learn-how-to-cluster-and-bundle-ideas-and-facts",
-        title: "Affinity Diagrams – Learn How to Cluster and Bundle Ideas and Facts",
+        url:
+          "https://www.interaction-design.org/literature/article/affinity-diagrams-learn-how-to-cluster-and-bundle-ideas-and-facts",
+        title:
+          "Affinity Diagrams – Learn How to Cluster and Bundle Ideas and Facts",
       },
       {
         source: "Miro",
@@ -186,13 +187,11 @@ const uxMethods = {
       },
       steps: {
         src: benchmarking_steps,
-        alt:
-          "Several piles of sticky notes, markers, and tape.",
+        alt: "Several piles of sticky notes, markers, and tape.",
       },
       tips: {
         src: benchmarking_tips,
-        alt:
-          "A woman reading a sticky note that another woman is pointing to.",
+        alt: "A woman reading a sticky note that another woman is pointing to.",
       },
     },
     resources: [
@@ -221,18 +220,15 @@ const uxMethods = {
     images: {
       main: {
         src: card_sorting_main,
-        alt:
-          "A stack of index cards.",
+        alt: "A stack of index cards.",
       },
       steps: {
         src: card_sorting_steps,
-        alt:
-          "Four index cards.",
+        alt: "Four index cards.",
       },
       tips: {
         src: card_sorting_tips,
-        alt:
-          "An index card with a heart drawn on it in red crayon.",
+        alt: "An index card with a heart drawn on it in red crayon.",
       },
     },
     resources: [
@@ -240,18 +236,21 @@ const uxMethods = {
         source: "UsabilityTest",
         url: "https://www.usabilitest.com/card-sorting",
         title: "Card Sorting online made easy",
-        notes: "(this even has interactive demos of the different types of card sorts)",
+        notes:
+          "(this even has interactive demos of the different types of card sorts)",
       },
       {
         source: "Usability.gov",
-        url: "https://www.usability.gov/how-to-and-tools/methods/card-sorting.html",
+        url:
+          "https://www.usability.gov/how-to-and-tools/methods/card-sorting.html",
         title: "Card Sorting",
       },
       {
         source: "Miro",
         url: "https://miro.com/",
         title: "Miro - Team Collaboration Software",
-        notes: "(great tool for digital or remote card sorting, and much more!)",
+        notes:
+          "(great tool for digital or remote card sorting, and much more!)",
       },
     ],
   },
@@ -327,37 +326,44 @@ const uxMethods = {
     images: {
       main: {
         src: discovery_session_main,
-        alt: "Two women reviewing notes in a notepad."
+        alt: "Two women reviewing notes in a notepad.",
       },
       steps: {
         src: discovery_session_steps,
-        alt: "A group of people at a table with their laptops open, focusing on a man standing in front of a whiteboard."
+        alt:
+          "A group of people at a table with their laptops open, focusing on a man standing in front of a whiteboard.",
       },
       tips: {
         src: discovery_session_tips,
-        alt: "A woman looking at her laptop and writing down notes in her notepad."
-      }
+        alt:
+          "A woman looking at her laptop and writing down notes in her notepad.",
+      },
     },
     resources: [
       {
         source: "The Digital Project Manager",
-        url: "https://thedigitalprojectmanager.com/how-to-run-project-discovery-workshop-ask-the-right-questions/",
-        title: "How To Run A Great Project Discovery Workshop – Ask The Right Questions",
+        url:
+          "https://thedigitalprojectmanager.com/how-to-run-project-discovery-workshop-ask-the-right-questions/",
+        title:
+          "How To Run A Great Project Discovery Workshop – Ask The Right Questions",
         notes: "(a lot of great questions broken up by discipline)",
       },
       {
         source: "Mobify",
-        url: "https://docs.mobify.com/design/discovery-phase/conducting-ux-dicovery/",
+        url:
+          "https://docs.mobify.com/design/discovery-phase/conducting-ux-dicovery/",
         title: "Conducting a UX Discovery",
-        notes: "(the first step has some good example questions and a script to follow, though the examples are a little too specific)",
+        notes:
+          "(the first step has some good example questions and a script to follow, though the examples are a little too specific)",
       },
       {
         source: "Hubspot",
         url: "https://blog.hubspot.com/agency/client-discovery-process",
         title: "The client discovery process",
-        notes: "(to help differentiate between a discovery session and the discovery process)",
-      }
-    ]
+        notes:
+          "(to help differentiate between a discovery session and the discovery process)",
+      },
+    ],
   },
   paper_prototype: {
     title: "Paper Prototype",
@@ -403,24 +409,25 @@ const uxMethods = {
       },
       steps: {
         src: surveys_qualitative_steps,
-        alt:
-          "Hands pointing to a tablet device with a pen.",
+        alt: "Hands pointing to a tablet device with a pen.",
       },
       tips: {
         src: surveys_qualitative_tips,
-        alt:
-          "A woman interacting with a tablet.",
+        alt: "A woman interacting with a tablet.",
       },
     },
     resources: [
       {
         source: "hotjar",
-        url: "https://www.hotjar.com/blog/open-ended-questions/#what-are-open-ended-questions",
-        title: "Open-ended vs. closed-ended questions: how to survey your users",
+        url:
+          "https://www.hotjar.com/blog/open-ended-questions/#what-are-open-ended-questions",
+        title:
+          "Open-ended vs. closed-ended questions: how to survey your users",
       },
       {
         source: "UX Planet",
-        url: "https://uxplanet.org/this-is-all-you-need-to-know-to-conduct-a-ux-survey-50400af45920",
+        url:
+          "https://uxplanet.org/this-is-all-you-need-to-know-to-conduct-a-ux-survey-50400af45920",
         title: "This is all you need to know to conduct a UX Survey",
       },
     ],
@@ -431,18 +438,15 @@ const uxMethods = {
     images: {
       main: {
         src: surveys_quantitative_main,
-        alt:
-          "A woman working on a computer that is displaying survey results.",
+        alt: "A woman working on a computer that is displaying survey results.",
       },
       steps: {
         src: surveys_quantitative_steps,
-        alt:
-          "A person writing out a checklist on graph paper.",
+        alt: "A person writing out a checklist on graph paper.",
       },
       tips: {
         src: surveys_quantitative_tips,
-        alt:
-          "A woman answering a survey on a tablet device.",
+        alt: "A woman answering a survey on a tablet device.",
       },
     },
     resources: [
@@ -454,7 +458,8 @@ const uxMethods = {
       },
       {
         source: "surveygizmo",
-        url: "https://www.surveygizmo.com/resources/blog/quantitative-questions-vs-qualitative-questions-in-surveys/",
+        url:
+          "https://www.surveygizmo.com/resources/blog/quantitative-questions-vs-qualitative-questions-in-surveys/",
         title: "Quantitative Questions Versus Qualitative Questions in Surveys",
       },
       {
@@ -465,9 +470,11 @@ const uxMethods = {
       },
       {
         source: "Nielsen Norman Group",
-        url: "https://www.nngroup.com/articles/quantitative-user-research-methods/",
+        url:
+          "https://www.nngroup.com/articles/quantitative-user-research-methods/",
         title: "Quantitative User-Research Methodologies: An Overview",
-        notes: "(good and condensed, but also has other quantitative research methods to look at)",
+        notes:
+          "(good and condensed, but also has other quantitative research methods to look at)",
       },
       {
         source: "QuestionPro",
@@ -477,7 +484,8 @@ const uxMethods = {
       },
       {
         source: "UX Planet",
-        url: "https://uxplanet.org/this-is-all-you-need-to-know-to-conduct-a-ux-survey-50400af45920",
+        url:
+          "https://uxplanet.org/this-is-all-you-need-to-know-to-conduct-a-ux-survey-50400af45920",
         title: "This is all you need to know to conduct a UX Survey",
       },
     ],
@@ -489,12 +497,12 @@ const uxMethods = {
       main: {
         src: usability_test_main,
         alt:
-        "A hand holding a pink sticky note that says 'Run a Usability Test' in front of several other blurred out sticky notes on a wall.",
+          "A hand holding a pink sticky note that says 'Run a Usability Test' in front of several other blurred out sticky notes on a wall.",
       },
       steps: {
         src: usability_test_steps,
         alt:
-        "A man working on a computer while one woman is taking notes and another woman is observing.",
+          "A man working on a computer while one woman is taking notes and another woman is observing.",
       },
       tips: {
         src: usability_test_tips,
@@ -515,7 +523,8 @@ const uxMethods = {
       },
       {
         source: "usability.gov",
-        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
+        url:
+          "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
         title: "Usability Testing",
         notes: "(a good, condensed article)",
       },
@@ -538,19 +547,18 @@ const uxMethods = {
       },
       steps: {
         src: usability_test_qualitative_steps,
-        alt:
-          "A person sketching and highlighting plans on project paper.",
+        alt: "A person sketching and highlighting plans on project paper.",
       },
       tips: {
         src: usability_test_qualitative_tips,
-        alt:
-          "Two people chatting with a dog in front of a computer.",
+        alt: "Two people chatting with a dog in front of a computer.",
       },
     },
     resources: [
       {
         source: "Userfeel",
-        url: "https://www.userfeel.com/blog/is-usability-testing-a-quantitative-or-qualitative-method",
+        url:
+          "https://www.userfeel.com/blog/is-usability-testing-a-quantitative-or-qualitative-method",
         title: "Is Usability Testing a Quantitative or Qualitative Method?",
       },
       {
@@ -565,7 +573,8 @@ const uxMethods = {
       },
       {
         source: "usability.gov",
-        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
+        url:
+          "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
         title: "Usability Testing",
         notes: "(a good, condensed article)",
       },
@@ -583,30 +592,30 @@ const uxMethods = {
     images: {
       main: {
         src: usability_test_quantitative_main,
-        alt:
-          "A hand holding a stopwatch.",
+        alt: "A hand holding a stopwatch.",
       },
       steps: {
         src: usability_test_quantitative_steps,
-        alt:
-          "A person writing on a few pieces of loose paper.",
+        alt: "A person writing on a few pieces of loose paper.",
       },
       tips: {
         src: usability_test_quantitative_tips,
-        alt:
-          "Two men talking in front of one computer.",
+        alt: "Two men talking in front of one computer.",
       },
     },
     resources: [
       {
         source: "Nielsen Norman Group",
-        url: "https://www.nngroup.com/articles/quantitative-user-research-methods/",
+        url:
+          "https://www.nngroup.com/articles/quantitative-user-research-methods/",
         title: "Quantitative User-Research Methodologies: An Overview",
-        notes: "(good and condensed, but also has other quantitative research methods to look at)",
+        notes:
+          "(good and condensed, but also has other quantitative research methods to look at)",
       },
       {
         source: "Userfeel",
-        url: "https://www.userfeel.com/blog/is-usability-testing-a-quantitative-or-qualitative-method",
+        url:
+          "https://www.userfeel.com/blog/is-usability-testing-a-quantitative-or-qualitative-method",
         title: "Is Usability Testing a Quantitative or Qualitative Method?",
       },
       {
@@ -621,7 +630,8 @@ const uxMethods = {
       },
       {
         source: "usability.gov",
-        url: "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
+        url:
+          "https://www.usability.gov/how-to-and-tools/methods/usability-testing.html",
         title: "Usability Testing",
         notes: "(a good, condensed article)",
       },
@@ -639,18 +649,15 @@ const uxMethods = {
     images: {
       main: {
         src: user_research_interviews_main,
-        alt:
-          "A professional woman video calling another professional woman.",
+        alt: "A professional woman video calling another professional woman.",
       },
       steps: {
         src: user_research_interviews_steps,
-        alt:
-          "A woman interviewing a man.",
+        alt: "A woman interviewing a man.",
       },
       tips: {
         src: user_research_interviews_tips,
-        alt:
-          "A man being interviewed in an autumn forest.",
+        alt: "A man being interviewed in an autumn forest.",
       },
     },
     resources: [
@@ -661,7 +668,8 @@ const uxMethods = {
       },
       {
         source: "Interaction Design Foundation",
-        url: "https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews",
+        url:
+          "https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews",
         title: "How to Conduct User Interviews",
       },
       {
