@@ -1,0 +1,102 @@
+---
+path: "/fifa"
+title: "FIFA"
+---
+
+import projects from "../data/projects"
+import WorkLayout from "../components/portfolio/layout-work"
+import WorkSection from "../components/portfolio/section-work-section"
+import NextSteps from "../components/portfolio/section-next-steps"
+
+import SEO from "../components/seo"
+
+export const project = projects.fifa
+
+<WorkLayout
+  project={project}
+  projectTitle={props.pageContext.frontmatter.title}
+  projectType="Electronic Arts"
+>
+<SEO title={props.pageContext.frontmatter.title} />
+<WorkSection title="Overview" subtitle="FIFA 10 - Wii" 
+  image={require("../images/work/fifa-10-wii-01.jpg")}
+  alt="An image of the main menu for FIFA 10 for the Wii">
+  <p>
+    This was my first professional job in the industry. I was hired on by <a href="https://www.ea.com/en-ca" target="_blank" rel="noreferrer noopener">Electronic Arts</a> as a co-op student on the design team and was kept on after I finished University.
+  </p>
+  <p>
+    <strong>The main skills I learned</strong> on this project were how to <strong>rapidly iterate on wireframes</strong>, and how to properly <strong>communicate my designs.</strong>
+  </p>
+</WorkSection>
+
+<WorkSection
+  title="Designs and Documentation"
+  subtitle="FIFA 10 - Wii"
+  image={require("../images/work/fifa-10-wii-03.jpg")}
+  alt="One of the menu screens for FIFA 10 for the Wii"
+  image2={require("../images/work/fifa-10-wii-02.jpg")}
+  alt2="A wireframe of the Team Central main menu in FIFA 10 for the Wii"
+>
+  <p>
+    <strong>
+      Here you can see a finished mockup from one of the menu screens, plus a wireframe for the Team Central feature.
+    </strong>
+  </p>
+  <p>
+    <strong>
+      And in <a href={require("../files/fifa-10-wii-team-central-functionality-document.pdf")} target="_blank" rel="noreferrer noopener">
+        this design document
+      </a>
+    </strong>, you can see the final mockup for the Team Central feature, as well as <strong>the level of detail I went into in order to communicate those designs</strong> to the rest of the team. The original document was 16 pages long but this should give you a good idea.
+  </p>
+</WorkSection>
+
+<NextSteps title="Outcome" subtitle="FIFA 10 - Wii">
+<p>
+  I was never updated on what our KPIs were on these projects, so I don't really have a measurable outcome. I <strong>gained a lot of new knowledge, some professional experience, and a good start to my career.</strong>
+</p>
+</NextSteps>
+
+<WorkSection
+  title="Overview"
+  subtitle="FIFA 11"
+  image={require("../images/work/fifa-11-02.jpg")}
+  alt="A screenshot of Career Mode in FIFA 11 in the German language."
+>
+  <p>
+    Joining near the end of production, and right before release, my tasks were repetitive but, coming from the Wii, a great intro into next gen development.
+  </p>
+
+  <h3>My Role</h3>
+  <p>
+    <strong>I helped out on the design and production team</strong> by writing new stories for career mode, setting up tournaments, and answering questions from the translation team in Spain.
+  </p>
+</WorkSection>
+
+<WorkSection 
+  title="Career Mode and Tournaments"
+  subtitle="FIFA 11"
+  image={require("../images/work/fifa-11-03.jpg")}
+  alt="A screenshot of Career Mode in FIFA 11. You can just see the news story I wrote for it in there way at the bottom. Yes!"
+  >
+  <p>
+    <strong>One of my tasks was to write news stories for Career Mode</strong>, which were then translated into 16 different languages <strong>and made me the liaison with the Localization department in Spain.</strong>
+  </p>
+
+  <p>
+    I was also tasked with setting up some tournaments, which required a lot of research on football tournaments from around the world.
+  </p>
+
+  <p>
+    <strong>Here you can see a screenshot from Career Mode</strong> where you can see my tiny, tiny bit of story at the bottom-middle.
+  </p>
+</WorkSection>
+
+<NextSteps title="Outcome" subtitle="FIFA 11">
+  <p>
+    Though it was more filler tasks and not so much UX Design work, it was still a good experience. <strong>It landed me a spot on FIFA Ultimate Team where I really got to start diving deeper into UX Design</strong> for games.
+  </p>
+</NextSteps>
+
+
+</WorkLayout>
