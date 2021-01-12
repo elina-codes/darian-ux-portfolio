@@ -647,7 +647,7 @@ const uxMethods = {
     ],
   },
   user_research_question_brainstorming_session_urqbs: {
-    title: "URQBS (erk-you-biss)",
+    title: "The URQBS (erk-you-biss)",
     url: "/user-research-question-brainstorming-session-urqbs/",
     images: {
       main: {
