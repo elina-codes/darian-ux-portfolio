@@ -12,6 +12,7 @@ import usability_test_main from "../images/methods/usability_test-main.jpg"
 import usability_test_quantitative_main from "../images/methods/usability_test_quantitative-main.jpg"
 import usability_test_qualitative_main from "../images/methods/usability_test_qualitative-main.jpg"
 import user_research_interviews_main from "../images/methods/user_research_interviews-main.jpg"
+import user_research_question_brainstorming_session_urqbs_main from "../images/methods/user_research_question_brainstorming_session_urqbs-main.jpg"
 import surveys_quantitative_main from "../images/methods/surveys_quantitative-main.jpg"
 import surveys_qualitative_main from "../images/methods/surveys_qualitative-main.jpg"
 import benchmarking_main from "../images/methods/benchmarking-main.jpg"
@@ -30,6 +31,7 @@ import usability_test_steps from "../images/methods/usability_test-second.jpg"
 import usability_test_quantitative_steps from "../images/methods/usability_test_quantitative-second.jpg"
 import usability_test_qualitative_steps from "../images/methods/usability_test_qualitative-second.jpg"
 import user_research_interviews_steps from "../images/methods/user_research_interviews-second.jpg"
+import user_research_question_brainstorming_session_urqbs_steps from "../images/methods/user_research_question_brainstorming_session_urqbs-second.jpg"
 import surveys_quantitative_steps from "../images/methods/surveys_quantitative-second.jpg"
 import surveys_qualitative_steps from "../images/methods/surveys_qualitative-second.jpg"
 import benchmarking_steps from "../images/methods/benchmarking-second.jpg"
@@ -48,6 +50,7 @@ import usability_test_tips from "../images/methods/usability_test-third.jpg"
 import usability_test_quantitative_tips from "../images/methods/usability_test_quantitative-third.jpg"
 import usability_test_qualitative_tips from "../images/methods/usability_test_qualitative-third.jpg"
 import user_research_interviews_tips from "../images/methods/user_research_interviews-third.jpg"
+import user_research_question_brainstorming_session_urqbs_tips from "../images/methods/user_research_question_brainstorming_session_urqbs-third.jpg"
 import surveys_quantitative_tips from "../images/methods/surveys_quantitative-third.jpg"
 import surveys_qualitative_tips from "../images/methods/surveys_qualitative-third.jpg"
 import benchmarking_tips from "../images/methods/benchmarking-third.jpg"
@@ -643,6 +646,38 @@ const uxMethods = {
       },
     ],
   },
+  user_research_question_brainstorming_session_urqbs: {
+    title: "URQBS (erk-you-biss)",
+    url: "/user-research-question-brainstorming-session-urqbs/",
+    images: {
+      main: {
+        src: user_research_question_brainstorming_session_urqbs_main,
+        alt: "A group of people in a brainstorming session.",
+      },
+      steps: {
+        src: user_research_question_brainstorming_session_urqbs_steps,
+        alt: "A woman presenting the results of a brainstorming session.",
+      },
+      tips: {
+        src: user_research_question_brainstorming_session_urqbs_tips,
+        alt: "Two women discussing notes posted to a whiteboard.",
+      },
+    },
+    resources: [
+      {
+        source: "UX Everything",
+        url: "https://ux-everything.com/affinity-diagram/",
+        title: "Affinity Diagram",
+        notes: "(a good method to analyze large sets of information)",
+      },
+      {
+        source: "Miro",
+        url: "https://miro.com/",
+        title: "Miro - Team Collaboration Software",
+        notes: "(great for collaboration and remote sessions)",
+      },
+    ],
+  },
   user_research_interviews: {
     title: "User Research Interviews",
     url: "/user-research-interviews/",
@@ -668,8 +703,7 @@ const uxMethods = {
       },
       {
         source: "Interaction Design Foundation",
-        url:
-          "https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews",
+        url: "https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews",
         title: "How to Conduct User Interviews",
       },
       {
