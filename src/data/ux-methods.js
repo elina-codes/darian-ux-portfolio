@@ -392,27 +392,23 @@ const uxMethods = {
     },
     resources: [
       {
-        source: "The Digital Project Manager",
+        source: "WebFX",
         url:
-          "https://thedigitalprojectmanager.com/how-to-run-project-discovery-workshop-ask-the-right-questions/",
+          "https://www.webfx.com/blog/web-design/information-architecture-101-techniques-and-best-practices/",
         title:
-          "How To Run A Great Project Discovery Workshop – Ask The Right Questions",
-        notes: "(a lot of great questions broken up by discipline)",
+          "Information Architecture 101: Techniques and Best Practices",
+        notes: "(Great site with real world examples)",
       },
       {
-        source: "Mobify",
+        source: "UX Booth",
         url:
-          "https://docs.mobify.com/design/discovery-phase/conducting-ux-dicovery/",
-        title: "Conducting a UX Discovery",
-        notes:
-          "(the first step has some good example questions and a script to follow, though the examples are a little too specific)",
+          "https://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/",
+        title: "Complete beginner’s guide to Information Architecture",
       },
       {
-        source: "Hubspot",
-        url: "https://blog.hubspot.com/agency/client-discovery-process",
-        title: "The client discovery process",
-        notes:
-          "(to help differentiate between a discovery session and the discovery process)",
+        source: "UX Planet",
+        url: "https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20",
+        title: "Information Architecture. Basics for Designers",
       },
     ],
   },
