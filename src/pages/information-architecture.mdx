@@ -1,0 +1,137 @@
+---
+path: "/information-architecture"
+title: "Information Architecture"
+---
+
+import { Link } from "gatsby"
+
+import uxMethods from "../data/ux-methods"
+import MethodLayout from "../components/methods/layout-method"
+import MethodSectionWhatIs from "../components/methods/section-whatis"
+import MethodSectionNeeds from "../components/methods/section-needs"
+import MethodSectionNeedsPartial from "../components/methods/section-needs-partials"
+import MethodSectionSteps from "../components/methods/section-steps"
+import MethodSectionTips from "../components/methods/section-tips"
+import MethodSectionResources from "../components/methods/section-resources"
+
+export const currentMethod = uxMethods.information_architecture
+
+import SEO from "../components/seo"
+
+<MethodLayout pageTitle={props.pageContext.frontmatter.title} method={currentMethod}>
+  <SEO title={props.pageContext.frontmatter.title} />
+
+<MethodSectionWhatIs method={currentMethod} title="What is a URQBS?">
+  <p>
+    URQBS (pronounced erk-you-biss) is an acronym for User Research Question Brainstorming Session. This method is conducted by bringing together as many members of your team and having them brainstorm questions for you to answer through whatever user research methods are necessary.
+  </p>
+  <p>
+    This method is great for getting your team invested early on in the project because they are the ones that come up with the questions (which then get the responses, which create the designs, which finally turns into their tasks). So when it comes time for them to do their part on the project, they will have a deeper understanding of what they are working on and, most importantly, why.
+  </p>
+  <p>
+    The URQBS is a great way to increase UX maturity, and is a growing term in the UX space (it’s pretty much the new “Fetch”).
+  </p>
+</MethodSectionWhatIs>
+
+<MethodSectionNeeds title="What do you need for a URQBS?">
+  <MethodSectionNeedsPartial type="time">
+    <ul>
+      <li>1 hour for the session</li>
+      <li>2 hours for the analysis</li>
+    </ul>
+  </MethodSectionNeedsPartial>
+  <MethodSectionNeedsPartial type="materials">
+    <ul>
+      <li>A whiteboard</li>
+      <li>Markers</li>
+      <li>Possibly Post-its and pens</li>
+    </ul>
+
+  </MethodSectionNeedsPartial>
+</MethodSectionNeeds>
+
+<MethodSectionSteps method={currentMethod} title="How do you conduct a URQBS?">
+  <ol>
+    <li>
+      <h3>Step 1: Schedule a meeting</h3>
+      <p>
+        Try to invite as many people as possible that will be working on this project. If multiple departments will be involved, try to invite someone from each one. Different departments tend to have different perspectives and unique questions to ask.
+      </p>
+    </li>
+    <li>
+      <h3>Step 2: Explain the project</h3>
+      <p>
+      When you have everyone together, you want to explain the background of the project to them. This will get them caught up to where you are and allow everyone to start on the same page.
+      </p>  
+      <p>
+      Go through the business goals this project is targeting, explain the problems that this project is trying to solve, and if you already have a potential solution in motion, explain that to. This should trigger more questions from the group.
+      </p> 
+    </li>
+    <li>
+      <h3>Step 3: Brainstorm Questions</h3>
+      <p>
+        Now everyone gets to write out their questions. You can use different types of brainstorming methods as long as it generates a lot of questions. It may also help to ask them “What do you need to know about the user in order to proceed with confidence?”.
+      </p>
+    </li>
+    <li>
+      <h3>Step 4: Group the questions</h3>
+      <p>
+        As they write their questions, have them add them to the board and group similar ones together.
+      </p>
+      <p>
+        These groups will reveal areas of focus and can help you prioritize your finalized list. For instance, one group may be more important than another, and should be prioritized higher. 
+      </p>
+      <p>
+        You may start seeing the same questions from different people. Don’t discard those as that may indicate that this question should be higher in priority too.
+      </p>
+      <p>
+        <Link to="/affinity-diagram">Take a look at Affinity Diagramming for more details on this step.</Link>
+      </p>
+    </li>
+    <li>
+      <h3>Step 5: Document the results</h3>
+      <p>
+      You can now end the meeting and take some photos of the results in case you need to revisit them later. 
+      </p>
+    </li>
+    <li>
+      <h3>Step 6: Finalize the list of questions</h3>
+      <p>
+      As the one running the research, you will have the final say with the list of questions. Not all questions may be relevant or beneficial for this round of research, so it’s up to you to prioritize, edit, and cull the questions.
+      </p>
+    </li>
+    <li>
+      <h3>Step 7: Decide how to answer each question</h3>
+      <p>
+        As you go through the list of finalized questions, write down how its answer can be acquired. For example, “How often do users visit the settings page each week?” could be answered easily with an analytics tool, while “How do users like our settings page?” may be answered best within a research interview. 
+      </p>
+      <p>
+        At the end of this step you should have a finalized list of questions with the appropriate ways on how to acquire their answers.
+      </p>
+    </li>
+    <li>
+      <h3>Step 8: Conduct the research and share the results.</h3>
+      <p>
+      That’s basically the end of the URQBS. Now you can actually go through the list of questions and do what it takes to answer them. This may result in a mix of different methods, and you may need to enlist the help of others. Once it’s done, schedule another meeting and share the results. 
+        </p>
+    </li>
+  </ol>
+</MethodSectionSteps>
+
+<MethodSectionTips method={currentMethod} title="Tips for a great URQBS">
+  <ul>
+    <li>
+Have different departments use different coloured post-its or markers. Then you can see trends in the questions based on department and understand what they find more meaningful. This may help with prioritization.
+    </li>
+    <li>
+Ask for help! Some of the questions may be out of your expertise to answer. For example, you may need help from the BI team to get some deep quantitative data. This is also why it’s a good idea to invite people from different departments to your URQBS.
+    </li>
+    <li>
+There are many ways to conduct a URQBS. Try online tools like <a href="https://miro.com/" target="_blank" rel="noreferrer noopener">Miro</a> to conduct these sessions remotely. You can even do it manually over video conferencing tools. 
+    </li>
+  </ul>
+</MethodSectionTips>
+
+<MethodSectionResources method={currentMethod} />
+
+</MethodLayout>

@@ -3,6 +3,7 @@ import ab_testing_main from "../images/methods/ab_testing-main.jpg"
 import card_sorting_main from "../images/methods/card_sorting-main.jpg"
 import competitive_analysis_main from "../images/methods/competitive_analysis-main.jpg"
 import contextual_inquiry_main from "../images/methods/contextual_inquiry-main.jpg"
+import information_architecture_main from "../images/methods/information_architecture-main.jpg"
 import paper_prototype_main from "../images/methods/paper_prototype-main.jpg"
 import ux_strategy_main from "../images/methods/ux_strategy-main.jpg"
 import wireframes_main from "../images/methods/wireframes-main.jpg"
@@ -22,6 +23,7 @@ import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
 import card_sorting_steps from "../images/methods/card_sorting-second.jpg"
 import competitive_analysis_steps from "../images/methods/competitive_analysis-second.jpg"
 import contextual_inquiry_steps from "../images/methods/contextual_inquiry-second.jpg"
+import information_architecture_steps from "../images/methods/information_architecture-second.jpg"
 import paper_prototype_steps from "../images/methods/paper_prototype-second.jpg"
 import ux_strategy_steps from "../images/methods/ux_strategy-second.jpg"
 import wireframes_steps from "../images/methods/wireframes-second.jpg"
@@ -41,6 +43,7 @@ import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
 import card_sorting_tips from "../images/methods/card_sorting-third.jpg"
 import competitive_analysis_tips from "../images/methods/competitive_analysis-third.jpg"
 import contextual_inquiry_tips from "../images/methods/contextual_inquiry-third.jpg"
+import information_architecture_tips from "../images/methods/information_architecture-third.jpg"
 import paper_prototype_tips from "../images/methods/paper_prototype-third.jpg"
 import ux_strategy_tips from "../images/methods/ux_strategy-third.jpg"
 import wireframes_tips from "../images/methods/wireframes-third.jpg"
@@ -338,6 +341,51 @@ const uxMethods = {
       },
       tips: {
         src: discovery_session_tips,
+        alt:
+          "A woman looking at her laptop and writing down notes in her notepad.",
+      },
+    },
+    resources: [
+      {
+        source: "The Digital Project Manager",
+        url:
+          "https://thedigitalprojectmanager.com/how-to-run-project-discovery-workshop-ask-the-right-questions/",
+        title:
+          "How To Run A Great Project Discovery Workshop – Ask The Right Questions",
+        notes: "(a lot of great questions broken up by discipline)",
+      },
+      {
+        source: "Mobify",
+        url:
+          "https://docs.mobify.com/design/discovery-phase/conducting-ux-dicovery/",
+        title: "Conducting a UX Discovery",
+        notes:
+          "(the first step has some good example questions and a script to follow, though the examples are a little too specific)",
+      },
+      {
+        source: "Hubspot",
+        url: "https://blog.hubspot.com/agency/client-discovery-process",
+        title: "The client discovery process",
+        notes:
+          "(to help differentiate between a discovery session and the discovery process)",
+      },
+    ],
+  },
+  information_architecture: {
+    title: "Information Architecture",
+    url: "/information-architecture/",
+    images: {
+      main: {
+        src: information_architecture_main,
+        alt: "Two women reviewing notes in a notepad.",
+      },
+      steps: {
+        src: information_architecture_steps,
+        alt:
+          "A group of people at a table with their laptops open, focusing on a man standing in front of a whiteboard.",
+      },
+      tips: {
+        src: information_architecture_tips,
         alt:
           "A woman looking at her laptop and writing down notes in her notepad.",
       },
