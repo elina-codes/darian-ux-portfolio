@@ -9,6 +9,8 @@ import perfect_drift_main from "../images/work/perfect-drift-mockup.jpg"
 import whats_your_thing_main from "../images/work/whats-your-thing-mockup.jpg"
 import the_1_percent_main from "../images/work/the-1-percent-01.jpg"
 import fifa_ultimate_team_main from "../images/work/fifa-ultimate-mock.jpg"
+import keywords_ins_outs_main from "../images/work/fifa-ultimate-mock.jpg"
+
 
 /*
 ex:
@@ -48,6 +50,17 @@ ex:
 
 */
 const projects = {
+  keywords_ins_outs: {
+    title: "Keywords Ins/Outs",
+    url: "/keywords-ins-outs",
+    images: {
+      main: {
+        src: keywords_ins_outs_main,
+        alt: "",
+      },
+    },
+    categories: ["Case Study"],
+  },
   sparq_next_gen: {
     title: "Sparq Next Gen",
     url: "/sparq-next-gen",
