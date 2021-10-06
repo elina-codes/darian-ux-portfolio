@@ -67,12 +67,28 @@ const IndexPage = () => (
       <div className="wrapper">
         <h2 className="section__title">Experience</h2>
         <div className="experience-container">
+        <ExperienceItem
+            date="Feb 2021 - Present"
+            company="Moz | STAT Search Analytics"
+            position="Principal UX Strategist"
+          >
+            Working back at Moz on the highest priority projects. Setting the strategy for each project, assigning designers to different parts, and contributing where needed to in order to complete the projects. Also working with other departments to increase UX maturity, and build proper design processes and culture across the company.
+          </ExperienceItem>
+
           <ExperienceItem
-            date="June 2017 - Present"
+            date="Feb 2020 - Feb 2021"
+            company="ePACT Network Ltd"
+            position="UX Director"
+          >
+            Increased UX and product maturity across the company by implementing tools and processes for every department to truly become user-centric, while staying focused on our business goals and considering our constraints.
+          </ExperienceItem>
+
+          <ExperienceItem
+            date="June 2017 - Nov 2019"
             company="Moz | STAT Search Analytics"
             position="UX Manager"
           >
-            (Acquired by Moz in October 2018) Managing and directing the UX culture and processes, building cross-functional relationships with other departments, educating others on the role of UX Design, mentoring other designers, conducting research, guiding the product team, and empowering confident decisions that will affect the future of the company.
+            (Acquired by Moz, originally STAT Search Analytics) Managing a team of 5 and directing the UX culture and processes, building cross-functional relationships with other departments, educating others on the role of UX Design, mentoring other designers, conducting research, guiding the product team, and empowering confident decisions that will affect the future of the company.
           </ExperienceItem>
 
           <ExperienceItem
@@ -86,12 +102,10 @@ const IndexPage = () => (
 
           <ExperienceItem
             date="Apr 2015 - May 2017"
-            company="Vision Critical"
+            company="Alida"
             position="Lead UX Designer"
           >
-            On a design team of 7, our goal was to redesign their current SaaS
-            platform. I conducted user research and analyses to define and solve
-            problems, delivered wireframes, sitemaps, prototypes, and design
+            Lead designer on the largest part of Alida's platform. Was also interim manager for a team of 6 UX designers, ranging in experience levels. I conducted user research and analyses to define and solve problems, delivered wireframes, sitemaps, prototypes, and design
             documentation to the dev team, plus more.
           </ExperienceItem>
 
