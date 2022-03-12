@@ -11,7 +11,7 @@ const NotFoundPage = () => (
       <div className="wrapper">
         <h1 className="banner__title">NOT FOUND</h1>
         <h2 className="banner__subtitle">
-          This page doesn&#39;t exist. Oh the disappointment!
+          This page doesn&#39;t exist. You're not alone, I'm also angry about this!
         </h2>
       </div>
     </section>
