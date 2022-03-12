@@ -8,6 +8,7 @@ import paper_prototype_main from "../images/methods/paper_prototype-main.jpg"
 import ux_strategy_main from "../images/methods/ux_strategy-main.jpg"
 import wireframes_main from "../images/methods/wireframes-main.jpg"
 import discovery_session_main from "../images/methods/discovery_session-main.jpg"
+import discovery_session2_main from "../images/methods/discovery_session-main.jpg"
 import affinity_diagram_main from "../images/methods/affinity_diagram-main.jpg"
 import usability_test_main from "../images/methods/usability_test-main.jpg"
 import usability_test_quantitative_main from "../images/methods/usability_test_quantitative-main.jpg"
@@ -29,6 +30,7 @@ import paper_prototype_steps from "../images/methods/paper_prototype-second.jpg"
 import ux_strategy_steps from "../images/methods/ux_strategy-second.jpg"
 import wireframes_steps from "../images/methods/wireframes-second.jpg"
 import discovery_session_steps from "../images/methods/discovery_session-second.jpg"
+import discovery_session2_steps from "../images/methods/discovery_session-second.jpg"
 import affinity_diagram_steps from "../images/methods/affinity_diagram-second.jpg"
 import usability_test_steps from "../images/methods/usability_test-second.jpg"
 import usability_test_quantitative_steps from "../images/methods/usability_test_quantitative-second.jpg"
@@ -50,6 +52,7 @@ import paper_prototype_tips from "../images/methods/paper_prototype-third.jpg"
 import ux_strategy_tips from "../images/methods/ux_strategy-third.jpg"
 import wireframes_tips from "../images/methods/wireframes-third.jpg"
 import discovery_session_tips from "../images/methods/discovery_session-third.jpg"
+import discovery_session2_tips from "../images/methods/discovery_session-third.jpg"
 import affinity_diagram_tips from "../images/methods/affinity_diagram-third.jpg"
 import usability_test_tips from "../images/methods/usability_test-third.jpg"
 import usability_test_quantitative_tips from "../images/methods/usability_test_quantitative-third.jpg"
@@ -344,6 +347,51 @@ const uxMethods = {
       },
       tips: {
         src: discovery_session_tips,
+        alt:
+          "A woman looking at her laptop and writing down notes in her notepad.",
+      },
+    },
+    resources: [
+      {
+        source: "The Digital Project Manager",
+        url:
+          "https://thedigitalprojectmanager.com/how-to-run-project-discovery-workshop-ask-the-right-questions/",
+        title:
+          "How To Run A Great Project Discovery Workshop – Ask The Right Questions",
+        notes: "(a lot of great questions broken up by discipline)",
+      },
+      {
+        source: "Mobify",
+        url:
+          "https://docs.mobify.com/design/discovery-phase/conducting-ux-dicovery/",
+        title: "Conducting a UX Discovery",
+        notes:
+          "(the first step has some good example questions and a script to follow, though the examples are a little too specific)",
+      },
+      {
+        source: "Hubspot",
+        url: "https://blog.hubspot.com/agency/client-discovery-process",
+        title: "The client discovery process",
+        notes:
+          "(to help differentiate between a discovery session and the discovery process)",
+      },
+    ],
+  },
+  discovery_session2: {
+    title: "Discovery Session2",
+    url: "/discovery-session2/",
+    images: {
+      main: {
+        src: discovery_session2_main,
+        alt: "Two women reviewing notes in a notepad.",
+      },
+      steps: {
+        src: discovery_session2_steps,
+        alt:
+          "A group of people at a table with their laptops open, focusing on a man standing in front of a whiteboard.",
+      },
+      tips: {
+        src: discovery_session2_tips,
         alt:
           "A woman looking at her laptop and writing down notes in her notepad.",
       },
