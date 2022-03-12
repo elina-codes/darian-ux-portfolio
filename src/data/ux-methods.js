@@ -17,7 +17,7 @@ import user_research_question_brainstorming_session_urqbs_main from "../images/m
 import surveys_quantitative_main from "../images/methods/surveys_quantitative-main.jpg"
 import surveys_qualitative_main from "../images/methods/surveys_qualitative-main.jpg"
 import benchmarking_main from "../images/methods/benchmarking-main.jpg"
-import user_scenarios_main from "../images/methods/benchmarking-main.jpg"
+import user_scenarios2_main from "../images/methods/benchmarking-main.jpg"
 
 // Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
@@ -38,7 +38,7 @@ import user_research_question_brainstorming_session_urqbs_steps from "../images/
 import surveys_quantitative_steps from "../images/methods/surveys_quantitative-second.jpg"
 import surveys_qualitative_steps from "../images/methods/surveys_qualitative-second.jpg"
 import benchmarking_steps from "../images/methods/benchmarking-second.jpg"
-import user_scenarios_steps from "../images/methods/benchmarking-second.jpg"
+import user_scenarios2_steps from "../images/methods/benchmarking-second.jpg"
 
 // Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
@@ -59,7 +59,7 @@ import user_research_question_brainstorming_session_urqbs_tips from "../images/m
 import surveys_quantitative_tips from "../images/methods/surveys_quantitative-third.jpg"
 import surveys_qualitative_tips from "../images/methods/surveys_qualitative-third.jpg"
 import benchmarking_tips from "../images/methods/benchmarking-third.jpg"
-import user_scenarios_tips from "../images/methods/benchmarking-third.jpg"
+import user_scenarios2_tips from "../images/methods/benchmarking-third.jpg"
 
 /*
 ex:
@@ -760,21 +760,21 @@ const uxMethods = {
       },
     ],
   },
-  
-  user_scenarios: {
+
+  user_scenarios2: {
     title: "User Scenarios",
-    url: "/user-scenarios/",
+    url: "/user-scenarios2/",
     images: {
       main: {
-        src: user_scenarios_main,
+        src: user_scenarios2_main,
         alt: "A professional woman video calling another professional woman.",
       },
       steps: {
-        src: user_scenarios_steps,
+        src: user_scenarios2_steps,
         alt: "A woman interviewing a man.",
       },
       tips: {
-        src: user_scenarios_tips,
+        src: user_scenarios2_tips,
         alt: "A man being interviewed in an autumn forest.",
       },
     },
