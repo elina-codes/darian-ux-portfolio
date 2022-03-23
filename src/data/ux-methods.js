@@ -762,7 +762,7 @@ const uxMethods = {
   },
 
   user_scenarios2: {
-    title: "User Scenarios 2",
+    title: "User Scenarios",
     url: "/user-scenarios2/",
     images: {
       main: {
@@ -780,7 +780,7 @@ const uxMethods = {
     },
     resources: [
       {
-        source: "UX Collectivexxw",
+        source: "UX Collective",
         url: "https://uxdesign.cc/how-to-conduct-user-interviews-fe4b8c34b0b7",
         title: "How to conduct user interviews",
       },
