@@ -17,7 +17,6 @@ import user_research_question_brainstorming_session_urqbs_main from "../images/m
 import surveys_quantitative_main from "../images/methods/surveys_quantitative-main.jpg"
 import surveys_qualitative_main from "../images/methods/surveys_qualitative-main.jpg"
 import benchmarking_main from "../images/methods/benchmarking-main.jpg"
-import user_scenarios_main from "../images/methods/benchmarking-main.jpg"
 
 // Second images (steps section)
 import ab_testing_steps from "../images/methods/ab_testing-second.jpg"
@@ -38,7 +37,6 @@ import user_research_question_brainstorming_session_urqbs_steps from "../images/
 import surveys_quantitative_steps from "../images/methods/surveys_quantitative-second.jpg"
 import surveys_qualitative_steps from "../images/methods/surveys_qualitative-second.jpg"
 import benchmarking_steps from "../images/methods/benchmarking-second.jpg"
-import user_scenarios_steps from "../images/methods/benchmarking-second.jpg"
 
 // Third images (tips section)
 import ab_testing_tips from "../images/methods/ab_testing-third.jpg"
@@ -59,7 +57,6 @@ import user_research_question_brainstorming_session_urqbs_tips from "../images/m
 import surveys_quantitative_tips from "../images/methods/surveys_quantitative-third.jpg"
 import surveys_qualitative_tips from "../images/methods/surveys_qualitative-third.jpg"
 import benchmarking_tips from "../images/methods/benchmarking-third.jpg"
-import user_scenarios_tips from "../images/methods/benchmarking-third.jpg"
 
 /*
 ex:
@@ -739,41 +736,6 @@ const uxMethods = {
       },
       tips: {
         src: user_research_interviews_tips,
-        alt: "A man being interviewed in an autumn forest.",
-      },
-    },
-    resources: [
-      {
-        source: "UX Collective",
-        url: "https://uxdesign.cc/how-to-conduct-user-interviews-fe4b8c34b0b7",
-        title: "How to conduct user interviews",
-      },
-      {
-        source: "Interaction Design Foundation",
-        url: "https://www.interaction-design.org/literature/article/how-to-conduct-user-interviews",
-        title: "How to Conduct User Interviews",
-      },
-      {
-        source: "nnGroup",
-        url: "https://www.nngroup.com/articles/user-interviews/",
-        title: "User Interviews: How, When, and Why to Conduct Them",
-      },
-    ],
-  },
-  user_scenarios: {
-    title: "User Scenarios",
-    url: "/user-scenarios/",
-    images: {
-      main: {
-        src: user_scenarios_main,
-        alt: "A professional woman video calling another professional woman.",
-      },
-      steps: {
-        src: user_scenarios_steps,
-        alt: "A woman interviewing a man.",
-      },
-      tips: {
-        src: user_scenarios_tips,
         alt: "A man being interviewed in an autumn forest.",
       },
     },
