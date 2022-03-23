@@ -760,7 +760,6 @@ const uxMethods = {
       },
     ],
   },
-  
   user_scenarios: {
     title: "User Scenarios",
     url: "/user-scenarios/",
